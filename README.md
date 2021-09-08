@@ -1,2 +1,2 @@
-# PPPL-SULI-CCI-Fall-2021
-Student: Janelle Macaya
+# PPPL-CCI-2021
+Intern: Janelle Macaya
