@@ -1,6 +1,8 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/RupakMukherjee/PPPL-CCI-2021/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files. blahblah blah...
+You can use the [editor on GitHub](https://github.com/RupakMukherjee/PPPL-CCI-2021/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files. 
+
+For Test 1, the error reduced the most when the output shape parameters were set to 150. I tried to increased 150 to 500 to get a smaller error but the error increased. Meaning, increasing the parameters will not result lower error output.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
