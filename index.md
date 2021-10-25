@@ -16,7 +16,7 @@ I changed the parameters of the sequential model of the Burger’s equation to t
 
 Then, I created a table to display the various input parameters and output graphs for the Soliton Equation. Soliton is explained as a single wave and  the body  of  water  is  moving  as  one.  Another visual example is when  a  crowd  does  the  ”wave”  at  the sports stadium.  It was first discovered by John Scott Russell, who researched by visually watching the waves and came up with the basic properties of a Soliton.  Diederik Korteweg and Gustav de Vries created Soliton’s equation (KdV), and they also created a mathematical simulation of the KdV. 
  
-## Test 2: Soliton's Equation
+## Test 1: Soliton's Equation
  <img width="900" alt="Screen Shot 2021-10-24 at 7 02 25 PM" src="https://user-images.githubusercontent.com/90737587/138623858-5a502421-7752-4d21-94f5-0f05a0600571.png">
 
 ## Test 2: Soliton's Equation
