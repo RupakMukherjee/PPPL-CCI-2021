@@ -48,7 +48,9 @@ Then, I created a table to display the various input parameters and output graph
 
 
 ### Test 2: Input Code
-<img width="900" alt="Screen Shot 2021-10-26 at 12 42 03 AM" src="https://user-images.githubusercontent.com/90737587/138831185-a3ccba18-faed-4a82-babf-b218a1422236.png"> 
+ <img width="900" alt="Screen Shot 2021-10-26 at 12 56 39 AM" src="https://user-images.githubusercontent.com/90737587/138833527-70c99a08-4558-477a-94b0-f4f9ddbc8146.png"> 
+
+
 
 ### Test 2: Input Table
 <img width="900" alt="Screen Shot 2021-10-26 at 12 43 06 AM" src="https://user-images.githubusercontent.com/90737587/138831347-6acf083a-c4ec-4292-b4d5-bfa37dc0faa6.png">
