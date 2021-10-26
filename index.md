@@ -44,13 +44,11 @@ Then, I created a table to display the various input parameters and output graph
 <img width="900" alt="Screen Shot 2021-10-26 at 12 40 43 AM" src="https://user-images.githubusercontent.com/90737587/138830990-e9d845bf-82fc-4789-a241-8b72e2d242b6.png">
 
 ### Test 1: Output Graphs 
- <img width="900" alt="Screen Shot 2021-10-26 at 12 41 12 AM" src="https://user-images.githubusercontent.com/90737587/138831049-f8dc6952-96ec-4d03-802d-4f40ad4855a8.png"
-
+<img width="480" alt="Screen Shot 2021-10-26 at 1 08 50 AM" src="https://user-images.githubusercontent.com/90737587/138835435-85c26b62-6440-43f2-8327-9521b7356431.png">
 
 ### Test 2: Input Code
  <img width="900" alt="Screen Shot 2021-10-26 at 12 56 39 AM" src="https://user-images.githubusercontent.com/90737587/138833527-70c99a08-4558-477a-94b0-f4f9ddbc8146.png"> 
-
-
+ 
 
 ### Test 2: Input Table
 <img width="900" alt="Screen Shot 2021-10-26 at 12 43 06 AM" src="https://user-images.githubusercontent.com/90737587/138831347-6acf083a-c4ec-4292-b4d5-bfa37dc0faa6.png">
