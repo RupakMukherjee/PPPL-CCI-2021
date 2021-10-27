@@ -1,3 +1,10 @@
+### Soliton's Equation 
+
+<img width="300" alt="Screen Shot 2021-10-27 at 4 06 19 PM" src="https://user-images.githubusercontent.com/90737587/139161328-c40c700e-2302-4266-9cad-8e038e4483d2.png">  
+### Soliton's Equation : Output Graph (Test 2, Test D)
+<img width="450" alt="TestD-Error" src="https://user-images.githubusercontent.com/90737587/139161791-862f2d7c-b03f-4fdf-b659-d77d7b6d43d2.png"><img width="250" alt="Screen Shot 2021-10-27 at 4 32 28 PM" src="https://user-images.githubusercontent.com/90737587/139162103-6b13bf10-397b-4641-af19-0008e9d19adc.png">
+
+
 
 In the beginning of this internship, I learned to solve math computations in programming languages: Python, C++, and Fortran. First, I learned how to operate the Mac terminal and downloaded the compatible text editors to run the programs. My first assignment was to write a program to calculate the sum of two numbers. For this assignment, I learned the basic syntax rules, variables, inputs, outputs, and how to utilize the error codes to debug my programs. My second assignment was to create a program to calculate the sum of numbers from 0 to 100. For this assignment, I learned how to use loops. My third assignment was to create a program to solve the problem: a point particle moving in the x-direction with a constant velocity. For this assignment, I learned how to insert variables in loops. My fourth assignment was to develop a program to solve the equation u(i+1)=u(i)+1*dx utilizing arrays. For this assignment, I learned how to write an array with a loop inside and align the array by the decimal points. After I got familiar with creating programs to solve more complex math equations, I was introduced to the machine learning process and TensorFlow. 
 
@@ -10,7 +17,24 @@ I changed the parameters of the sequential model of the Burger’s equation to t
 ## Burger's Equation
 
 ### Test 1: Input code 
-<img width="900" alt="Screen Shot 2021-10-25 at 11 34 38 PM" src="https://user-images.githubusercontent.com/90737587/138821514-0c67d0cc-f953-46ca-a1d2-d20c4f1784f5.png">
+```
+# Build model
+deep_approx = keras.models.Sequential()
+deep_approx.add(layers.Dense(10, input_dim=2, activation='elu'))
+deep_approx.add(layers.Dense(10, activation='elu'))
+deep_approx.add(layers.Dense(1, activation='linear'))
+
+# Compile model
+deep_approx.compile(loss='mse', optimizer='adam')
+
+# Fit!
+history = deep_approx.fit(X_train, y_train,
+            epochs=10, batch_size=32,
+            validation_data=(X_dev, y_dev),
+            callbacks=keras.callbacks.EarlyStopping(patience=5))
+            
+deep_approx.summary()
+```
 
 ### Test 1: Input Table 
 <img width="900" alt="Screen Shot 2021-10-25 at 11 41 30 PM" src="https://user-images.githubusercontent.com/90737587/138822477-fe786906-926a-4235-a45f-f91d85d16d25.png">
@@ -19,9 +43,22 @@ I changed the parameters of the sequential model of the Burger’s equation to t
 <img width="900" alt="Screen Shot 2021-10-25 at 11 42 01 PM" src="https://user-images.githubusercontent.com/90737587/138822525-54a3ab13-b541-42e8-b6f1-61debbb85c63.png">
 
 ### Test 2: Input Code
-<img width="900" alt="Screen Shot 2021-10-26 at 12 38 06 AM" src="https://user-images.githubusercontent.com/90737587/138830564-a21df577-441e-402d-aac4-dded88b97a76.png">
+```
+# Build model
+deep_stepper2 = keras.models.Sequential()
+deep_stepper2.add(layers.Dense(2, input_dim=6, activation='elu'))
+deep_stepper2.add(layers.Dense(10, activation='elu'))
+deep_stepper2.add(layers.Dense(1, activation='linear'))
 
+# Compile model
+deep_stepper2.compile(loss='mse', optimizer='adam')
 
+# Fit!
+history = deep_stepper2.fit(Xs_train, ys_train, epochs=30, batch_size=32,
+            validation_data=(Xs_dev, ys_dev),
+            callbacks=keras.callbacks.EarlyStopping(patience=5))
+            
+```
 ### Test 2: Input Table
 <img width="900" alt="Screen Shot 2021-10-25 at 11 44 18 PM" src="https://user-images.githubusercontent.com/90737587/138822811-f09bf4b3-33f1-4ba9-b3fa-1fe5e1f4768e.png">
 
@@ -38,7 +75,21 @@ Then, I created a table to display the various input parameters and output graph
 ## Soliton's Equation 
 
 ### Test 1: Input Code
-<img width="900" alt="Screen Shot 2021-10-25 at 11 31 11 PM" src="https://user-images.githubusercontent.com/90737587/138821097-d79ede83-69d8-464c-b542-7408d0acc901.png">
+```
+# Build model
+deep_stepper2 = keras.models.Sequential()
+deep_stepper2.add(layers.Dense(10, input_dim=2, activation='elu'))
+deep_stepper2.add(layers.Dense(10, activation='elu'))
+deep_stepper2.add(layers.Dense(1, activation='linear'))
+
+# Compile model
+deep_stepper2.compile(loss='mse', optimizer='adam')
+
+# Fit!
+history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
+            validation_data=(Xs_dev, ys_dev),
+            callbacks=keras.callbacks.EarlyStopping(patience=5))
+```            
 
 ### Test 1: Input Table 
 <img width="900" alt="Screen Shot 2021-10-26 at 12 40 43 AM" src="https://user-images.githubusercontent.com/90737587/138830990-e9d845bf-82fc-4789-a241-8b72e2d242b6.png">
@@ -47,8 +98,21 @@ Then, I created a table to display the various input parameters and output graph
 <img width="900" alt="Screen Shot 2021-10-26 at 1 08 50 AM" src="https://user-images.githubusercontent.com/90737587/138835435-85c26b62-6440-43f2-8327-9521b7356431.png">
 
 ### Test 2: Input Code
- <img width="900" alt="Screen Shot 2021-10-26 at 12 56 39 AM" src="https://user-images.githubusercontent.com/90737587/138833527-70c99a08-4558-477a-94b0-f4f9ddbc8146.png"> 
- 
+```
+# Build model
+deep_stepper2 = keras.models.Sequential()
+deep_stepper2.add(layers.Dense(2, input_dim=6, activation='elu'))
+deep_stepper2.add(layers.Dense(10, activation='elu'))
+deep_stepper2.add(layers.Dense(1, activation='linear'))
+
+# Compile model
+deep_stepper2.compile(loss='mse', optimizer='adam')
+
+# Fit!
+history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
+            validation_data=(Xs_dev, ys_dev),
+            callbacks=keras.callbacks.EarlyStopping(patience=5))
+```            
 
 ### Test 2: Input Table
 <img width="900" alt="Screen Shot 2021-10-26 at 12 43 06 AM" src="https://user-images.githubusercontent.com/90737587/138831347-6acf083a-c4ec-4292-b4d5-bfa37dc0faa6.png">
