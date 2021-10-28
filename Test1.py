@@ -291,3 +291,4 @@ plt.xlabel('$x$')
 plt.ylabel('$Error$')
 plt.legend(leg)
 plt.show()
+
