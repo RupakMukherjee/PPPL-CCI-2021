@@ -1,9 +1,11 @@
 
 | Equation| Equation Graph| Validation Loss Graph| Error Graph|
 |:------:|:------:|:-------------------:| :---------:|
-|Advection|<img width="250" alt="Screen Shot 2021-10-31 at 8 33 25 PM" src="https://user-images.githubusercontent.com/90737587/139618158-f6bd6e42-d1e0-4660-b177-b758a114bd8c.png">|<img width="250" alt="A5VL" src="https://user-images.githubusercontent.com/90737587/139617653-78702a5e-3fa7-4e3a-8ab2-681175bf3d65.png">|<img width="420" alt="A5EC" src="https://user-images.githubusercontent.com/90737587/139617664-9f2e7caa-e898-492e-b16c-45c970dc4df8.png">|
-| Soliton|<img width="250" alt="Screen Shot 2021-10-31 at 8 30 29 PM" src="https://user-images.githubusercontent.com/90737587/139617944-881010bb-8643-42a4-947d-4a9a221482c7.png">|<img width="250" alt="TestD-ValLoss (5)" src="https://user-images.githubusercontent.com/90737587/139616870-89b34776-672d-48fc-aaa7-d3ea45dfdff6.png">|<img width="420" alt="TestD-Error (4)" src="https://user-images.githubusercontent.com/90737587/139617121-9dcdd70e-8846-4029-aa1a-be35c2ed7367.png">|
-|Burger||<img width="250" alt="Test4-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139618438-a89322c0-8d2b-48de-b0ec-d7141f93a2af.png">|<img width="425" alt="Test5-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139618449-d72bf16a-d886-4e0e-b21b-9b03fbd37fa9.png">|
+|Advection|<img width="250" alt="Screen Shot 2021-10-31 at 9 01 22 PM" src="https://user-images.githubusercontent.com/90737587/139620001-ab139012-a904-4bce-8c1a-660ef648a118.png">|<img width="250" alt="A5VL" src="https://user-images.githubusercontent.com/90737587/139617653-78702a5e-3fa7-4e3a-8ab2-681175bf3d65.png">|<img width="420" alt="A5EC" src="https://user-images.githubusercontent.com/90737587/139617664-9f2e7caa-e898-492e-b16c-45c970dc4df8.png">|
+| Soliton|<img width="250" alt="Screen Shot 2021-10-31 at 8 30 29 PM" src="https://user-images.githubusercontent.com/90737587/139617944-881010bb-8643-42a4-947d-4a9a221482c7.png">|<img width="250" alt="Test4-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139618438-a89322c0-8d2b-48de-b0ec-d7141f93a2af.png">|<img width="425" alt="Test5-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139618449-d72bf16a-d886-4e0e-b21b-9b03fbd37fa9.png">|
+|Burger||<img width="250" alt="TestD-ValLoss (5)" src="https://user-images.githubusercontent.com/90737587/139616870-89b34776-672d-48fc-aaa7-d3ea45dfdff6.png">|<img width="420" alt="TestD-Error (4)" src="https://user-images.githubusercontent.com/90737587/139617121-9dcdd70e-8846-4029-aa1a-be35c2ed7367.png">|
+
+
 
 
 
@@ -47,9 +49,25 @@ deep_approx.summary()
 | D|15|15|2|30|
 | E|50|50|1|30|
 
-<img width="900" alt="Screen Shot 2021-10-25 at 11 41 30 PM" src="https://user-images.githubusercontent.com/90737587/138822477-fe786906-926a-4235-a45f-f91d85d16d25.png">
-
 ### Test 1: Output Graphs 
+| Test| Validaiton Loss Chart| Error Chart|
+|:---:|:------------: |:-----------: |
+|A|<img width="350" alt="TestA-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619306-480ea9e0-f654-4864-bda3-ae5a0f53c418.png">|<img width="550" alt="TestA-Error (1)" src="https://user-images.githubusercontent.com/90737587/139619329-5b7955f1-579b-4ee3-a147-bd3197126564.png">|
+|B|<img width="350" alt="TestB-ValLoss (4)" src="https://user-images.githubusercontent.com/90737587/139619412-95f597ab-cbfc-4063-8eaa-30f4491a43e8.png">|<img width="550" alt="TestB-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139619425-680dee6c-396c-4ae8-a8cd-bcb17c41b372.png">|
+|C|<img width="350" alt="TestC-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619474-6810223d-fcfc-436e-a9f0-3b4386f0b234.png">|<img width="550" alt="TestC-Error (1)" src="https://user-images.githubusercontent.com/90737587/139619498-d43d8a6b-786e-4d54-bcdf-3486bd74d326.png">|
+|D|<img width="350" alt="TestD-ValLoss (6)" src="https://user-images.githubusercontent.com/90737587/139619635-e958cf35-bacd-4a92-a7cf-759393356139.png">|<img width="550" alt="TestD-Error (5)" src="https://user-images.githubusercontent.com/90737587/139619653-7c44d6e6-4caa-433b-91ea-e701b2f2ccad.png">|
+|E|<img width="350" alt="TestE-VaLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619684-dc647f49-c17e-4137-820a-4be6be4dfa66.png">|<img width="550" alt="TestE-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139619696-ffe55108-72fa-454e-ae4b-9ecc3a61a288.png">|
+
+
+
+
+
+
+
+
+
+
+
 <img width="900" alt="Screen Shot 2021-10-25 at 11 42 01 PM" src="https://user-images.githubusercontent.com/90737587/138822525-54a3ab13-b541-42e8-b6f1-61debbb85c63.png">
 
 ### Test 2: Input Code
