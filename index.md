@@ -6,12 +6,6 @@
 |Burger||<img width="250" alt="TestD-ValLoss (5)" src="https://user-images.githubusercontent.com/90737587/139616870-89b34776-672d-48fc-aaa7-d3ea45dfdff6.png">|<img width="420" alt="TestD-Error (4)" src="https://user-images.githubusercontent.com/90737587/139617121-9dcdd70e-8846-4029-aa1a-be35c2ed7367.png">|
 
 
-
-
-
-
-
-
 In the beginning of this internship, I learned to solve math computations in programming languages: Python, C++, and Fortran. First, I learned how to operate the Mac terminal and downloaded the compatible text editors to run the programs. My first assignment was to write a program to calculate the sum of two numbers. For this assignment, I learned the basic syntax rules, variables, inputs, outputs, and how to utilize the error codes to debug my programs. My second assignment was to create a program to calculate the sum of numbers from 0 to 100. For this assignment, I learned how to use loops. My third assignment was to create a program to solve the problem: a point particle moving in the x-direction with a constant velocity. For this assignment, I learned how to insert variables in loops. My fourth assignment was to develop a program to solve the equation u(i+1)=u(i)+1*dx utilizing arrays. For this assignment, I learned how to write an array with a loop inside and align the array by the decimal points. After I got familiar with creating programs to solve more complex math equations, I was introduced to the machine learning process and TensorFlow. 
 
 TensorFlow is an open-source library used for machine learning and artificial intelligence. I studied a Python code that solved the Advection Diffusion equation from GitHub. The machine learning process begins by entering data that will affect the rest of the code. Then, we must train the code in a series of ways to get the correct output. This way contains a series of tests until the output is the smallest margin of error possible. The series of tests does not always depend on the tests before it. In order to run it on my computer, I needed to install correct import such as TensorFlow and Keras.  After I was able to run the Advection Diffusion equation, I changed the equation to the Burger’s equation but the same machine learning format. 
@@ -59,17 +53,6 @@ deep_approx.summary()
 |E|<img width="350" alt="TestE-VaLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619684-dc647f49-c17e-4137-820a-4be6be4dfa66.png">|<img width="550" alt="TestE-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139619696-ffe55108-72fa-454e-ae4b-9ecc3a61a288.png">|
 
 
-
-
-
-
-
-
-
-
-
-<img width="900" alt="Screen Shot 2021-10-25 at 11 42 01 PM" src="https://user-images.githubusercontent.com/90737587/138822525-54a3ab13-b541-42e8-b6f1-61debbb85c63.png">
-
 ### Test 2: Input Code
 ```
 # Build model
@@ -88,16 +71,20 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=30, batch_size=32,
             
 ```
 ### Test 2: Input Table
-<img width="900" alt="Screen Shot 2021-10-25 at 11 44 18 PM" src="https://user-images.githubusercontent.com/90737587/138822811-f09bf4b3-33f1-4ba9-b3fa-1fe5e1f4768e.png">
+| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Epochs|
+|:---:|:------------: | :-----------: |:------------:|:---:|
+|F| 2|10|1|3|
+|G|10|15|1|10|
+|H|50|80|5|30|
 
 ### Test 2: Output Graphs
-<img width="900" alt="Screen Shot 2021-10-25 at 11 44 49 PM" src="https://user-images.githubusercontent.com/90737587/138822890-79030ede-036d-497f-95f5-c1dd99fbb815.png">
-
+| Test| Graph 1| Graph 2| Graph 3| Graph 4|
+|:---:|:------:|:------:|:------:|:------:|
+|F|<img width="350" alt="TestF-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139620520-bdf3bf2b-2b90-44e1-85af-4339d254cbc3.png">|<img width="350" alt="TestFu(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139620537-30f6e297-8219-4b58-9c7d-b23beaf2cda2.png">|<img width="350" alt="TestG-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139620547-cf8adece-16e8-4b6e-9e96-d57b75eac463.png">|<img width="350" alt="TestF-u(x,Tend) (1)" src="https://user-images.githubusercontent.com/90737587/139620559-0d169b96-4952-405b-a66d-722c805af42f.png">|
+|G| <img width="638" alt="TestG-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139623766-2467b415-e4b9-480c-b7e1-6c2e74b59bdd.png">|<img width="638" alt="TestG-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139623777-a8f78f57-f409-4f78-8985-1aabbfcee912.png">|<img width="638" alt="TestG-ErrorT (2)" src="https://user-images.githubusercontent.com/90737587/139623789-8ff717d4-b8b2-4f82-94ca-1bac52131eeb.png">|<img width="638" alt="TestG-u(x, tend) (1)" src="https://user-images.githubusercontent.com/90737587/139623814-0c04324b-de64-46f2-943c-ea8e3bc3baf2.png">|
+|H|<img width="638" alt="TestH-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139623861-c9e5f383-e65b-48a0-995f-74caab44ad66.png">|<img width="638" alt="TestH-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139623876-0ec93ccc-7324-47ac-9148-5501b3094427.png">|<img width="638" alt="TestH-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139623889-1c849db1-cffa-48c3-a7a0-6b4573c17290.png">|<img width="638" alt="TestH-u(x, tend) (2)" src="https://user-images.githubusercontent.com/90737587/139623897-d809bf26-5898-49ca-8d12-d14740c4fd91.png">|
 
 Then, I created a table to display the various input parameters and output graphs for the Soliton Equation. Soliton is explained as a single wave and  the body  of  water  is  moving  as  one.  Another visual example is when  a  crowd  does  the  ”wave”  at  the sports stadium.  It was first discovered by John Scott Russell, who researched by visually watching the waves and came up with the basic properties of a Soliton.  Diederik Korteweg and Gustav de Vries created Soliton’s equation (KdV), and they also created a mathematical simulation of the KdV. 
-
-
-
 
  
 ## Soliton's Equation 
@@ -120,10 +107,23 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 ```            
 
 ### Test 1: Input Table 
-<img width="900" alt="Screen Shot 2021-10-26 at 12 40 43 AM" src="https://user-images.githubusercontent.com/90737587/138830990-e9d845bf-82fc-4789-a241-8b72e2d242b6.png">
+| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Epochs|
+|:---:|:------------: | :-----------: |:------------:|:---:|
+|1|10|10|1|10|
+|2|5|5|1|30|
+|3|50|50|1|30|
+|4|150|150|1|30|
+|5|500|500|1|100|
 
 ### Test 1: Output Graphs 
-<img width="900" alt="Screen Shot 2021-10-26 at 1 08 50 AM" src="https://user-images.githubusercontent.com/90737587/138835435-85c26b62-6440-43f2-8327-9521b7356431.png">
+
+| Test| Validation Loss Chart | Error Chart |
+|:---:|:--------------------: | :-----------:|
+|1|<img width="350" alt="Test1-ValLoss (1)" src="https://user-images.githubusercontent.com/90737587/139624198-16c6e49e-6926-4417-8c17-301a1536c738.png">|<img width="550" alt="Test1-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139624213-41c3c1ac-87dc-4698-8266-317d3d38a0ac.png">|
+|2|<img width="350" alt="Test2-ValLoss (1)" src="https://user-images.githubusercontent.com/90737587/139624233-8fdecb8c-bb72-4220-ac18-5611e7fb219c.png">|<img width="550" alt="Test2-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139624246-9ff385be-e0f5-44c1-9de2-f1f200a8aae2.png">|
+|3|<img width="350" alt="Test3-ValLoss (1)" src="https://user-images.githubusercontent.com/90737587/139624281-08b27a62-20ab-4aef-9fa5-5aa32823205c.png">|<img width="550" alt="Test3-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139624300-bfdd214b-6ea2-4cfb-99be-a7fdf9406c33.png">|
+|4|<img width="350" alt="Test4-ValLoss (3)" src="https://user-images.githubusercontent.com/90737587/139624342-113f98ce-975d-4514-85fb-1ea3aae07ffe.png">|<img width="550" alt="Test4-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139624355-3b8d94b9-5fe4-438a-9811-a32b04ca4c44.png">|
+|5|<img width="350" alt="Test5-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139624404-4eaa9878-f9a2-43d3-b5d7-185af74525e3.png">|<img width="550" alt="Test5-Errors (2)" src="https://user-images.githubusercontent.com/90737587/139624426-ebf490e7-6a90-413c-b1c2-950596c9af82.png">|
 
 ### Test 2: Input Code
 ```
@@ -143,7 +143,12 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 ```            
 
 ### Test 2: Input Table
-<img width="900" alt="Screen Shot 2021-10-26 at 12 43 06 AM" src="https://user-images.githubusercontent.com/90737587/138831347-6acf083a-c4ec-4292-b4d5-bfa37dc0faa6.png">
+| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Epochs|Input Dimension|
+|:---:|:------------: | :-----------: |:------------:|:---:|:--------------:|
+|6|2|10|1|10|6|
+|7|50|50|1|30|6|
+|8|100|80|1|50|2|
+
 
 ### Test 2: Output Graphs
 <img width="900" alt="Screen Shot 2021-10-26 at 12 43 41 AM" src="https://user-images.githubusercontent.com/90737587/138831451-fbd7075d-cd1f-47b5-9fbe-5b1648d8a91e.png">
