@@ -169,6 +169,19 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 |A4|100|100|1|2|30|
 |A5|1000|1000|10|2|30|
 
+### Test 1: Output Graphs 
+
+| Test| Validation Loss Chart | Error Chart |
+|:---:|:--------------------: | :-----------:|
+|A1|<img width="350" alt="A1VL" src="https://user-images.githubusercontent.com/90737587/139740813-9c749dc0-4b97-40f3-be2a-183d0cab20e4.png">|<img width="550" alt="A1VC" src="https://user-images.githubusercontent.com/90737587/139740866-1ab31010-211f-40b5-97c5-327babad1811.png">|
+|A2|<img width="350" alt="A2VL" src="https://user-images.githubusercontent.com/90737587/139741031-3af90bfe-b9d4-49d0-8b4f-2846dbb03108.png">|<img width="550" alt="A2VC" src="https://user-images.githubusercontent.com/90737587/139741058-1c5e758f-9a93-4469-ab6a-01e66d4f9cab.png">|
+|A3|<img width="350" alt="A3VL" src="https://user-images.githubusercontent.com/90737587/139741080-58744d79-e820-4d3b-9f76-c4130a74463c.png">|<img width="550" alt="A3EC" src="https://user-images.githubusercontent.com/90737587/139741092-8ad564b5-845f-438f-80e0-3a3fa780edff.png">|
+|A4|<img width="350" alt="A4VL" src="https://user-images.githubusercontent.com/90737587/139741116-4b148900-b5b9-4d6f-a5e3-3a3c5bb5bfb8.png">|<img width="550" alt="A4EC" src="https://user-images.githubusercontent.com/90737587/139741133-03c6209a-77af-4fb8-908c-6a19d0ce5ed3.png">|
+|A5|<img width="350" alt="A5VL" src="https://user-images.githubusercontent.com/90737587/139741162-91d00fe1-9b77-418f-94b9-e4cd9a8b75d8.png">|<img width="550" alt="A5EC" src="https://user-images.githubusercontent.com/90737587/139741178-994d891d-9b68-4524-8aae-652d53983199.png">|
+
+
+
+
 
 
 
