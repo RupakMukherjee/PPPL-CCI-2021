@@ -173,13 +173,8 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 
 | Test| Validation Loss Chart | Error Chart |
 |:---:|:--------------------: | :-----------:|
-|A1|<img width="350" alt="Screen Shot 2021-1![Uploading Screen Shot 2021-11-01 at 2.06.40 PM.png…]()
-1-01 at 2 06 20 PM" src="https://user-images.githubusercontent.com/90737587/139742165-f60d07c3-de44-4717-8409-9caaf73c9b11.png">|<img width="550" alt="Screen Shot 2021-11-01 at 2 07 12 PM" src="https://user-images.githubusercontent.com/90737587/139742276-8f0f9c77-617c-4510-9656-8bac4d6eff84.png">|
-|A2|<img width="574" alt="Screen Shot 2021-11-01 at 2 26 46 PM" src="https://user-images.githubusercontent.com/90737587/139744302-87f30127-f43a-4081-973a-07999db88091.png"><img width="1180" alt="Screen Shot 2021-11-01 at 2 27 03 PM" src="https://user-images.githubusercontent.com/90737587/139744324-0bfc54ef-7cbe-4c29-a887-ff9a48e43133.png">
-
-
-
-
+|A1|<img width="350" alt="Screen Shot 2021-11-01 at 2 55 05 PM" src="https://user-images.githubusercontent.com/90737587/139747239-9f22f746-082e-4a5a-ac22-bc0f59479bc0.png">|<img width="550" alt="Screen Shot 2021-11-01 at 2 07 12 PM" src="https://user-images.githubusercontent.com/90737587/139742276-8f0f9c77-617c-4510-9656-8bac4d6eff84.png">|
+|A2|<img width="350" alt="Screen Shot 2021-11-01 at 2 26 46 PM" src="https://user-images.githubusercontent.com/90737587/139744302-87f30127-f43a-4081-973a-07999db88091.png">|<img width="550" alt="Screen Shot 2021-11-01 at 2 27 03 PM" src="https://user-images.githubusercontent.com/90737587/139744324-0bfc54ef-7cbe-4c29-a887-ff9a48e43133.png">|
 |A3|<img width="350" alt="A3VL" src="https://user-images.githubusercontent.com/90737587/139741080-58744d79-e820-4d3b-9f76-c4130a74463c.png">|<img width="550" alt="A3EC" src="https://user-images.githubusercontent.com/90737587/139741092-8ad564b5-845f-438f-80e0-3a3fa780edff.png">|
 |A4|<img width="350" alt="A4VL" src="https://user-images.githubusercontent.com/90737587/139741116-4b148900-b5b9-4d6f-a5e3-3a3c5bb5bfb8.png">|<img width="550" alt="A4EC" src="https://user-images.githubusercontent.com/90737587/139741133-03c6209a-77af-4fb8-908c-6a19d0ce5ed3.png">|
 |A5|<img width="350" alt="A5VL" src="https://user-images.githubusercontent.com/90737587/139741162-91d00fe1-9b77-418f-94b9-e4cd9a8b75d8.png">|<img width="550" alt="A5EC" src="https://user-images.githubusercontent.com/90737587/139741178-994d891d-9b68-4524-8aae-652d53983199.png">|
