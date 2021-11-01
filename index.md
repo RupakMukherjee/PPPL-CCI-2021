@@ -1,8 +1,12 @@
-### Soliton's Equation 
 
-<img width="300" alt="Screen Shot 2021-10-27 at 4 06 19 PM" src="https://user-images.githubusercontent.com/90737587/139161328-c40c700e-2302-4266-9cad-8e038e4483d2.png">  
-### Soliton's Equation : Output Graph (Test 2, Test D)
-<img width="450" alt="TestD-Error" src="https://user-images.githubusercontent.com/90737587/139161791-862f2d7c-b03f-4fdf-b659-d77d7b6d43d2.png"><img width="250" alt="Screen Shot 2021-10-27 at 4 32 28 PM" src="https://user-images.githubusercontent.com/90737587/139162103-6b13bf10-397b-4641-af19-0008e9d19adc.png">
+| Equation| Graph| Validation Loss Graph| Error Graph|
+|:------:|:------:|:-------------------:| :---------:|
+|Advection||<img width="250" alt="A5VL" src="https://user-images.githubusercontent.com/90737587/139617653-78702a5e-3fa7-4e3a-8ab2-681175bf3d65.png">|<img width="400" alt="A5EC" src="https://user-images.githubusercontent.com/90737587/139617664-9f2e7caa-e898-492e-b16c-45c970dc4df8.png">|
+| Soliton|  |<img width="250" alt="TestD-ValLoss (5)" src="https://user-images.githubusercontent.com/90737587/139616870-89b34776-672d-48fc-aaa7-d3ea45dfdff6.png">|<img width="400" alt="TestD-Error (4)" src="https://user-images.githubusercontent.com/90737587/139617121-9dcdd70e-8846-4029-aa1a-be35c2ed7367.png">|
+|Burger||||
+
+
+
 
 
 
