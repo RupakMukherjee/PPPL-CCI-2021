@@ -160,6 +160,16 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 
 ## Advection Equation
 
+### Test 1: Input Table 
+| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
+|:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
+|A1|2|10|1|3|3|
+|A2|5|25|3|5|30|
+|A3|50|2|1|2|30|
+|A4|100|100|1|2|30|
+|A5|1000|1000|10|2|30|
+
+
 
 
 
