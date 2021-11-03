@@ -179,7 +179,12 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 |A4|<img width="350" alt="A4VL" src="https://user-images.githubusercontent.com/90737587/139741116-4b148900-b5b9-4d6f-a5e3-3a3c5bb5bfb8.png">|<img width="550" alt="A4EC" src="https://user-images.githubusercontent.com/90737587/139741133-03c6209a-77af-4fb8-908c-6a19d0ce5ed3.png">|
 |A5|<img width="350" alt="A5VL" src="https://user-images.githubusercontent.com/90737587/139741162-91d00fe1-9b77-418f-94b9-e4cd9a8b75d8.png">|<img width="550" alt="A5EC" src="https://user-images.githubusercontent.com/90737587/139741178-994d891d-9b68-4524-8aae-652d53983199.png">|
 
-
+### Test 2: Input Table 
+| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
+|:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
+|A6|2|10|1|3|1|
+|A7|50|70|1|2|10|
+|A8|100|100|1|2|30|
 
 
 
