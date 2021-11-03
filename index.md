@@ -38,11 +38,11 @@ deep_approx.summary()
 
 | Test| Dense Layer 1| Dense Layer 2| Dense Layer 3| Epochs|
 |:---:|:------------: | :-----------: |:------------:|:---:|
-|A|10|10|1|10|
-|B|2|10|1|30|
-|C|4|4|5|30|
-|D|15|15|2|30|
-|E|50|50|1|30|
+|A    |10             |10             |1             |10   |
+|B    |2              |10             |1             |30   |
+|C    |4              |4              |5             |30   |
+|D    |15             |15             |2             |30   |
+|E    |50             |50             |1             |30   |
 
 ### Test 1: Output Graphs 
 
@@ -167,6 +167,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 ## Advection Equation
 
 ### Test 1: Input Table 
+
 | Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
 |:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
 |A1|2|10|1|2|10|
