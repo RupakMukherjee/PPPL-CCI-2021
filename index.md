@@ -35,6 +35,7 @@ deep_approx.summary()
 ```
 
 ### Test 1: Input Table 
+
 | Test| Dense Layer 1| Dense Layer 2| Dense Layer 3| Epochs|
 |:---:|:------------: | :-----------: |:------------:|:---:|
 |A|10|10|1|10|
@@ -44,6 +45,7 @@ deep_approx.summary()
 |E|50|50|1|30|
 
 ### Test 1: Output Graphs 
+
 | Test| Validaiton Loss Chart| Error Chart|
 |:---:|:------------:|:-----------:|
 |A|<img width="350" alt="TestA-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619306-480ea9e0-f654-4864-bda3-ae5a0f53c418.png">|<img width="550" alt="TestA-Error (1)" src="https://user-images.githubusercontent.com/90737587/139619329-5b7955f1-579b-4ee3-a147-bd3197126564.png">|
@@ -71,6 +73,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=30, batch_size=32,
             
 ```
 ### Test 2: Input Table
+
 | Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Epochs|
 |:---:|:-------------:|:-------------:|:------------:|:----:|
 |F|2|10|1|3|
@@ -78,6 +81,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=30, batch_size=32,
 |H|50|80|5|30|
 
 ### Test 2: Output Graphs
+
 | Test| Graph 1| Graph 2| Graph 3| Graph 4|
 |:---:|:------:|:------:|:------:|:------:|
 |F|<img width="350" alt="TestF-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139620520-bdf3bf2b-2b90-44e1-85af-4339d254cbc3.png">|<img width="350" alt="TestFu(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139620537-30f6e297-8219-4b58-9c7d-b23beaf2cda2.png">|<img width="350" alt="TestG-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139620547-cf8adece-16e8-4b6e-9e96-d57b75eac463.png">|<img width="350" alt="TestF-u(x,Tend) (1)" src="https://user-images.githubusercontent.com/90737587/139620559-0d169b96-4952-405b-a66d-722c805af42f.png">|
@@ -107,8 +111,9 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 ```            
 
 ### Test 1: Input Table 
+
 | Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Epochs|
-|-----|-------------- | ------------- |--------------|------|
+|:---:|:-------------:| :-----------: |:------------:|:----:|
 |1|10|10|1|10|
 |2|5|5|1|30|
 |3|50|50|1|30|
@@ -143,6 +148,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 ```            
 
 ### Test 2: Input Table
+
 | Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Epochs|Input Dimension|
 |:---:|:------------: | :-----------: |:------------:|:---:|:--------------:|
 |6|2|10|1|10|6|
@@ -180,6 +186,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 |A5|<img width="350" alt="A5VL" src="https://user-images.githubusercontent.com/90737587/139741162-91d00fe1-9b77-418f-94b9-e4cd9a8b75d8.png">|<img width="550" alt="A5EC" src="https://user-images.githubusercontent.com/90737587/139741178-994d891d-9b68-4524-8aae-652d53983199.png">|
 
 ### Test 2: Input Table 
+
 | Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
 |:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
 |A6|2|10|1|3|1|
