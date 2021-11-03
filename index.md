@@ -35,7 +35,7 @@ deep_approx.summary()
 ```
 
 ### Test 1: Input Table 
-| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Epochs|
+| Test| Dense Layer 1| Dense Layer 2| Dense Layer 3| Epochs|
 |:---:|:------------: | :-----------: |:------------:|:---:|
 |A|10|10|1|10|
 |B|2|10|1|30|
@@ -45,7 +45,7 @@ deep_approx.summary()
 
 ### Test 1: Output Graphs 
 | Test| Validaiton Loss Chart| Error Chart|
-|:---:|:------------: |:-----------: |
+|:---:|:------------:|:-----------:|
 |A|<img width="350" alt="TestA-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619306-480ea9e0-f654-4864-bda3-ae5a0f53c418.png">|<img width="550" alt="TestA-Error (1)" src="https://user-images.githubusercontent.com/90737587/139619329-5b7955f1-579b-4ee3-a147-bd3197126564.png">|
 |B|<img width="350" alt="TestB-ValLoss (4)" src="https://user-images.githubusercontent.com/90737587/139619412-95f597ab-cbfc-4063-8eaa-30f4491a43e8.png">|<img width="550" alt="TestB-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139619425-680dee6c-396c-4ae8-a8cd-bcb17c41b372.png">|
 |C|<img width="350" alt="TestC-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619474-6810223d-fcfc-436e-a9f0-3b4386f0b234.png">|<img width="550" alt="TestC-Error (1)" src="https://user-images.githubusercontent.com/90737587/139619498-d43d8a6b-786e-4d54-bcdf-3486bd74d326.png">|
