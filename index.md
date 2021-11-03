@@ -37,11 +37,11 @@ deep_approx.summary()
 ### Test 1: Input Table 
 | Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Epochs|
 |:---:|:------------: | :-----------: |:------------:|:---:|
-| A|10|10|1|10|
-| B|2|10|1|30|
-| C|4|4|5|30|
-| D|15|15|2|30|
-| E|50|50|1|30|
+|A|10|10|1|10|
+|B|2|10|1|30|
+|C|4|4|5|30|
+|D|15|15|2|30|
+|E|50|50|1|30|
 
 ### Test 1: Output Graphs 
 | Test| Validaiton Loss Chart| Error Chart|
