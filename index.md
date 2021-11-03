@@ -108,7 +108,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 
 ### Test 1: Input Table 
 | Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Epochs|
-|:---:|:------------: | :-----------: |:------------:|:---:|
+|-----|-------------- | ------------- |--------------|------|
 |1|10|10|1|10|
 |2|5|5|1|30|
 |3|50|50|1|30|
