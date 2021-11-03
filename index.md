@@ -1,3 +1,4 @@
+![Unknown](https://user-images.githubusercontent.com/90737587/140026230-43187215-59cb-47b1-9f88-7fed77058ce3.png)
 
 | Name| Equation| Equation Graph| Validation Loss Graph| Error Graph|
 |:---:|:--------:|:------:|:-------------------:| :---------:|
