@@ -74,26 +74,27 @@ history = deep_approx.fit(X_train, y_train,
             
 deep_approx.summary()
 ```
+[//]: <> (Changed names of Test cases. Old Name: A, New name: B1)
 
 ### Test 1: Input Table 
 
 | Test| Dense Layer 1| Dense Layer 2| Dense Layer 3| Epochs|
 |:---:|:------------: | :-----------: |:------------:|:---:|
-|A    |10             |10             |1             |10   |
-|B    |2              |10             |1             |30   |
-|C    |4              |4              |5             |30   |
-|D    |15             |15             |2             |30   |
-|E    |50             |50             |1             |30   |
+|B1    |10             |10             |1             |10   |
+|B2    |2              |10             |1             |30   |
+|B3   |4              |4              |5             |30   |
+|B4    |15             |15             |2             |30   |
+|B5    |50             |50             |1             |30   |
 
 ### Test 1: Output Graphs 
 
 | Test| Validaiton Loss Chart| Error Chart|
 |:---:|:------------:|:-----------:|
-|A|<img width="350" alt="TestA-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619306-480ea9e0-f654-4864-bda3-ae5a0f53c418.png">|<img width="550" alt="TestA-Error (1)" src="https://user-images.githubusercontent.com/90737587/139619329-5b7955f1-579b-4ee3-a147-bd3197126564.png">|
-|B|<img width="350" alt="TestB-ValLoss (4)" src="https://user-images.githubusercontent.com/90737587/139619412-95f597ab-cbfc-4063-8eaa-30f4491a43e8.png">|<img width="550" alt="TestB-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139619425-680dee6c-396c-4ae8-a8cd-bcb17c41b372.png">|
-|C|<img width="350" alt="TestC-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619474-6810223d-fcfc-436e-a9f0-3b4386f0b234.png">|<img width="550" alt="TestC-Error (1)" src="https://user-images.githubusercontent.com/90737587/139619498-d43d8a6b-786e-4d54-bcdf-3486bd74d326.png">|
-|D|<img width="350" alt="TestD-ValLoss (6)" src="https://user-images.githubusercontent.com/90737587/139619635-e958cf35-bacd-4a92-a7cf-759393356139.png">|<img width="550" alt="TestD-Error (5)" src="https://user-images.githubusercontent.com/90737587/139619653-7c44d6e6-4caa-433b-91ea-e701b2f2ccad.png">|
-|E|<img width="350" alt="TestE-VaLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619684-dc647f49-c17e-4137-820a-4be6be4dfa66.png">|<img width="550" alt="TestE-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139619696-ffe55108-72fa-454e-ae4b-9ecc3a61a288.png">|
+|B1|<img width="350" alt="TestA-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619306-480ea9e0-f654-4864-bda3-ae5a0f53c418.png">|<img width="550" alt="TestA-Error (1)" src="https://user-images.githubusercontent.com/90737587/139619329-5b7955f1-579b-4ee3-a147-bd3197126564.png">|
+|B2|<img width="350" alt="TestB-ValLoss (4)" src="https://user-images.githubusercontent.com/90737587/139619412-95f597ab-cbfc-4063-8eaa-30f4491a43e8.png">|<img width="550" alt="TestB-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139619425-680dee6c-396c-4ae8-a8cd-bcb17c41b372.png">|
+|B3|<img width="350" alt="TestC-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619474-6810223d-fcfc-436e-a9f0-3b4386f0b234.png">|<img width="550" alt="TestC-Error (1)" src="https://user-images.githubusercontent.com/90737587/139619498-d43d8a6b-786e-4d54-bcdf-3486bd74d326.png">|
+|B4|<img width="350" alt="TestD-ValLoss (6)" src="https://user-images.githubusercontent.com/90737587/139619635-e958cf35-bacd-4a92-a7cf-759393356139.png">|<img width="550" alt="TestD-Error (5)" src="https://user-images.githubusercontent.com/90737587/139619653-7c44d6e6-4caa-433b-91ea-e701b2f2ccad.png">|
+|B5|<img width="350" alt="TestE-VaLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619684-dc647f49-c17e-4137-820a-4be6be4dfa66.png">|<img width="550" alt="TestE-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139619696-ffe55108-72fa-454e-ae4b-9ecc3a61a288.png">|
 
 
 ### Test 2: Input Code
@@ -117,17 +118,17 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=30, batch_size=32,
 
 | Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Epochs|
 |:---:|:-------------:|:-------------:|:------------:|:----:|
-|F|2|10|1|3|
-|G|10|15|1|10|
-|H|50|80|5|30|
+|B6|2|10|1|3|
+|B7|10|15|1|10|
+|B8|50|80|5|30|
 
 ### Test 2: Output Graphs
 
 | Test| Graph 1| Graph 2| Graph 3| Graph 4|
 |:---:|:------:|:------:|:------:|:------:|
-|F|<img width="350" alt="TestF-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139620520-bdf3bf2b-2b90-44e1-85af-4339d254cbc3.png">|<img width="350" alt="TestFu(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139620537-30f6e297-8219-4b58-9c7d-b23beaf2cda2.png">|<img width="350" alt="TestG-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139620547-cf8adece-16e8-4b6e-9e96-d57b75eac463.png">|<img width="350" alt="TestF-u(x,Tend) (1)" src="https://user-images.githubusercontent.com/90737587/139620559-0d169b96-4952-405b-a66d-722c805af42f.png">|
-|G| <img width="638" alt="TestG-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139623766-2467b415-e4b9-480c-b7e1-6c2e74b59bdd.png">|<img width="638" alt="TestG-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139623777-a8f78f57-f409-4f78-8985-1aabbfcee912.png">|<img width="638" alt="TestG-ErrorT (2)" src="https://user-images.githubusercontent.com/90737587/139623789-8ff717d4-b8b2-4f82-94ca-1bac52131eeb.png">|<img width="638" alt="TestG-u(x, tend) (1)" src="https://user-images.githubusercontent.com/90737587/139623814-0c04324b-de64-46f2-943c-ea8e3bc3baf2.png">|
-|H|<img width="638" alt="TestH-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139623861-c9e5f383-e65b-48a0-995f-74caab44ad66.png">|<img width="638" alt="TestH-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139623876-0ec93ccc-7324-47ac-9148-5501b3094427.png">|<img width="638" alt="TestH-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139623889-1c849db1-cffa-48c3-a7a0-6b4573c17290.png">|<img width="638" alt="TestH-u(x, tend) (2)" src="https://user-images.githubusercontent.com/90737587/139623897-d809bf26-5898-49ca-8d12-d14740c4fd91.png">|
+|B6|<img width="350" alt="TestF-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139620520-bdf3bf2b-2b90-44e1-85af-4339d254cbc3.png">|<img width="350" alt="TestFu(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139620537-30f6e297-8219-4b58-9c7d-b23beaf2cda2.png">|<img width="350" alt="TestG-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139620547-cf8adece-16e8-4b6e-9e96-d57b75eac463.png">|<img width="350" alt="TestF-u(x,Tend) (1)" src="https://user-images.githubusercontent.com/90737587/139620559-0d169b96-4952-405b-a66d-722c805af42f.png">|
+|B7| <img width="638" alt="TestG-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139623766-2467b415-e4b9-480c-b7e1-6c2e74b59bdd.png">|<img width="638" alt="TestG-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139623777-a8f78f57-f409-4f78-8985-1aabbfcee912.png">|<img width="638" alt="TestG-ErrorT (2)" src="https://user-images.githubusercontent.com/90737587/139623789-8ff717d4-b8b2-4f82-94ca-1bac52131eeb.png">|<img width="638" alt="TestG-u(x, tend) (1)" src="https://user-images.githubusercontent.com/90737587/139623814-0c04324b-de64-46f2-943c-ea8e3bc3baf2.png">|
+|B8|<img width="638" alt="TestH-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139623861-c9e5f383-e65b-48a0-995f-74caab44ad66.png">|<img width="638" alt="TestH-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139623876-0ec93ccc-7324-47ac-9148-5501b3094427.png">|<img width="638" alt="TestH-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139623889-1c849db1-cffa-48c3-a7a0-6b4573c17290.png">|<img width="638" alt="TestH-u(x, tend) (2)" src="https://user-images.githubusercontent.com/90737587/139623897-d809bf26-5898-49ca-8d12-d14740c4fd91.png">|
 
  
 ## KdV's Equation 
@@ -149,25 +150,27 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
             callbacks=keras.callbacks.EarlyStopping(patience=5))
 ```            
 
+[//]: <> (Changed names of Test cases. Old Name: 1, New name: K1)
+
 ### Test 1: Input Table 
 
 | Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Epochs|
 |:---:|:-------------:| :-----------: |:------------:|:----:|
-|1|10|10|1|10|
-|2|5|5|1|30|
-|3|50|50|1|30|
-|4|150|150|1|30|
-|5|500|500|1|100|
+|K1|10|10|1|10|
+|K2|5|5|1|30|
+|K3|50|50|1|30|
+|K4|150|150|1|30|
+|K5|500|500|1|100|
 
 ### Test 1: Output Graphs 
 
 | Test| Validation Loss Chart | Error Chart |
 |:---:|:--------------------: | :-----------:|
-|1|<img width="350" alt="Test1-ValLoss (1)" src="https://user-images.githubusercontent.com/90737587/139624198-16c6e49e-6926-4417-8c17-301a1536c738.png">|<img width="550" alt="Test1-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139624213-41c3c1ac-87dc-4698-8266-317d3d38a0ac.png">|
-|2|<img width="350" alt="Test2-ValLoss (1)" src="https://user-images.githubusercontent.com/90737587/139624233-8fdecb8c-bb72-4220-ac18-5611e7fb219c.png">|<img width="550" alt="Test2-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139624246-9ff385be-e0f5-44c1-9de2-f1f200a8aae2.png">|
-|3|<img width="350" alt="Test3-ValLoss (1)" src="https://user-images.githubusercontent.com/90737587/139624281-08b27a62-20ab-4aef-9fa5-5aa32823205c.png">|<img width="550" alt="Test3-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139624300-bfdd214b-6ea2-4cfb-99be-a7fdf9406c33.png">|
-|4|<img width="350" alt="Test4-ValLoss (3)" src="https://user-images.githubusercontent.com/90737587/139624342-113f98ce-975d-4514-85fb-1ea3aae07ffe.png">|<img width="550" alt="Test4-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139624355-3b8d94b9-5fe4-438a-9811-a32b04ca4c44.png">|
-|5|<img width="350" alt="Test5-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139624404-4eaa9878-f9a2-43d3-b5d7-185af74525e3.png">|<img width="550" alt="Test5-Errors (2)" src="https://user-images.githubusercontent.com/90737587/139624426-ebf490e7-6a90-413c-b1c2-950596c9af82.png">|
+|K1|<img width="350" alt="Test1-ValLoss (1)" src="https://user-images.githubusercontent.com/90737587/139624198-16c6e49e-6926-4417-8c17-301a1536c738.png">|<img width="550" alt="Test1-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139624213-41c3c1ac-87dc-4698-8266-317d3d38a0ac.png">|
+|K2|<img width="350" alt="Test2-ValLoss (1)" src="https://user-images.githubusercontent.com/90737587/139624233-8fdecb8c-bb72-4220-ac18-5611e7fb219c.png">|<img width="550" alt="Test2-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139624246-9ff385be-e0f5-44c1-9de2-f1f200a8aae2.png">|
+|K3|<img width="350" alt="Test3-ValLoss (1)" src="https://user-images.githubusercontent.com/90737587/139624281-08b27a62-20ab-4aef-9fa5-5aa32823205c.png">|<img width="550" alt="Test3-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139624300-bfdd214b-6ea2-4cfb-99be-a7fdf9406c33.png">|
+|K4|<img width="350" alt="Test4-ValLoss (3)" src="https://user-images.githubusercontent.com/90737587/139624342-113f98ce-975d-4514-85fb-1ea3aae07ffe.png">|<img width="550" alt="Test4-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139624355-3b8d94b9-5fe4-438a-9811-a32b04ca4c44.png">|
+|K5|<img width="350" alt="Test5-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139624404-4eaa9878-f9a2-43d3-b5d7-185af74525e3.png">|<img width="550" alt="Test5-Errors (2)" src="https://user-images.githubusercontent.com/90737587/139624426-ebf490e7-6a90-413c-b1c2-950596c9af82.png">|
 
 ### Test 2: Input Code
 ```
@@ -190,18 +193,18 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 
 | Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Epochs|Input Dimension|
 |:---:|:------------: | :-----------: |:------------:|:---:|:--------------:|
-|6|2|10|1|10|6|
-|7|50|50|1|30|6|
-|8|100|80|1|50|2|
+|K6|2|10|1|10|6|
+|K7|50|50|1|30|6|
+|K8|100|80|1|50|2|
 
 
 ### Test 2: Output Graphs
 
 | Test| Graph 1| Graph 2| Graph 3| Graph 4|
 |:---:|:------:|:------:|:------:|:------:|
-|6|<img width="230" alt="Test6-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624811-a40e83e2-ea3a-4065-bfd8-a00fe5281273.png">|<img width="230" alt="Test6-u(x,t) (2)" src="https://user-images.githubusercontent.com/90737587/139624825-f03e014f-c797-4586-878f-99ca86f624e8.png">|<img width="230" alt="Test6-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624843-bba92f16-9950-4997-9bd9-c92b8be7de14.png">|<img width="230" alt="Test6-u(x,tend)" src="https://user-images.githubusercontent.com/90737587/139624854-dad74923-4298-450d-b69b-dd7873bc5160.png">|
-|7|<img width="230" alt="Test7-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624870-890cff00-7891-4b3d-8602-a40e0f813877.png">|<img width="230" alt="Test7-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139624894-265ee0bd-b6fc-4708-ae84-dc393f5f16b8.png">|<img width="230" alt="Test7-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624905-29921347-a660-4bfc-9ef2-5e359cba12ec.png">|<img width="230" alt="Test7-u(x,tend) (2)" src="https://user-images.githubusercontent.com/90737587/139624918-037d671b-4553-49eb-bc03-49b9089b1ad0.png">|
-|8|<img width="230" alt="Test8-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624929-810d0381-f81a-4a9f-941b-76fda8410024.png">|<img width="230" alt="Test8-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139624940-1b745f77-adf9-4504-bfa2-7f49bc326a27.png">|<img width="230" alt="Test8-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624946-e8389c11-8979-472d-80a3-a9c77c26cbcd.png">|<img width="230" alt="Test8-u(x,tend)" src="https://user-images.githubusercontent.com/90737587/139624976-e6d3e499-8263-4c71-823d-a9c1a29a93fb.png">|
+|K6|<img width="230" alt="Test6-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624811-a40e83e2-ea3a-4065-bfd8-a00fe5281273.png">|<img width="230" alt="Test6-u(x,t) (2)" src="https://user-images.githubusercontent.com/90737587/139624825-f03e014f-c797-4586-878f-99ca86f624e8.png">|<img width="230" alt="Test6-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624843-bba92f16-9950-4997-9bd9-c92b8be7de14.png">|<img width="230" alt="Test6-u(x,tend)" src="https://user-images.githubusercontent.com/90737587/139624854-dad74923-4298-450d-b69b-dd7873bc5160.png">|
+|K7|<img width="230" alt="Test7-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624870-890cff00-7891-4b3d-8602-a40e0f813877.png">|<img width="230" alt="Test7-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139624894-265ee0bd-b6fc-4708-ae84-dc393f5f16b8.png">|<img width="230" alt="Test7-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624905-29921347-a660-4bfc-9ef2-5e359cba12ec.png">|<img width="230" alt="Test7-u(x,tend) (2)" src="https://user-images.githubusercontent.com/90737587/139624918-037d671b-4553-49eb-bc03-49b9089b1ad0.png">|
+|K8|<img width="230" alt="Test8-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624929-810d0381-f81a-4a9f-941b-76fda8410024.png">|<img width="230" alt="Test8-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139624940-1b745f77-adf9-4504-bfa2-7f49bc326a27.png">|<img width="230" alt="Test8-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624946-e8389c11-8979-472d-80a3-a9c77c26cbcd.png">|<img width="230" alt="Test8-u(x,tend)" src="https://user-images.githubusercontent.com/90737587/139624976-e6d3e499-8263-4c71-823d-a9c1a29a93fb.png">|
 
 
 
