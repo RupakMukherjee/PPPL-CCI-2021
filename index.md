@@ -1,9 +1,9 @@
 
-| Equation| Equation Graph| Validation Loss Graph| Error Graph|
-|:------:|:------:|:-------------------:| :---------:|
-|Advection|<img width="250" alt="Screen Shot 2021-10-31 at 9 01 22 PM" src="https://user-images.githubusercontent.com/90737587/139620001-ab139012-a904-4bce-8c1a-660ef648a118.png">|<img width="250" alt="A5VL" src="https://user-images.githubusercontent.com/90737587/139617653-78702a5e-3fa7-4e3a-8ab2-681175bf3d65.png">|<img width="420" alt="A5EC" src="https://user-images.githubusercontent.com/90737587/139617664-9f2e7caa-e898-492e-b16c-45c970dc4df8.png">|
-| Soliton|<img width="250" alt="Screen Shot 2021-10-31 at 8 30 29 PM" src="https://user-images.githubusercontent.com/90737587/139617944-881010bb-8643-42a4-947d-4a9a221482c7.png">|<img width="250" alt="Test4-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139618438-a89322c0-8d2b-48de-b0ec-d7141f93a2af.png">|<img width="425" alt="Test5-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139618449-d72bf16a-d886-4e0e-b21b-9b03fbd37fa9.png">|
-|Burger||<img width="250" alt="TestD-ValLoss (5)" src="https://user-images.githubusercontent.com/90737587/139616870-89b34776-672d-48fc-aaa7-d3ea45dfdff6.png">|<img width="420" alt="TestD-Error (4)" src="https://user-images.githubusercontent.com/90737587/139617121-9dcdd70e-8846-4029-aa1a-be35c2ed7367.png">|
+| Name| Equation| Equation Graph| Validation Loss Graph| Error Graph|
+|:---:|:--------:|:------:|:-------------------:| :---------:|
+|Advection||<img width="250" alt="Screen Shot 2021-10-31 at 9 01 22 PM" src="https://user-images.githubusercontent.com/90737587/139620001-ab139012-a904-4bce-8c1a-660ef648a118.png">|<img width="250" alt="A5VL" src="https://user-images.githubusercontent.com/90737587/139617653-78702a5e-3fa7-4e3a-8ab2-681175bf3d65.png">|<img width="420" alt="A5EC" src="https://user-images.githubusercontent.com/90737587/139617664-9f2e7caa-e898-492e-b16c-45c970dc4df8.png">|
+|Burger|||<img width="250" alt="TestD-ValLoss (5)" src="https://user-images.githubusercontent.com/90737587/139616870-89b34776-672d-48fc-aaa7-d3ea45dfdff6.png">|<img width="420" alt="TestD-Error (4)" src="https://user-images.githubusercontent.com/90737587/139617121-9dcdd70e-8846-4029-aa1a-be35c2ed7367.png">|
+| KdV||<img width="250" alt="Screen Shot 2021-10-31 at 8 30 29 PM" src="https://user-images.githubusercontent.com/90737587/139617944-881010bb-8643-42a4-947d-4a9a221482c7.png">|<img width="250" alt="Test4-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139618438-a89322c0-8d2b-48de-b0ec-d7141f93a2af.png">|<img width="425" alt="Test5-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139618449-d72bf16a-d886-4e0e-b21b-9b03fbd37fa9.png">|
 
 
 In the beginning of this internship, I learned to solve math computations in programming languages: Python, C++, and Fortran. First, I learned how to operate the Mac terminal and downloaded the compatible text editors to run the programs. My first assignment was to write a program to calculate the sum of two numbers. For this assignment, I learned the basic syntax rules, variables, inputs, outputs, and how to utilize the error codes to debug my programs. My second assignment was to create a program to calculate the sum of numbers from 0 to 100. For this assignment, I learned how to use loops. My third assignment was to create a program to solve the problem: a point particle moving in the x-direction with a constant velocity. For this assignment, I learned how to insert variables in loops. My fourth assignment was to develop a program to solve the equation u(i+1)=u(i)+1*dx utilizing arrays. For this assignment, I learned how to write an array with a loop inside and align the array by the decimal points. After I got familiar with creating programs to solve more complex math equations, I was introduced to the machine learning process and TensorFlow. 
@@ -11,6 +11,46 @@ In the beginning of this internship, I learned to solve math computations in pro
 TensorFlow is an open-source library used for machine learning and artificial intelligence. I studied a Python code that solved the Advection Diffusion equation from GitHub. The machine learning process begins by entering data that will affect the rest of the code. Then, we must train the code in a series of ways to get the correct output. This way contains a series of tests until the output is the smallest margin of error possible. The series of tests does not always depend on the tests before it. In order to run it on my computer, I needed to install correct import such as TensorFlow and Keras.  After I was able to run the Advection Diffusion equation, I changed the equation to the Burger’s equation but the same machine learning format. 
 
 I changed the parameters of the sequential model of the Burger’s equation to try to get closer to the correct output. I learned that by changing the parameters multiple times on the first test of Burger’s equation code, I was able to reduce the validation loss but only slightly.  I still needed to run a second test to get the best results.  After changing parameters a few times with the second test of the Burger’s equation code, it did not make a big difference on the output and graph.  Each time the output was very accurate, the dotted line and solid line were aligned, which meant the second test was better than the first despite multiple attempts to reduce validation loss.  I created a table of various inputs and outputs of the Burger’s equation. I created create tables to display the various inputs of parameters and output graphs for the Burger’s Equation on LaTex. I learned how to format tables on LaTeX and inserts images. I studied how the inputs affected the graphs by researching about Keras dense layers and sequential models. For Test 1, I noticed that the errors decrease when I increased  the  parameters and epoch numbers.  However, Test 1 results is not as accurate as Test 2.  For Test 2, despite various changes to inputs, Test 2 has very low errors. 
+
+Then, I created a table to display the various input parameters and output graphs for the Soliton Equation. Soliton is explained as a single wave and  the body  of  water  is  moving  as  one.  Another visual example is when  a  crowd  does  the  ”wave”  at  the sports stadium.  It was first discovered by John Scott Russell, who researched by visually watching the waves and came up with the basic properties of a Soliton.  Diederik Korteweg and Gustav de Vries created Soliton’s equation (KdV), and they also created a mathematical simulation of the KdV. 
+
+## Advection Equation
+
+### Test 1: Input Table 
+
+| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
+|:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
+|A1|2|10|1|2|10|
+|A2|5|25|3|2|30|
+|A3|50|2|1|2|30|
+|A4|100|100|1|2|30|
+|A5|1000|1000|10|2|30|
+
+### Test 1: Output Graphs 
+
+| Test| Validation Loss Chart | Error Chart |
+|:---:|:--------------------: | :-----------:|
+|A1|<img width="350" alt="Screen Shot 2021-11-01 at 2 55 05 PM" src="https://user-images.githubusercontent.com/90737587/139747239-9f22f746-082e-4a5a-ac22-bc0f59479bc0.png">|<img width="550" alt="Screen Shot 2021-11-01 at 2 07 12 PM" src="https://user-images.githubusercontent.com/90737587/139742276-8f0f9c77-617c-4510-9656-8bac4d6eff84.png">|
+|A2|<img width="350" alt="Screen Shot 2021-11-01 at 2 26 46 PM" src="https://user-images.githubusercontent.com/90737587/139744302-87f30127-f43a-4081-973a-07999db88091.png">|<img width="550" alt="Screen Shot 2021-11-01 at 2 27 03 PM" src="https://user-images.githubusercontent.com/90737587/139744324-0bfc54ef-7cbe-4c29-a887-ff9a48e43133.png">|
+|A3|<img width="350" alt="A3VL" src="https://user-images.githubusercontent.com/90737587/139741080-58744d79-e820-4d3b-9f76-c4130a74463c.png">|<img width="550" alt="A3EC" src="https://user-images.githubusercontent.com/90737587/139741092-8ad564b5-845f-438f-80e0-3a3fa780edff.png">|
+|A4|<img width="350" alt="A4VL" src="https://user-images.githubusercontent.com/90737587/139741116-4b148900-b5b9-4d6f-a5e3-3a3c5bb5bfb8.png">|<img width="550" alt="A4EC" src="https://user-images.githubusercontent.com/90737587/139741133-03c6209a-77af-4fb8-908c-6a19d0ce5ed3.png">|
+|A5|<img width="350" alt="A5VL" src="https://user-images.githubusercontent.com/90737587/139741162-91d00fe1-9b77-418f-94b9-e4cd9a8b75d8.png">|<img width="550" alt="A5EC" src="https://user-images.githubusercontent.com/90737587/139741178-994d891d-9b68-4524-8aae-652d53983199.png">|
+
+### Test 2: Input Table 
+
+| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
+|:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
+|A6|2|10|1|3|1|
+|A7|50|70|1|2|10|
+|A8|100|100|1|2|30|
+
+### Test 2: Output Graphs 
+
+| Test| Graph 1| Graph 2| Graph 3| Graph 4|
+|:---:|:------:|:------:|:------:|:------:|
+|A6|<img width="300" alt="A6E1" src="https://user-images.githubusercontent.com/90737587/140024192-7196a68a-18f5-4190-9b68-5a4f742f58d0.png">|<img width="300" alt="A6fu" src="https://user-images.githubusercontent.com/90737587/140024224-3dd44f8e-77ab-4745-8100-109e2c48157b.png">|<img width="300" alt="A6ET" src="https://user-images.githubusercontent.com/90737587/140024242-9e504113-4612-4c2a-92e8-35fa357e4290.png">|<img width="300" alt="A6u" src="https://user-images.githubusercontent.com/90737587/140024573-3617c695-7b03-41ee-a34a-cb05edd99e60.png">|
+|A7|<img width="300" alt="A7E1" src="https://user-images.githubusercontent.com/90737587/140024348-5af83f54-df94-40a9-b313-04af79951a02.png">|<img width="300" alt="A7Fu" src="https://user-images.githubusercontent.com/90737587/140024379-da1b7e05-6854-4f09-a475-e9a25703837e.png">|<img width="300" alt="A7ET" src="https://user-images.githubusercontent.com/90737587/140024410-145239dc-7dc9-4816-a068-164c83f18ced.png">|<img width="300" alt="A7u" src="https://user-images.githubusercontent.com/90737587/140024544-2773c4eb-6882-4dd6-8091-e7ad6646e34c.png">|
+|A8|
 
 ## Burger's Equation
 
@@ -88,10 +128,8 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=30, batch_size=32,
 |G| <img width="638" alt="TestG-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139623766-2467b415-e4b9-480c-b7e1-6c2e74b59bdd.png">|<img width="638" alt="TestG-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139623777-a8f78f57-f409-4f78-8985-1aabbfcee912.png">|<img width="638" alt="TestG-ErrorT (2)" src="https://user-images.githubusercontent.com/90737587/139623789-8ff717d4-b8b2-4f82-94ca-1bac52131eeb.png">|<img width="638" alt="TestG-u(x, tend) (1)" src="https://user-images.githubusercontent.com/90737587/139623814-0c04324b-de64-46f2-943c-ea8e3bc3baf2.png">|
 |H|<img width="638" alt="TestH-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139623861-c9e5f383-e65b-48a0-995f-74caab44ad66.png">|<img width="638" alt="TestH-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139623876-0ec93ccc-7324-47ac-9148-5501b3094427.png">|<img width="638" alt="TestH-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139623889-1c849db1-cffa-48c3-a7a0-6b4573c17290.png">|<img width="638" alt="TestH-u(x, tend) (2)" src="https://user-images.githubusercontent.com/90737587/139623897-d809bf26-5898-49ca-8d12-d14740c4fd91.png">|
 
-Then, I created a table to display the various input parameters and output graphs for the Soliton Equation. Soliton is explained as a single wave and  the body  of  water  is  moving  as  one.  Another visual example is when  a  crowd  does  the  ”wave”  at  the sports stadium.  It was first discovered by John Scott Russell, who researched by visually watching the waves and came up with the basic properties of a Soliton.  Diederik Korteweg and Gustav de Vries created Soliton’s equation (KdV), and they also created a mathematical simulation of the KdV. 
-
  
-## Soliton's Equation 
+## KdV's Equation 
 
 ### Test 1: Input Code
 ```
@@ -163,36 +201,6 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 |6|<img width="230" alt="Test6-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624811-a40e83e2-ea3a-4065-bfd8-a00fe5281273.png">|<img width="230" alt="Test6-u(x,t) (2)" src="https://user-images.githubusercontent.com/90737587/139624825-f03e014f-c797-4586-878f-99ca86f624e8.png">|<img width="230" alt="Test6-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624843-bba92f16-9950-4997-9bd9-c92b8be7de14.png">|<img width="230" alt="Test6-u(x,tend)" src="https://user-images.githubusercontent.com/90737587/139624854-dad74923-4298-450d-b69b-dd7873bc5160.png">|
 |7|<img width="230" alt="Test7-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624870-890cff00-7891-4b3d-8602-a40e0f813877.png">|<img width="230" alt="Test7-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139624894-265ee0bd-b6fc-4708-ae84-dc393f5f16b8.png">|<img width="230" alt="Test7-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624905-29921347-a660-4bfc-9ef2-5e359cba12ec.png">|<img width="230" alt="Test7-u(x,tend) (2)" src="https://user-images.githubusercontent.com/90737587/139624918-037d671b-4553-49eb-bc03-49b9089b1ad0.png">|
 |8|<img width="230" alt="Test8-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624929-810d0381-f81a-4a9f-941b-76fda8410024.png">|<img width="230" alt="Test8-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139624940-1b745f77-adf9-4504-bfa2-7f49bc326a27.png">|<img width="230" alt="Test8-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624946-e8389c11-8979-472d-80a3-a9c77c26cbcd.png">|<img width="230" alt="Test8-u(x,tend)" src="https://user-images.githubusercontent.com/90737587/139624976-e6d3e499-8263-4c71-823d-a9c1a29a93fb.png">|
-
-## Advection Equation
-
-### Test 1: Input Table 
-
-| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
-|:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
-|A1|2|10|1|2|10|
-|A2|5|25|3|2|30|
-|A3|50|2|1|2|30|
-|A4|100|100|1|2|30|
-|A5|1000|1000|10|2|30|
-
-### Test 1: Output Graphs 
-
-| Test| Validation Loss Chart | Error Chart |
-|:---:|:--------------------: | :-----------:|
-|A1|<img width="350" alt="Screen Shot 2021-11-01 at 2 55 05 PM" src="https://user-images.githubusercontent.com/90737587/139747239-9f22f746-082e-4a5a-ac22-bc0f59479bc0.png">|<img width="550" alt="Screen Shot 2021-11-01 at 2 07 12 PM" src="https://user-images.githubusercontent.com/90737587/139742276-8f0f9c77-617c-4510-9656-8bac4d6eff84.png">|
-|A2|<img width="350" alt="Screen Shot 2021-11-01 at 2 26 46 PM" src="https://user-images.githubusercontent.com/90737587/139744302-87f30127-f43a-4081-973a-07999db88091.png">|<img width="550" alt="Screen Shot 2021-11-01 at 2 27 03 PM" src="https://user-images.githubusercontent.com/90737587/139744324-0bfc54ef-7cbe-4c29-a887-ff9a48e43133.png">|
-|A3|<img width="350" alt="A3VL" src="https://user-images.githubusercontent.com/90737587/139741080-58744d79-e820-4d3b-9f76-c4130a74463c.png">|<img width="550" alt="A3EC" src="https://user-images.githubusercontent.com/90737587/139741092-8ad564b5-845f-438f-80e0-3a3fa780edff.png">|
-|A4|<img width="350" alt="A4VL" src="https://user-images.githubusercontent.com/90737587/139741116-4b148900-b5b9-4d6f-a5e3-3a3c5bb5bfb8.png">|<img width="550" alt="A4EC" src="https://user-images.githubusercontent.com/90737587/139741133-03c6209a-77af-4fb8-908c-6a19d0ce5ed3.png">|
-|A5|<img width="350" alt="A5VL" src="https://user-images.githubusercontent.com/90737587/139741162-91d00fe1-9b77-418f-94b9-e4cd9a8b75d8.png">|<img width="550" alt="A5EC" src="https://user-images.githubusercontent.com/90737587/139741178-994d891d-9b68-4524-8aae-652d53983199.png">|
-
-### Test 2: Input Table 
-
-| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
-|:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
-|A6|2|10|1|3|1|
-|A7|50|70|1|2|10|
-|A8|100|100|1|2|30|
 
 
 
