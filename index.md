@@ -1,27 +1,8 @@
-This project contains the use of Machine Learning utilizing an open-sourced software library, TensorFlow, to solve fundamental partial differential equations used in physics and engineering such as the advection-diffusion equation, burger’s equation, and KdV equation.
-
 | Name| Equation| Equation Graph|
 |:---:|:--------:|:------:|
 |Advection|<img width="170" alt="Screen Shot 2021-11-04 at 12 27 01 AM" src="https://user-images.githubusercontent.com/90737587/140273739-bdb5cfb4-96fa-46f2-b6a6-1c252189e8e5.png">|<img width="225" alt="Screen Shot 2021-10-31 at 9 01 22 PM" src="https://user-images.githubusercontent.com/90737587/139620001-ab139012-a904-4bce-8c1a-660ef648a118.png">|
 |Burger|<img width="170" alt="Screen Shot 2021-11-04 at 3 58 19 PM" src="https://user-images.githubusercontent.com/90737587/140431717-03714484-f81b-4dcb-9ec7-9ffe7945602c.png">|<img width="225" alt="Screen Shot 2021-11-03 at 1 11 57 AM" src="https://user-images.githubusercontent.com/90737587/140027116-32d19225-38f4-46f2-acf9-b82c0cb9e4db.png">|
 |KdV|<img width="200" alt="Screen Shot 2021-11-04 at 3 57 20 PM" src="https://user-images.githubusercontent.com/90737587/140431613-688b071e-bd20-45d0-ae6d-6d5729b555b0.png">|<img width="225" alt="Screen Shot 2021-10-31 at 8 30 29 PM" src="https://user-images.githubusercontent.com/90737587/139617944-881010bb-8643-42a4-947d-4a9a221482c7.png">|
-
-
-First, we are going to over what machine learning is, how the machine learning porcess operates,  how machine learning used to solve partial differential equations in this project, the importance and history of these partial differential equations, and what we learned from tests and outputs. 
-
-What is machine learning? (title)
-Machine learning is the use of algorithms that can improve by evaluating past experiences and analyzing historical data. A traditional algorithm is a procedure for solving a well-defined problem with some input and some given data to produce an output. 
-
-*insert flow chart (latex or something)
-
-Let’s do a traditional algorithm example with the organization of a book collection. The problem would be to organize the old books by genre such as action, mystery, historical fiction, horror… etc. Then, you would classify what defines each book genre and create a procedure or set of instructions on how to separate the books and what order to organize them. The output is the book collection organized by genre.
-
-*insert flow chart(latex or something)
-
-In contrast, a machine learning algorithm is given some input with some shared data and the output to produce a procedure. A machine learning algorithm learns patterns in data and can improve its procedure. Now, let’s try the same example problem we used for the traditional algorithm but this time with the machine learning algorithm. The problem remains the same: to organize the books by genre such as action, mystery, historical fiction, horror… etc. Then, we should still input some rules of what defines each book genre. However, we do not create a procedure or a list of instructions for organizing these books. Instead, we show the computer hundreds of thousands of examples of books and their genres. The computer will learn patterns on how to different books by genre on its own. In addition, over time, the computer will improve its procedure and identify and organize future books that will be added to the book collection. The difference between a traditional algorithm and machine learning algorithms is that machine learning algorithms can improve its procedures, but traditional algorithm cannot.  
-***the different is TensorFlow, library with hundreds and thousands data sets/photos to learn from ( 3 sentences) 
-***insert sentence on why solving partial differential equations is important with machine learning rather than the traditional (1 sentence)
-
 
 ## Advection Equation
 
