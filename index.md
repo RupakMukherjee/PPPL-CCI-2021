@@ -11,7 +11,7 @@ First, we will go over what machine learning is, how TensorFlow can be utilized 
 ### What is Machine Learning? 
 Machine learning is the use of algorithms that can improve by evaluating past experiences and analyzing historical data. A traditional algorithm is a procedure for solving a well-defined task with some input and some given data to produce an output. 
 
-<img src="https://user-images.githubusercontent.com/90737587/141081424-0bd24199-3bd1-4ab3-b6cf-b979f95fc134.png" width=60% height=60%>
+<img src="https://user-images.githubusercontent.com/90737587/141081424-0bd24199-3bd1-4ab3-b6cf-b979f95fc134.png" width="60%" height="60%">
 
 Let’s do a traditional algorithm example with the organization of a book collection. The task would be to organize the old books by genre such as action, mystery, historical fiction, horror… etc. Then, you would classify what defines each book genre and create a procedure for organizing the books. The output is the book collection organized by genre. 
 
