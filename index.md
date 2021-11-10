@@ -6,7 +6,7 @@ This project contains the use of Machine Learning utilizing an open-sourced soft
 |Burger|<img width="170" alt="Screen Shot 2021-11-04 at 3 58 19 PM" src="https://user-images.githubusercontent.com/90737587/140431717-03714484-f81b-4dcb-9ec7-9ffe7945602c.png">|<img width="225" alt="Screen Shot 2021-11-03 at 1 11 57 AM" src="https://user-images.githubusercontent.com/90737587/140027116-32d19225-38f4-46f2-acf9-b82c0cb9e4db.png">|
 |KdV|<img width="200" alt="Screen Shot 2021-11-04 at 3 57 20 PM" src="https://user-images.githubusercontent.com/90737587/140431613-688b071e-bd20-45d0-ae6d-6d5729b555b0.png">|<img width="225" alt="Screen Shot 2021-10-31 at 8 30 29 PM" src="https://user-images.githubusercontent.com/90737587/139617944-881010bb-8643-42a4-947d-4a9a221482c7.png">|
 
-First, we will go over what machine learning is, how TensorFlow can be utilized in machine learning and the machine learning process. Then, we will go over the history and real-world applications of these partial differential equations. Lastly, we will see how I trained the models to improve and produce more accurate, useful models.
+First, we will go over what machine learning is, how TensorFlow can be utilized in machine learning and the machine learning process. Then, we will go over the history and real-world applications of these partial differential equations and how to evaluate the models. Lastly, we will see how I trained the models to improve and produce more accurate, useful models.
 
 ### What is Machine Learning? 
 Machine learning is the use of algorithms that can improve by evaluating past experiences and analyzing historical data. A traditional algorithm is a procedure for solving a well-defined task with some input and some given data to produce an output. 
