@@ -2,7 +2,7 @@ This project contains the use of Machine Learning utilizing an open-sourced soft
 
 | Name| Equation| Equation Graph|
 |:---:|:--------:|:------:|
-|Advection|<img width="170" alt="Screen Shot 2021-11-04 at 12 27 01 AM" src="https://user-images.githubusercontent.com/90737587/140273739-bdb5cfb4-96fa-46f2-b6a6-1c252189e8e5.png">|<img width="225" alt="Screen Shot 2021-10-31 at 9 01 22 PM" src="https://user-images.githubusercontent.com/90737587/139620001-ab139012-a904-4bce-8c1a-660ef648a118.png">|
+|Advection-Diffusion|<img width="170" alt="Screen Shot 2021-11-04 at 12 27 01 AM" src="https://user-images.githubusercontent.com/90737587/140273739-bdb5cfb4-96fa-46f2-b6a6-1c252189e8e5.png">|<img width="225" alt="Screen Shot 2021-10-31 at 9 01 22 PM" src="https://user-images.githubusercontent.com/90737587/139620001-ab139012-a904-4bce-8c1a-660ef648a118.png">|
 |Burger|<img width="170" alt="Screen Shot 2021-11-04 at 3 58 19 PM" src="https://user-images.githubusercontent.com/90737587/140431717-03714484-f81b-4dcb-9ec7-9ffe7945602c.png">|<img width="225" alt="Screen Shot 2021-11-03 at 1 11 57 AM" src="https://user-images.githubusercontent.com/90737587/140027116-32d19225-38f4-46f2-acf9-b82c0cb9e4db.png">|
 |KdV|<img width="200" alt="Screen Shot 2021-11-04 at 3 57 20 PM" src="https://user-images.githubusercontent.com/90737587/140431613-688b071e-bd20-45d0-ae6d-6d5729b555b0.png">|<img width="225" alt="Screen Shot 2021-10-31 at 8 30 29 PM" src="https://user-images.githubusercontent.com/90737587/139617944-881010bb-8643-42a4-947d-4a9a221482c7.png">|
 
@@ -15,23 +15,23 @@ Machine learning is the use of algorithms that can improve by evaluating past ex
 
 Let’s do a traditional algorithm example with the organization of a book collection. The task would be to organize the old books by genre such as action, mystery, historical fiction, horror… etc. Then, you would classify what defines each book genre and create a procedure for organizing the books. The output is the book collection organized by genre. 
 
-<img src="https://user-images.githubusercontent.com/90737587/141082103-e1977780-1c00-4bab-9f03-e4b05ebf64f1.png" width=60% height=60%>
+<img src="https://user-images.githubusercontent.com/90737587/141082103-e1977780-1c00-4bab-9f03-e4b05ebf64f1.png" width="60%" height="60%">
 
 In contrast, a machine learning algorithm is given a problem, some input with some shared data, and the output would be to produce a procedure. A machine learning algorithm learns patterns in data and can improve its procedure.
 
-<img src="https://user-images.githubusercontent.com/90737587/141082349-e5867d02-ef20-4eaf-a419-f19ec9b3b0f6.png" width=60% height=60%>
+<img src="https://user-images.githubusercontent.com/90737587/141082349-e5867d02-ef20-4eaf-a419-f19ec9b3b0f6.png" width="60%" height="60%">
 
 Now, let’s try the same example we used for the traditional algorithm but this time with the machine learning algorithm. The task remains the same: to organize the books by genre such as action, mystery, historical fiction, horror… etc. Then, we should still input some rules of what defines each book genre. However, we do not create a procedure for organizing these books. Instead, we show the computer hundreds of thousands of examples of books and their genres. The computer will learn patterns on how to different books by genre on its own. In addition, over time, the computer will improve its procedure and identify and organize future books added to the book collection. 
 
-<img src="https://user-images.githubusercontent.com/90737587/141082490-c7f1b2bc-b9c5-4b52-827f-7410e2f1357d.png" width=60% height=60%>
+<img src="https://user-images.githubusercontent.com/90737587/141082490-c7f1b2bc-b9c5-4b52-827f-7410e2f1357d.png" width="60%" height="60%">
 
 The difference between a traditional algorithm and a machine learning algorithm is that a programmer would need to create a procedure for the traditional algorithm. Whereas, in machine learning, the computer would be responsible for creating a procedure. In addition, the computer can improve its procedure over time in machine learning, but a traditional algorithm cannot. How is this possible? Well, machine learning algorithms can improve because it utilizes a software library containing data that gives the algorithms the ability to improve.
 
 ### How TensorFlow is used in Machine Learning?
-The software library we will use that gives us the ability for the machine learning algorithms to improve is TensorFlow. TensorFlow is an open-sourced software library that is utilized for training neural networks and models. TensorFlow is also known for solving numerical computations. Hence, we can use TensorFlow to solve partial differential equations. Partial differential equations are used in physics and engineering applications such as simulating waves, heat flow, fluid dispersion, electrostatics over time, and more. The partial differential equations that we will use in the project are the advection-diffusion equation, Burger's equation, and KdV equation. But before we go over the history and real-world applications of these partial differential equations, first, let's go over the machine learning process.
+The software library we will use that gives us the ability for the machine learning algorithms to improve is TensorFlow. TensorFlow is an open-sourced software library that is utilized for training neural networks and models. TensorFlow is also known for solving numerical computations. Hence, we can use TensorFlow to solve partial differential equations. Partial differential equations are used in physics and engineering applications such as simulating waves, heat flow, fluid dispersion, electrostatics over time, and more. The partial differential equations that we will use in the project are the advection-diffusion equation, Burger's equation, and KdV equation. But before we go over the history and real-world applications of these partial differential equations, let's go over the machine learning process first.
 
 
-## Advection Equation
+## Advection-Diffusion Equation
 
 ### Test 1: Input Table 
 
