@@ -15,7 +15,7 @@ Machine learning is the use of algorithms that can improve by evaluating past ex
 Traditional Algorithm
 </p>
 <p align="center">                    
-<img width="760" alt="Screen Shot 2021-11-10 at 11 09 27 PM" src="https://user-images.githubusercontent.com/90737587/141253800-064c7765-5922-4e55-84cf-abb58256b06d.png">
+<img width="738" alt="Screen Shot 2021-11-10 at 11 15 22 PM" src="https://user-images.githubusercontent.com/90737587/141254616-875893ba-da8c-4f59-b5e8-b73379101d23.png">
 </p>
 
 
