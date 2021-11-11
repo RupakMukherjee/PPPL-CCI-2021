@@ -1,13 +1,10 @@
 This project contains the use of Machine Learning utilizing an open-sourced software library, TensorFlow, to solve fundamental partial differential equations used in physics and engineering such as the Advection-Diffusion equation, Burger’s equation, and KdV equation.
 
-![CodeCogsEqn-6](https://user-images.githubusercontent.com/90737587/141264714-1cf3c558-669d-40dc-9635-1f680e8ade5e.png)
-
-
 | Name| Equation| Equation Graph|
 |:---:|:--------:|:------:|
-|Advection-Diffusion|<img width="170" src="https://user-images.githubusercontent.com/90737587/141264018-b66ce0fc-0d9f-4021-911e-b7952f236b26.png">|<img width="225" alt="Screen Shot 2021-10-31 at 9 01 22 PM" src="https://user-images.githubusercontent.com/90737587/139620001-ab139012-a904-4bce-8c1a-660ef648a118.png">|
-|Burger|<img width="170" alt="Screen Shot 2021-11-04 at 3 58 19 PM" src="https://user-images.githubusercontent.com/90737587/140431717-03714484-f81b-4dcb-9ec7-9ffe7945602c.png">|<img width="225" alt="Screen Shot 2021-11-03 at 1 11 57 AM" src="https://user-images.githubusercontent.com/90737587/140027116-32d19225-38f4-46f2-acf9-b82c0cb9e4db.png">|
-|KdV|<img width="200" alt="Screen Shot 2021-11-04 at 3 57 20 PM" src="https://user-images.githubusercontent.com/90737587/140431613-688b071e-bd20-45d0-ae6d-6d5729b555b0.png">|<img width="225" alt="Screen Shot 2021-10-31 at 8 30 29 PM" src="https://user-images.githubusercontent.com/90737587/139617944-881010bb-8643-42a4-947d-4a9a221482c7.png">|
+|Advection-Diffusion|<img width="150" src="https://user-images.githubusercontent.com/90737587/141264714-1cf3c558-669d-40dc-9635-1f680e8ade5e.png">|<img width="225" alt="Screen Shot 2021-10-31 at 9 01 22 PM" src="https://user-images.githubusercontent.com/90737587/139620001-ab139012-a904-4bce-8c1a-660ef648a118.png">|
+|Burger|<img width="150"  src="https://user-images.githubusercontent.com/90737587/141266086-e16ae175-418d-4635-bddf-25968be39acd.png">|<img width="225" alt="Screen Shot 2021-11-03 at 1 11 57 AM" src="https://user-images.githubusercontent.com/90737587/140027116-32d19225-38f4-46f2-acf9-b82c0cb9e4db.png">|
+|KdV|<img width="200"  src="https://user-images.githubusercontent.com/90737587/141266138-d94e8f4f-ede9-4257-8485-44ffa25c7275.png">|<img width="225" alt="Screen Shot 2021-10-31 at 8 30 29 PM" src="https://user-images.githubusercontent.com/90737587/139617944-881010bb-8643-42a4-947d-4a9a221482c7.png">|
 
 First, we will go over what machine learning is, how TensorFlow can be utilized in machine learning and the machine learning process. Then, we will go over the history and real-world applications of these partial differential equations. Lastly, we will go over how to evaluate the models and see how I trained the models to improve and produce more accurate, useful models.
 
