@@ -1,8 +1,10 @@
 This project contains the use of Machine Learning utilizing an open-sourced software library, TensorFlow, to solve fundamental partial differential equations used in physics and engineering such as the Advection-Diffusion equation, Burger’s equation, and KdV equation.
 
+frac{\\partial u}{\\partial t} = v \\frac{\\partial u}{\\partial x} + D \\frac{\\partial^2 u}{\\partial x^2}
+
 | Name| Equation| Equation Graph|
 |:---:|:--------:|:------:|
-|Advection-Diffusion|<img width="170" alt="Screen Shot 2021-11-04 at 12 27 01 AM" src="https://user-images.githubusercontent.com/90737587/140273739-bdb5cfb4-96fa-46f2-b6a6-1c252189e8e5.png">|<img width="225" alt="Screen Shot 2021-10-31 at 9 01 22 PM" src="https://user-images.githubusercontent.com/90737587/139620001-ab139012-a904-4bce-8c1a-660ef648a118.png">|
+|Advection-Diffusion|<img width="170" alt="Screen Shot 2021-11-04 at 12 27 01 AM" src="https://user-images.githubusercontent.com/90737587/141261278-7c53edf2-d621-4f81-b1d1-bb8b796aa31f.gif">|<img width="225" alt="Screen Shot 2021-10-31 at 9 01 22 PM" src="https://user-images.githubusercontent.com/90737587/139620001-ab139012-a904-4bce-8c1a-660ef648a118.png">|
 |Burger|<img width="170" alt="Screen Shot 2021-11-04 at 3 58 19 PM" src="https://user-images.githubusercontent.com/90737587/140431717-03714484-f81b-4dcb-9ec7-9ffe7945602c.png">|<img width="225" alt="Screen Shot 2021-11-03 at 1 11 57 AM" src="https://user-images.githubusercontent.com/90737587/140027116-32d19225-38f4-46f2-acf9-b82c0cb9e4db.png">|
 |KdV|<img width="200" alt="Screen Shot 2021-11-04 at 3 57 20 PM" src="https://user-images.githubusercontent.com/90737587/140431613-688b071e-bd20-45d0-ae6d-6d5729b555b0.png">|<img width="225" alt="Screen Shot 2021-10-31 at 8 30 29 PM" src="https://user-images.githubusercontent.com/90737587/139617944-881010bb-8643-42a4-947d-4a9a221482c7.png">|
 
