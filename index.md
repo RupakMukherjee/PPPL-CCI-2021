@@ -15,7 +15,7 @@ Machine learning is the use of algorithms that can improve by evaluating past ex
 Traditional Algorithm
 </p>
 <p align="center">                    
-<img [TA1] src="https://user-images.githubusercontent.com/90737587/141256465-0aaa471d-6175-4d14-9743-4c1332697ffb.jpg" width="50%" height="50%">
+<img src="https://user-images.githubusercontent.com/90737587/141256465-0aaa471d-6175-4d14-9743-4c1332697ffb.jpg" width="50%" height="50%">
 </p>
 
 
@@ -26,7 +26,7 @@ Let’s do a traditional algorithm example with the organization of a book colle
 Traditional Algorithm 
 </p>
 <p align="center">
-<img[TA2] src="https://user-images.githubusercontent.com/90737587/141256699-db347170-f79c-4796-b533-d1e2f0becb48.jpg" width="50%" height="50%">
+<img src="https://user-images.githubusercontent.com/90737587/141256699-db347170-f79c-4796-b533-d1e2f0becb48.jpg" width="50%" height="50%">
 </p>
 
 In contrast, a machine learning algorithm is given a problem, some input with some shared data, and the output would be to produce a procedure. A machine learning algorithm learns patterns in data and can improve its procedure.
@@ -35,7 +35,7 @@ In contrast, a machine learning algorithm is given a problem, some input with so
 Machine Learning Algorithm
 </p>
 <p align="center">  
-<img ![MLA1] src="https://user-images.githubusercontent.com/90737587/141256817-61126989-2c2a-495b-86db-169072e12fca.jpg" width="50%" height="50%">
+<img src="https://user-images.githubusercontent.com/90737587/141256817-61126989-2c2a-495b-86db-169072e12fca.jpg" width="50%" height="50%">
 </p>
 
 Now, let’s try the same example we used for the traditional algorithm but this time with the machine learning algorithm. The task remains the same: to organize the books by genre such as action, mystery, historical fiction, horror… etc. Then, we should still input some rules of what defines each book genre. However, we do not create a procedure for organizing these books. Instead, we show the computer hundreds of thousands of examples of books and their genres. The computer will learn patterns on how to different books by genre on its own. In addition, over time, the computer will improve its procedure and identify and organize future books added to the book collection. 
@@ -44,7 +44,7 @@ Now, let’s try the same example we used for the traditional algorithm but this
 Machine Learning Algorithm
 </p>
 <p align="center">
-<img ![MLA2] src="https://user-images.githubusercontent.com/90737587/141256920-8b128fe4-8855-4a33-99fd-85429cbb59d9.jpg" width="50%" height="50%">
+<img src="https://user-images.githubusercontent.com/90737587/141256920-8b128fe4-8855-4a33-99fd-85429cbb59d9.jpg" width="50%" height="50%">
 </p>
 
 The difference between a traditional algorithm and a machine learning algorithm is that a programmer would need to create a procedure for the traditional algorithm. Whereas, in machine learning, the computer would be responsible for creating a procedure. In addition, the computer can improve its procedure over time in machine learning, but a traditional algorithm cannot. How is this possible? Well, machine learning algorithms can improve because it utilizes a software library containing data that gives the algorithms the ability to improve.
