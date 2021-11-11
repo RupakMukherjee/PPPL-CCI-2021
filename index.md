@@ -15,8 +15,9 @@ Machine learning is the use of algorithms that can improve by evaluating past ex
 Traditional Algorithm
 </p>
 <p align="center">                    
-<img width="738" alt="Screen Shot 2021-11-10 at 11 15 22 PM" src="https://user-images.githubusercontent.com/90737587/141254616-875893ba-da8c-4f59-b5e8-b73379101d23.png">
+<img width="738" alt="Screen Shot 2021-11-10 at 11 17 59 PM" src="https://user-images.githubusercontent.com/90737587/141254914-e23d2c9e-1725-4d54-a8a6-99d481efa562.png">
 </p>
+
 
 
 Let’s do a traditional algorithm example with the organization of a book collection. The task would be to organize the old books by genre such as action, mystery, historical fiction, horror… etc. Then, you would classify what defines each book genre and create a procedure for organizing the books. The output is the book collection organized by genre. 
