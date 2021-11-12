@@ -1,6 +1,6 @@
 This project contains the use of Machine Learning utilizing an open-sourced software library, TensorFlow, to solve fundamental partial differential equations used in physics and engineering such as the Advection-Diffusion equation, Burger’s equation, and KdV equation.
 
-![testing](https://user-images.githubusercontent.com/90737587/141388764-daf0cede-e418-4b0c-9db3-6e439965ffd4.png)
+![testing](https://user-images.githubusercontent.com/90737587/141389126-11da3daa-c751-45c4-b728-7a5b500e98cb.png)
 
 
 | Name| Equation| Equation Graph|
