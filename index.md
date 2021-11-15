@@ -56,7 +56,7 @@ The software library we will use that gives us the ability for the machine learn
 
 ### General Machine Learning Process 
 
-<img src="https://user-images.githubusercontent.com/90737587/141751967-9b24e444-f079-4771-95a4-5eacdcc652ee.png" width="90%" height="90%">
+<img src="https://user-images.githubusercontent.com/90737587/141751967-9b24e444-f079-4771-95a4-5eacdcc652ee.png" width="100%" height="100%">
 
 
 ## Advection-Diffusion Equation
