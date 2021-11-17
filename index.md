@@ -64,6 +64,8 @@ For this project, I utilized this [Advection-Diffusion code](https://github.com/
 
 <img src= "https://user-images.githubusercontent.com/90737587/142134093-f9ff1214-0c53-42cc-afcd-1e3cf835f93f.png" >
 
+*Note: Though Test 2 did not need improvement, I still tuned parameters of model to verify the accuracy of the model.*  
+
 ## Advection-Diffusion Equation
 
 ### Test 1: Input Table 
