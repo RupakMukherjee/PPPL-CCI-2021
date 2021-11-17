@@ -54,9 +54,12 @@ The difference between a traditional algorithm and a machine learning algorithm 
 ### How TensorFlow is used in Machine Learning?
 The software library we will use that gives us the ability for the machine learning algorithms to improve is TensorFlow. TensorFlow is an open-sourced software library that is utilized for training neural networks and models. TensorFlow is also known for solving numerical computations. Hence, we can use TensorFlow to solve partial differential equations. Partial differential equations are used in physics and engineering applications such as simulating waves, heat flow, fluid dispersion, electrostatics over time, and more. The partial differential equations that we will use in the project are the advection-diffusion equation, Burger's equation, and KdV equation. But before we go over the history and real-world applications of these partial differential equations, let's go over the machine learning process first.
 
-### General Machine Learning Process 
+### Machine Learning Process 
 
 <img src="https://user-images.githubusercontent.com/90737587/141751967-9b24e444-f079-4771-95a4-5eacdcc652ee.png" width="100%" height="100%">
+
+For this project, the machine learning process is used to solve partial differential equations. I utilized this [Advection-Diffusion code](https://github.com/dynamicslab/deep-learning-fluids/blob/main/notebooks/advection_diffusion_DL.ipynb) that also uses the same machine learning process. I used the same code for the Burger’s and KdV’s code except with some modifications to allow the code to run properly. For steps 1-3, I will explain what the creator of this Advection-Diffusion code did for data collection, preparing the data, and building the model. Then, for steps 3-5, I will explain what I have done to train the model, test the model, and improve the model to get better results.
+
 
 
 ## Advection-Diffusion Equation
