@@ -58,9 +58,7 @@ The software library we will use that gives us the ability for the machine learn
 
 <img src="https://user-images.githubusercontent.com/90737587/141751967-9b24e444-f079-4771-95a4-5eacdcc652ee.png" width="100%" height="100%">
 
-For this project, I utilized this [Advection-Diffusion code](https://github.com/dynamicslab/deep-learning-fluids/blob/main/notebooks/advection_diffusion_DL.ipynb) that also uses this machine learning process. I used the same code for the Burger’s and KdV’s code except with some modifications to allow the code to run properly. For steps 1-3, I will explain what the creator of this Advection-Diffusion code did for data collection, preparing the data, and building the model. Then, for steps 3-5, I will explain what I have done to train the model, test the model, and improve the model to get better results.
-
-
+For this project, I utilized this [Advection-Diffusion code](https://github.com/dynamicslab/deep-learning-fluids/blob/main/notebooks/advection_diffusion_DL.ipynb)that also uses the same machine learning process shown above. I used the same code for the Burger’s and KdV’s code except with some modifications. In the second Machine learning process flowchart down below, I will explain how we utilized the machine learning process in regards to solving partial differential equations. Keep in mind, I will be focus on the process itself and will go into detail about what is Test 1, Test 2, and how to evaluate and improve the models later. With that said, for steps 1-3, I will explain what the creator of this Advection-Diffusion code did for data collection, preparing the data, and building the model. Then, for steps 3-5, I will explain what I have done to train the model, test the model, and improve the model to get better results. 
 
 ## Advection-Diffusion Equation
 
