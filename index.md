@@ -56,7 +56,7 @@ The software library we will use that gives us the ability for the machine learn
 
 ### Machine Learning Process Flowchart
 
-The machine learning process flowchart below will explain the five steps of a general machine learning process. We want to get a great understanding of the basics before we go into detail about how the machine learning process is utilized to solve PDEs. First, start at step 1, then step 2 until you end at step 5.  
+The machine learning process flowchart below will explain the five steps of the general machine learning process. We want to get a great understanding of the basics before we go into detail about how the machine learning process is utilized to solve PDEs. First, start at step 1, then step 2 until you end at step 5.  
 
 <img src="https://user-images.githubusercontent.com/90737587/141751967-9b24e444-f079-4771-95a4-5eacdcc652ee.png" width="100%" height="100%">
 
