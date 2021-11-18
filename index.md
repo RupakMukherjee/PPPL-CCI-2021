@@ -76,6 +76,24 @@ Like mentioned prior, PDEs are mathematical equations used in physics and engine
 
 ## Advection-Diffusion Equation
 
+### Test 1: Input code 
+```
+# Build model
+deep_approx = keras.models.Sequential()
+deep_approx.add(layers.Dense(2, input_dim=2, activation='elu'))
+deep_approx.add(layers.Dense(10, activation='elu'))
+deep_approx.add(layers.Dense(1, activation='linear'))
+
+# Compile model
+deep_approx.compile(loss='mse', optimizer='adam')
+
+# Fit!
+history = deep_approx.fit(X_train, y_train,
+            epochs=10, batch_size=32,
+            validation_data=(X_dev, y_dev),
+            callbacks=keras.callbacks.EarlyStopping(patience=5))
+```
+
 ### Test 1: Input Table 
 
 | Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
@@ -96,6 +114,23 @@ Like mentioned prior, PDEs are mathematical equations used in physics and engine
 |[A4](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA4.py)|<img width="225" alt="A4VL" src="https://user-images.githubusercontent.com/90737587/139741116-4b148900-b5b9-4d6f-a5e3-3a3c5bb5bfb8.png">|<img width="375" alt="A4EC" src="https://user-images.githubusercontent.com/90737587/139741133-03c6209a-77af-4fb8-908c-6a19d0ce5ed3.png">|
 |[A5](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA5.py)|<img width="225" alt="A5VL" src="https://user-images.githubusercontent.com/90737587/139741162-91d00fe1-9b77-418f-94b9-e4cd9a8b75d8.png">|<img width="375" alt="A5EC" src="https://user-images.githubusercontent.com/90737587/139741178-994d891d-9b68-4524-8aae-652d53983199.png">|
 
+### Test 2: Input Code
+```
+# Build model
+deep_stepper2 = keras.models.Sequential()
+deep_stepper2.add(layers.Dense(2, input_dim=3, activation='elu'))
+deep_stepper2.add(layers.Dense(10, activation='elu'))
+deep_stepper2.add(layers.Dense(1, activation='linear'))
+
+# Compile model
+deep_stepper2.compile(loss='mse', optimizer='adam')
+
+# Fit!
+history = deep_stepper2.fit(Xs_train, ys_train, epochs=3, batch_size=32,
+            validation_data=(Xs_dev, ys_dev),
+            callbacks=keras.callbacks.EarlyStopping(patience=5))
+            
+```
 ### Test 2: Input Table 
 
 | Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
@@ -132,7 +167,6 @@ history = deep_approx.fit(X_train, y_train,
             validation_data=(X_dev, y_dev),
             callbacks=keras.callbacks.EarlyStopping(patience=5))
             
-deep_approx.summary()
 ```
 [//]: <> (Changed names of Test cases. Old Name: A, New name: B1)
 
