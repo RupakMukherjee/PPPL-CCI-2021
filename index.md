@@ -68,7 +68,7 @@ For this project, I utilized this [Advection-Diffusion code](https://github.com/
 
 *Note: Though Test 2 did not need improvement, I still tuned parameters of model to verify the accuracy of the model.*  
 
-Great! Now that we know how I utilized the machine learning process to solve PDEs, let’s learn more about PDEs and the ones I used in this project.
+Great! Now that we know how to utilize the machine learning process to solve PDEs, let’s learn more about PDEs and the ones I used in this project.
 
 ### What is a Partial Differential Equation (PDE) and its relation to machine learning?
 
