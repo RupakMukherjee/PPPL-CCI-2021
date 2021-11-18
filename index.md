@@ -64,7 +64,7 @@ For this project, I utilized this [Advection-Diffusion code](https://github.com/
 
 ### How the Machine learning process was used in this project: 
 
-<img src= "https://user-images.githubusercontent.com/90737587/142386931-18adfd7b-ca0d-4fb5-a714-384a0a2d2c33.png" >
+<img src= "https://user-images.githubusercontent.com/90737587/142388491-a1046e69-e6cd-4774-ac44-a5fce6405dd2.png" >
 
 *Note: Though Test 2 did not need improvement, I still tuned parameters of model to verify the accuracy of the model.*  
 
