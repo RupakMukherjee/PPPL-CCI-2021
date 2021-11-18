@@ -56,6 +56,8 @@ The software library we will use that gives us the ability for the machine learn
 
 ### Machine Learning Process Flowchart
 
+The machine learning process flowchart below will explain the five steps of a general machine learning process. We want to get a great understanding of the basics before we go into detail about how the machine learning process is utilized to solve PDEs. First, start at step 1, then step 2 until you end at step 5.  
+
 <img src="https://user-images.githubusercontent.com/90737587/141751967-9b24e444-f079-4771-95a4-5eacdcc652ee.png" width="100%" height="100%">
 
 For this project, I utilized this [Advection-Diffusion code](https://github.com/dynamicslab/deep-learning-fluids/blob/main/notebooks/advection_diffusion_DL.ipynb) that also uses the same machine learning process shown above. I used the same code for the Burger’s and KdV’s code except with some slight modifications. In the second Machine learning process flowchart down below, I will explain how we utilized the machine learning process in regards to solving PDEs. Keep in mind, I will be soley focus on the process itself. Later, I will go into further detail about what is Test 1 & 2 are, and how to evaluate and improve the models later. With that said, for steps 1-3, I will explain what the creator of the Advection-Diffusion code did for data collection, preparing the data, and building the model. Then, for steps 3-5, I will explain what I have done to train the model, test the model, and improve the model to get better results. 
@@ -65,6 +67,12 @@ For this project, I utilized this [Advection-Diffusion code](https://github.com/
 <img src= "https://user-images.githubusercontent.com/90737587/142134093-f9ff1214-0c53-42cc-afcd-1e3cf835f93f.png" >
 
 *Note: Though Test 2 did not need improvement, I still tuned parameters of model to verify the accuracy of the model.*  
+
+Great! Now that we know how I utilized the machine learning process let’s learn more about what a PDE is and the PDEs I used for this project.
+
+### What is a Partial Differential Equation (PDE)? Why do we use PDEs in machine learning?
+
+Like mentioned prior, PDEs are mathematical equations used in physics and engineering applications such as simulating waves, heat flow, fluid dispersion, electrostatics over time, and more. PDEs contain partial derivatives of functions that depend on several variables. They are not generally solvable analytically, but a few can be solved with exact solutions. For the PDEs that we have yet to produce exact solutions for, researchers have developed numerical solution techniques on the computer to create approximated solutions and simulations over the years. This project will demonstrate how I used machine learning and TensorFlow to produce approximated solutions for these PDEs. The PDEs that we now learn about are the advection-diffusion equation, Burger’s equation, and the KdV equation.
 
 ## Advection-Diffusion Equation
 
