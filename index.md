@@ -74,6 +74,23 @@ Great! Now that we know how to utilize the machine learning process to solve PDE
 
 Like mentioned prior, PDEs are mathematical equations used in physics and engineering applications such as simulating waves, heat flow, fluid dispersion, electrostatics over time, and more. PDEs contain partial derivatives of functions that depend on several variables. PDEs are not generally solvable analytically, but a few can be solved with exact solutions. For the PDEs that we have yet to produce exact solutions for, researchers have developed numerical solution techniques on the computer to create approximated solutions and simulations over the years. This project will demonstrate how I used machine learning and TensorFlow to produce approximated solutions for these PDEs. The PDEs we will learn about are the Advection-Diffusion equation, Burger’s equation, and the KdV equation.
 
+### What is the Advection-Diffusion equation?
+The Advection-Diffusion equation describes a large amount of substance, usually fluid, that is spread out over a period time. Figure 1 illustrates a real-world example of the Advection Diffusion equation. Figure 1 shows oil being dumped into a river and spreading out. The Advection-Diffusion equation explains how the concentration of oil in the water changes over time.
+
+| Equation| Equation Graph| Real-world Example |
+|:--------:|:------------:|:------------------:|
+|<img width="150" src="https://user-images.githubusercontent.com/90737587/141264714-1cf3c558-669d-40dc-9635-1f680e8ade5e.png">|<img width="225" alt="Screen Shot 2021-10-31 at 9 01 22 PM" src="https://user-images.githubusercontent.com/90737587/139620001-ab139012-a904-4bce-8c1a-660ef648a118.png">|<img width="250" src="https://user-images.githubusercontent.com/90737587/142381663-0634b474-ad8e-4c73-844d-78c9d220adde.jpg">  <br /> (Figure 1: Oil spill in river)|
+
+
+**Defining the variables:**  
+D = diffusion coefficient *(amount of a particle substance that diffuses across a unit of area)*  
+v = advection coefficient *(velocity or speed of the flow)*
+
+
+**The History of the Advection-Diffusion equation:**  
+The Advection-Diffusion is an equation of fluid dynamics which is the study of fluid motion under the action of physics forces. The Advection-Diffusion equation is derived from the continuity equation. The continuity equation describes the transport of a quantity and is of one of physics fundamentals laws, the conservation law. The conversation law states that energy can neither be created nor destroyed, but it can transform one form into another. 
+
+
 ## Advection-Diffusion Equation
 
 ### Test 1: Input code 
