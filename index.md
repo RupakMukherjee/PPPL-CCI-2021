@@ -68,8 +68,6 @@ For this project, I utilized this [Advection-Diffusion code](https://github.com/
 
 *Note: Though Test 2 did not need improvement, I still tuned parameters of model to verify the accuracy of the model.*  
 
-Great! Now that we know how to utilize the machine learning process to solve PDEs, let’s learn more about PDEs and the ones I used in this project.
-
 ### What is a Partial Differential Equation (PDE) and its relation to machine learning?
 
 Like mentioned prior, PDEs are mathematical equations used in physics and engineering applications such as simulating waves, heat flow, fluid dispersion, electrostatics over time, and more. PDEs contain partial derivatives of functions that depend on several variables. PDEs are not generally solvable analytically, only a few can be solved with exact solutions. For the PDEs that we have yet to produce exact solutions for, researchers have developed numerical solution techniques on the computer to create approximated solutions and simulations over the years. This project will demonstrate how to use machine learning and TensorFlow to produce approximated solutions for these PDEs. The PDEs we will learn about are the Advection-Diffusion equation, Burger’s equation, and the KdV equation.
