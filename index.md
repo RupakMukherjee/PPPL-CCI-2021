@@ -81,7 +81,7 @@ The Advection-Diffusion equation describes a large amount of substance, usually 
 
 
 **Defining the variables:**  
-D = diffusion coefficient *(amount of a particle substance that diffuses across a unit of area)*  
+D = diffusion coefficient *(amount of a particle substance that diffuses across an unit of area)*  
 v = advection coefficient *(velocity or speed of the flow)*
 
 
