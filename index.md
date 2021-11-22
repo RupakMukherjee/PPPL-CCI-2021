@@ -107,8 +107,7 @@ Burger’s equation resembles a shock wave and is known for modeling turbulence.
 **Defining the varibles:**  
 x = spatial coordinate *(a specific location)*   
 t = temporal coordinate *(a specific time)*    
-u(x,t) = speed of fluid *(speed dependent on x and t)*    
-u = visocity of fluid *(measure of resistance to deformation at a given rate)*    
+u(x,t) = speed of fluid *(speed dependent on x and t)*       
 v = advection coefficient *(velocity or speed of the flow)*    
 
 **The History of the Burger's equation:**  
