@@ -88,7 +88,7 @@ v = advection coefficient *(velocity or speed of the flow)*
 **The History of the Advection-Diffusion equation:**  
 The Advection-Diffusion is an equation of fluid dynamics which is the study of fluid motion under the action of physics forces. The Advection-Diffusion equation is derived from the continuity equation. The continuity equation describes the transport of a quantity and is of one of physics fundamentals laws, the conservation law. The conversation law states that energy can neither be created nor destroyed, but it can transform one form into another. 
 
-### What is the Burger's equation
+### What is the Burger's equation?
 | Equation| Equation Graph| Real-world Example |
 |:--------:|:------------:|:------------------:|
 |<img width="150" src="">|<img width="225" src="">|<img width="250" src="">  <br /> (Figure 2: )|
