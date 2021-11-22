@@ -81,8 +81,8 @@ The Advection-Diffusion equation describes a large amount of substance, usually 
 
 
 **Defining the variables:**  
-x = spatial coordinate *(a specific location)*
-t = temporal coordinate *(a specific time)*
+x = spatial coordinate *(a specific location)*  <br />
+t = temporal coordinate *(a specific time)*     <br />
 u(x,t) = speed of fluid *(speed dependent on x and t)*  
 D = diffusion coefficient *(amount of a particle substance that diffuses across an unit of area)*  
 v = advection coefficient *(velocity or speed of the flow)*
@@ -95,7 +95,7 @@ The Advection-Diffusion is an equation of fluid dynamics which is the study of f
 ### What is the Burger's equation?
 | Equation| Equation Graph| Real-world Example |
 |:--------:|:------------:|:------------------:|
-|<img width="150" src="">|<img width="225" src="">|<img width="250" src="">  <br /> (Figure 2: )|
+|<img width="150" src="https://user-images.githubusercontent.com/90737587/142930461-fa204c37-d107-49b1-b97e-bdbeb4f06a66.png">|<img width="225" src="https://user-images.githubusercontent.com/90737587/140027116-32d19225-38f4-46f2-acf9-b82c0cb9e4db.png">|<img width="250" src="">  <br /> (Figure 2: )|
 
 **Defining the varibles:**  
 x = spatial coordinate *(a specific location)*   
