@@ -81,19 +81,30 @@ The Advection-Diffusion equation describes a large amount of substance, usually 
 
 
 **Defining the variables:**  
+x = spatial coordinate *(a specific location)*
+t = temporal coordinate *(a specific time)*
+u(x,t) = speed of fluid *(speed dependent on x and t)*  
 D = diffusion coefficient *(amount of a particle substance that diffuses across an unit of area)*  
 v = advection coefficient *(velocity or speed of the flow)*
 
 
+
 **The History of the Advection-Diffusion equation:**  
-The Advection-Diffusion is an equation of fluid dynamics which is the study of fluid motion under the action of physics forces. The Advection-Diffusion equation is derived from the continuity equation. The continuity equation describes the transport of a quantity and is of one of physics fundamentals laws, the conservation law. The conversation law states that energy can neither be created nor destroyed, but it can transform one form into another. 
+The Advection-Diffusion is an equation of fluid dynamics which is the study of fluid motion under the action of physics forces.The term "advection" means the transport of a large quantity of fluid. The term "diffusion" means the intermingling of substances by the natural movement of their particles. The Advection-Diffusion equation is derived from the continuity equation. The continuity equation describes the transport of a quantity and is of one of physics fundamentals laws, the conservation law. The conversation law states that energy can neither be created nor destroyed, but it can transform one form into another. 
 
 ### What is the Burger's equation?
 | Equation| Equation Graph| Real-world Example |
 |:--------:|:------------:|:------------------:|
 |<img width="150" src="">|<img width="225" src="">|<img width="250" src="">  <br /> (Figure 2: )|
 
-**Defining the varibles:**
+**Defining the varibles:**  
+x = spatial coordinate *(a specific location)*   
+t = temporal coordinate *(a specific time)*    
+u(x,t) = speed of fluid *(speed dependent on x and t)*    
+u = visocity of fluid *(measure of resistance to deformation at a given rate)*    
+v = advection coefficient *(velocity or speed of the flow)*    
+
+
 
 **The History of the Burger's equation:**
 
