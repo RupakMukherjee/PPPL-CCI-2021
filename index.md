@@ -102,7 +102,7 @@ Burger’s equation resembles a shock wave and is known for modeling turbulence.
 
 | Equation| Equation Graph| Real-world Example |
 |:--------:|:------------:|:------------------:|
-|<img width="150" src="https://user-images.githubusercontent.com/90737587/142930461-fa204c37-d107-49b1-b97e-bdbeb4f06a66.png">|<img width="225" src="https://user-images.githubusercontent.com/90737587/140027116-32d19225-38f4-46f2-acf9-b82c0cb9e4db.png">|<img width="250" src="https://user-images.githubusercontent.com/90737587/142947992-28cbd615-65d1-4af7-b41a-62fd456a231f.png">  <br /> (Figure 2: Wind Turbulence interacting with an airplane )|
+|<img width="150" src="https://user-images.githubusercontent.com/90737587/142930461-fa204c37-d107-49b1-b97e-bdbeb4f06a66.png">|<img width="225" src="https://user-images.githubusercontent.com/90737587/140027116-32d19225-38f4-46f2-acf9-b82c0cb9e4db.png">|<img width="250" src="https://user-images.githubusercontent.com/90737587/142947992-28cbd615-65d1-4af7-b41a-62fd456a231f.png">  <br /> (Figure 2: Wind turbulence interacting with an airplane )|
 
 **Defining the varibles:**  
 x = spatial coordinate *(a specific location)*   
