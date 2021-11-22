@@ -8,7 +8,8 @@ This project contains the use of machine learning utilizing an open-sourced soft
 |KdV|<img width="200"  src="https://user-images.githubusercontent.com/90737587/141266138-d94e8f4f-ede9-4257-8485-44ffa25c7275.png">|<img width="225" alt="Screen Shot 2021-10-31 at 8 30 29 PM" src="https://user-images.githubusercontent.com/90737587/139617944-881010bb-8643-42a4-947d-4a9a221482c7.png">|
 
 First, we will go over what machine learning is, how TensorFlow can be utilized in machine learning and the machine learning process. Then, we'll learn why machine learning is used to solve PDEs. Also, we will learn the history and real-world applications of these equations. Lastly, we will go over how to evaluate the models and see how I trained the models to improve and produce more accurate, useful models.
-
+<br />
+<br />
 ### What is Machine Learning? 
 Machine learning is the use of algorithms that can improve by evaluating past experiences and analyzing historical data. A traditional algorithm is a procedure for solving a well-defined task with some input and some given data to produce an output. 
 
@@ -50,10 +51,12 @@ Machine Learning Algorithm
 </p>
 
 The difference between a traditional algorithm and a machine learning algorithm is that a programmer would need to create a procedure for the traditional algorithm. Whereas, in machine learning, the computer would be responsible for creating a procedure. In addition, the computer can improve its procedure over time in machine learning, but a traditional algorithm cannot. How is this possible? Well, machine learning algorithms can improve because it utilizes a software library containing data that gives the algorithms the ability to improve.
-
+<br />
+<br />
 ### How TensorFlow is used in Machine Learning?
 The software library we will use that gives us the ability for the machine learning algorithms to improve is TensorFlow. TensorFlow is an open-sourced software library that is utilized for training neural networks and models. TensorFlow is also known for solving numerical computations. Hence, we can use TensorFlow to solve PDEs. PDEs are used in physics and engineering applications such as simulating waves, heat flow, fluid dispersion, electrostatics over time, and more. The PDEs that we will use in the project are the advection-diffusion equation, Burger's equation, and KdV equation. But before we go over the history and real-world applications of these PDEs, let's go over the machine learning process first.
-
+<br />
+<br />
 ### Machine Learning Process Flowchart
 
 The flowchart below will explain the five steps of the general machine learning process. We want to get a great understanding of the basics before we go into detail about how the machine learning process is utilized to solve PDEs. First, start at step 1, then step 2 until you end at step 5.  
@@ -61,17 +64,20 @@ The flowchart below will explain the five steps of the general machine learning 
 <img src="https://user-images.githubusercontent.com/90737587/141751967-9b24e444-f079-4771-95a4-5eacdcc652ee.png" width="100%" height="100%">
 
 For this project, I utilized this [Advection-Diffusion code](https://github.com/dynamicslab/deep-learning-fluids/blob/main/notebooks/advection_diffusion_DL.ipynb) that also uses the same general machine learning process shown above. I used the same code for the Burger’s and KdV’s code except with some slight modifications. In the flowchart down below, I will explain how we utilized the machine learning process in regards to solving PDEs. Keep in mind, I will be soley focus on the process itself. Later, I will go into further detail about what is Test 1 & 2 are, and how to evaluate and improve the models later. With that said, for steps 1-3, I will explain what the creator of the Advection-Diffusion code did for data collection, preparing the data, and building the model. Then, for steps 3-5, I will explain what I have done to train the model, test the model, and improve the model to get better results. 
-
+<br />
+<br />
 ### How the Machine learning process was used in this project: 
 
 <img src= "https://user-images.githubusercontent.com/90737587/142388491-a1046e69-e6cd-4774-ac44-a5fce6405dd2.png" >
 
 *Note: Though Test 2 did not need improvement, I still tuned parameters of model to verify the accuracy of the model.*  
-
+<br />
+<br />
 ### What is a Partial Differential Equation (PDE) and its relation to machine learning?
 
 Like mentioned prior, PDEs are mathematical equations used in physics and engineering applications such as simulating waves, heat flow, fluid dispersion, electrostatics over time, and more. PDEs contain partial derivatives of functions that depend on several variables. PDEs are not generally solvable analytically, only a few can be solved with exact solutions. For the PDEs that we have yet to produce exact solutions for, researchers have developed numerical solution techniques on the computer to create approximated solutions and simulations over the years. This project will demonstrate how to use machine learning and TensorFlow to produce approximated solutions for these PDEs. The PDEs we will learn about are the Advection-Diffusion equation, Burger’s equation, and the KdV equation.
-
+<br />
+<br />
 ### What is the Advection-Diffusion equation?
 The Advection-Diffusion equation describes a large amount of substance, usually fluid, that is spread out over a period time. Figure 1 shows oil being dumped into a river and spreading out. The Advection-Diffusion equation explains how the concentration of oil in the water changes over time.
 
@@ -87,15 +93,16 @@ u(x,t) = speed of fluid *(speed dependent on x and t)*
 D = diffusion coefficient *(amount of a particle substance that diffuses across an unit of area)*  
 v = advection coefficient *(velocity or speed of the flow)*
 
-
-
 **The History of the Advection-Diffusion equation:**  
-The Advection-Diffusion is an equation of fluid dynamics which is the study of fluid motion under the action of physics forces.The term "advection" means the transport of a large quantity of fluid. The term "diffusion" means the intermingling of substances by the natural movement of their particles. The Advection-Diffusion equation is derived from the continuity equation. The continuity equation describes the transport of a quantity and is of one of physics fundamentals laws, the conservation law. The conversation law states that energy can neither be created nor destroyed, but it can transform one form into another. 
-
+The Advection-Diffusion equation is of fluid dynamics which is the study of fluid motion under the action of physics forces. The term "advection" means the transport of a large quantity of fluid. The term "diffusion" means the intermingling of substances by the natural movement of their particles. The Advection-Diffusion equation is derived from the continuity equation. The continuity equation describes the transport of a quantity and is of one of physics fundamentals laws, the conservation law. The conversation law states that energy can neither be created nor destroyed, but it can transform one form into another. 
+<br />
+<br />
 ### What is the Burger's equation?
+Burger’s equation resembles a shock wave and is known for modeling turbulence. Turbulence is fluid motion caused by dramatic, hectic changes in pressure and flow velocity. If you have been an airplane, you may be familiar with turbulence as the cause of an uneasy, smooth ride for a short period. Figure 2 shows a drawing displaying how wind turbulence may interact with an airplane. 
+
 | Equation| Equation Graph| Real-world Example |
 |:--------:|:------------:|:------------------:|
-|<img width="150" src="https://user-images.githubusercontent.com/90737587/142930461-fa204c37-d107-49b1-b97e-bdbeb4f06a66.png">|<img width="225" src="https://user-images.githubusercontent.com/90737587/140027116-32d19225-38f4-46f2-acf9-b82c0cb9e4db.png">|<img width="250" src="">  <br /> (Figure 2: )|
+|<img width="150" src="https://user-images.githubusercontent.com/90737587/142930461-fa204c37-d107-49b1-b97e-bdbeb4f06a66.png">|<img width="225" src="https://user-images.githubusercontent.com/90737587/140027116-32d19225-38f4-46f2-acf9-b82c0cb9e4db.png">|<img width="250" src="https://user-images.githubusercontent.com/90737587/142947992-28cbd615-65d1-4af7-b41a-62fd456a231f.png">  <br /> (Figure 2: Wind Turbulence interacting with an airplane )|
 
 **Defining the varibles:**  
 x = spatial coordinate *(a specific location)*   
@@ -104,11 +111,12 @@ u(x,t) = speed of fluid *(speed dependent on x and t)*
 u = visocity of fluid *(measure of resistance to deformation at a given rate)*    
 v = advection coefficient *(velocity or speed of the flow)*    
 
-
-
 **The History of the Burger's equation:**
-
+The Burger’s equation or Bateman-Burger’s equation was created by Harry Bateman in 1915 and then later studied by Johanne Martinus Burgers in 1948. Burger’s equation is obtained by combining a nonlinear wave motion with a linear diffusion and is the simplest nonlinear model equation for diffusive waves in fluid dynamics. Burger’s equation is derived from the Naiver Strokes equation. Naive Strokes equations are the fundamental equations of viscous fluid dynamics. Similar to the Advection-Diffusion equation, Burger’s equation is a continuity equation and from the conversation law.
+<br />
+<br />
 ### What is the KdV's equation
+
 | Equation| Equation Graph| Real-world Example |
 |:--------:|:------------:|:------------------:|
 |<img width="150" src="">|<img width="225" src="">|<img width="250" src="">  <br /> (Figure 2: )|
