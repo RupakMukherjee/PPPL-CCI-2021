@@ -98,7 +98,7 @@ The Advection-Diffusion equation is of fluid dynamics which is the study of flui
 <br />
 <br />
 ### What is the Burger's equation?
-Burger’s equation resembles a shock wave and is known for modeling turbulence. Turbulence is fluid motion caused by dramatic, hectic changes in pressure and flow velocity. If you have been an airplane, you may be familiar with turbulence as the cause of an uneasy, smooth ride for a short period. Figure 2 shows a drawing displaying how wind turbulence may interact with an airplane. 
+Burger’s equation resembles a shock wave and is known for modeling turbulence. Turbulence is fluid motion caused by dramatic, hectic changes in pressure and flow velocity. If you have been an airplane, you may be familiar with turbulence as the cause of an uneasy and not so smooth ride for a short period of time. Figure 2 shows a drawing displaying how wind turbulence may interact with an airplane. Burger's equation illustrates the theory of turbulence.
 
 | Equation| Equation Graph| Real-world Example |
 |:--------:|:------------:|:------------------:|
