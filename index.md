@@ -119,7 +119,7 @@ The Burger’s equation or Bateman-Burger’s equation was created by Harry Bate
 
 | Equation| Equation Graph| Real-world Example |
 |:--------:|:------------:|:------------------:|
-|<img width="150" src="">|<img width="225" src="">|<img width="250" src="">  <br /> (Figure 2: )|
+|<img width="150" src="">|<img width="225" src="">|<img width="250" src="">  <br /> (Figure 3: )|
 
 **Defining the varibles:**
 
