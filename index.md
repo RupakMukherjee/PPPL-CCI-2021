@@ -4,7 +4,7 @@ This project contains the use of machine learning utilizing an open-sourced soft
 | Name| Equation| Equation Graph|
 |:---:|:--------:|:------:|
 |Advection-Diffusion|<img width="150" src="https://user-images.githubusercontent.com/90737587/141264714-1cf3c558-669d-40dc-9635-1f680e8ade5e.png">|<img width="225" alt="Screen Shot 2021-10-31 at 9 01 22 PM" src="https://user-images.githubusercontent.com/90737587/139620001-ab139012-a904-4bce-8c1a-660ef648a118.png">|
-|Burger|<img width="150"  src="https://user-images.githubusercontent.com/90737587/141266086-e16ae175-418d-4635-bddf-25968be39acd.png">|<img width="225" alt="Screen Shot 2021-11-03 at 1 11 57 AM" src="https://user-images.githubusercontent.com/90737587/140027116-32d19225-38f4-46f2-acf9-b82c0cb9e4db.png">|
+|Burger|<img width="150"  src="https://user-images.githubusercontent.com/90737587/142930461-fa204c37-d107-49b1-b97e-bdbeb4f06a66.png">|<img width="225" alt="Screen Shot 2021-11-03 at 1 11 57 AM" src="https://user-images.githubusercontent.com/90737587/140027116-32d19225-38f4-46f2-acf9-b82c0cb9e4db.png">|
 |KdV|<img width="200"  src="https://user-images.githubusercontent.com/90737587/141266138-d94e8f4f-ede9-4257-8485-44ffa25c7275.png">|<img width="225" alt="Screen Shot 2021-10-31 at 8 30 29 PM" src="https://user-images.githubusercontent.com/90737587/139617944-881010bb-8643-42a4-947d-4a9a221482c7.png">|
 
 First, we will go over what machine learning is, how TensorFlow can be utilized in machine learning and the machine learning process. Then, we'll learn why machine learning is used to solve PDEs. Also, we will learn the history and real-world applications of these equations. Lastly, we will go over how to evaluate the models and see how I trained the models to improve and produce more accurate, useful models.
@@ -88,7 +88,26 @@ v = advection coefficient *(velocity or speed of the flow)*
 **The History of the Advection-Diffusion equation:**  
 The Advection-Diffusion is an equation of fluid dynamics which is the study of fluid motion under the action of physics forces. The Advection-Diffusion equation is derived from the continuity equation. The continuity equation describes the transport of a quantity and is of one of physics fundamentals laws, the conservation law. The conversation law states that energy can neither be created nor destroyed, but it can transform one form into another. 
 
+### What is the Burger's equation
+| Equation| Equation Graph| Real-world Example |
+|:--------:|:------------:|:------------------:|
+|<img width="150" src="">|<img width="225" src="">|<img width="250" src="">  <br /> (Figure 2: )|
 
+**Defining the varibles:**
+
+**The History of the Burger's equation:**
+
+### What is the KdV's equation
+| Equation| Equation Graph| Real-world Example |
+|:--------:|:------------:|:------------------:|
+|<img width="150" src="">|<img width="225" src="">|<img width="250" src="">  <br /> (Figure 2: )|
+
+**Defining the varibles:**
+
+**The History of the KdV's equation:**
+
+
+# Test 1
 ## Advection-Diffusion Equation
 
 ### Test 1: Input code 
@@ -128,40 +147,6 @@ history = deep_approx.fit(X_train, y_train,
 |[A3](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA3.py)|<img width="225" alt="A3VL" src="https://user-images.githubusercontent.com/90737587/139741080-58744d79-e820-4d3b-9f76-c4130a74463c.png">|<img width="375" alt="A3EC" src="https://user-images.githubusercontent.com/90737587/139741092-8ad564b5-845f-438f-80e0-3a3fa780edff.png">|
 |[A4](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA4.py)|<img width="225" alt="A4VL" src="https://user-images.githubusercontent.com/90737587/139741116-4b148900-b5b9-4d6f-a5e3-3a3c5bb5bfb8.png">|<img width="375" alt="A4EC" src="https://user-images.githubusercontent.com/90737587/139741133-03c6209a-77af-4fb8-908c-6a19d0ce5ed3.png">|
 |[A5](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA5.py)|<img width="225" alt="A5VL" src="https://user-images.githubusercontent.com/90737587/139741162-91d00fe1-9b77-418f-94b9-e4cd9a8b75d8.png">|<img width="375" alt="A5EC" src="https://user-images.githubusercontent.com/90737587/139741178-994d891d-9b68-4524-8aae-652d53983199.png">|
-
-### Test 2: Input Code
-```
-# Build model
-deep_stepper2 = keras.models.Sequential()
-deep_stepper2.add(layers.Dense(2, input_dim=3, activation='elu'))
-deep_stepper2.add(layers.Dense(10, activation='elu'))
-deep_stepper2.add(layers.Dense(1, activation='linear'))
-
-# Compile model
-deep_stepper2.compile(loss='mse', optimizer='adam')
-
-# Fit!
-history = deep_stepper2.fit(Xs_train, ys_train, epochs=3, batch_size=32,
-            validation_data=(Xs_dev, ys_dev),
-            callbacks=keras.callbacks.EarlyStopping(patience=5))
-            
-```
-### Test 2: Input Table 
-
-| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
-|:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
-|[A6](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA6.py)|2|10|1|3|1|
-|[A7](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA7.py)|50|70|1|2|10|
-|[A8](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA8.py)|100|100|1|2|30|
-
-### Test 2: Output Graphs 
-
-| Test| Graph 1| Graph 2| Graph 3| Graph 4|
-|:---:|:------:|:------:|:------:|:------:|
-|[A6](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA6.py)|<img width="300" alt="A6E1" src="https://user-images.githubusercontent.com/90737587/140024192-7196a68a-18f5-4190-9b68-5a4f742f58d0.png">|<img width="300" alt="A6fu" src="https://user-images.githubusercontent.com/90737587/140024224-3dd44f8e-77ab-4745-8100-109e2c48157b.png">|<img width="300" alt="A6ET" src="https://user-images.githubusercontent.com/90737587/140024242-9e504113-4612-4c2a-92e8-35fa357e4290.png">|<img width="300" alt="A6u" src="https://user-images.githubusercontent.com/90737587/140024573-3617c695-7b03-41ee-a34a-cb05edd99e60.png">|
-|[A7](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA7.py)|<img width="300" alt="A7E1" src="https://user-images.githubusercontent.com/90737587/140024348-5af83f54-df94-40a9-b313-04af79951a02.png">|<img width="300" alt="A7Fu" src="https://user-images.githubusercontent.com/90737587/140024379-da1b7e05-6854-4f09-a475-e9a25703837e.png">|<img width="300" alt="A7ET" src="https://user-images.githubusercontent.com/90737587/140024410-145239dc-7dc9-4816-a068-164c83f18ced.png">|<img width="300" alt="A7u" src="https://user-images.githubusercontent.com/90737587/140024544-2773c4eb-6882-4dd6-8091-e7ad6646e34c.png">|
-|[A8](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA8.py)|<img width="300" alt="A8E1" src="https://user-images.githubusercontent.com/90737587/140026659-c9db5b16-e527-466b-a938-f90d548943cd.png">|<img width="300" alt="A8Fu" src="https://user-images.githubusercontent.com/90737587/140026681-f11d3f2a-ef2d-4d99-96ad-3ae1151a5232.png">|<img width="300" alt="A8ET" src="https://user-images.githubusercontent.com/90737587/140026702-b5ad76d3-9339-4c4f-bdbf-1c3b0e1da1d3.png">|<img width="300" alt="A8u" src="https://user-images.githubusercontent.com/90737587/140026708-d87c17d9-5519-4f81-af8d-5aeaa120034b.png">|
-
 
 ## Burger's Equation
 
@@ -205,41 +190,6 @@ history = deep_approx.fit(X_train, y_train,
 |[B4](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB4.py)|<img width="225" alt="TestD-ValLoss (6)" src="https://user-images.githubusercontent.com/90737587/139619635-e958cf35-bacd-4a92-a7cf-759393356139.png">|<img width="375" alt="TestD-Error (5)" src="https://user-images.githubusercontent.com/90737587/139619653-7c44d6e6-4caa-433b-91ea-e701b2f2ccad.png">|
 |[B5](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB5.py)|<img width="225" alt="TestE-VaLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619684-dc647f49-c17e-4137-820a-4be6be4dfa66.png">|<img width="375" alt="TestE-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139619696-ffe55108-72fa-454e-ae4b-9ecc3a61a288.png">|
 
-
-### Test 2: Input Code
-```
-# Build model
-deep_stepper2 = keras.models.Sequential()
-deep_stepper2.add(layers.Dense(2, input_dim=6, activation='elu'))
-deep_stepper2.add(layers.Dense(10, activation='elu'))
-deep_stepper2.add(layers.Dense(1, activation='linear'))
-
-# Compile model
-deep_stepper2.compile(loss='mse', optimizer='adam')
-
-# Fit!
-history = deep_stepper2.fit(Xs_train, ys_train, epochs=30, batch_size=32,
-            validation_data=(Xs_dev, ys_dev),
-            callbacks=keras.callbacks.EarlyStopping(patience=5))
-            
-```
-### Test 2: Input Table
-
-| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Epochs|
-|:---:|:-------------:|:-------------:|:------------:|:----:|
-|[B6](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB6.py) |2|10|1|3|
-|[B7](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB7.py) |10|15|1|10|
-|[B8](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB8.py) |50|80|5|30|
-
-### Test 2: Output Graphs
-
-| Test| Graph 1| Graph 2| Graph 3| Graph 4|
-|:---:|:------:|:------:|:------:|:------:|
-|[B6](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB6.py)  |<img width="300" alt="TestF-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139620520-bdf3bf2b-2b90-44e1-85af-4339d254cbc3.png">|<img width="300" alt="TestFu(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139620537-30f6e297-8219-4b58-9c7d-b23beaf2cda2.png">|<img width="300" alt="TestG-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139620547-cf8adece-16e8-4b6e-9e96-d57b75eac463.png">|<img width="300" alt="TestF-u(x,Tend) (1)" src="https://user-images.githubusercontent.com/90737587/139620559-0d169b96-4952-405b-a66d-722c805af42f.png">|
-|[B7](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB7.py) | <img width="300" alt="TestG-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139623766-2467b415-e4b9-480c-b7e1-6c2e74b59bdd.png">|<img width="300" alt="TestG-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139623777-a8f78f57-f409-4f78-8985-1aabbfcee912.png">|<img width="300" alt="TestG-ErrorT (2)" src="https://user-images.githubusercontent.com/90737587/139623789-8ff717d4-b8b2-4f82-94ca-1bac52131eeb.png">|<img width="300" alt="TestG-u(x, tend) (1)" src="https://user-images.githubusercontent.com/90737587/139623814-0c04324b-de64-46f2-943c-ea8e3bc3baf2.png">|
-|[B8](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB8.py)|<img width="300" alt="TestH-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139623861-c9e5f383-e65b-48a0-995f-74caab44ad66.png">|<img width="300" alt="TestH-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139623876-0ec93ccc-7324-47ac-9148-5501b3094427.png">|<img width="300" alt="TestH-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139623889-1c849db1-cffa-48c3-a7a0-6b4573c17290.png">|<img width="300" alt="TestH-u(x, tend) (2)" src="https://user-images.githubusercontent.com/90737587/139623897-d809bf26-5898-49ca-8d12-d14740c4fd91.png">|
-
- 
 ## KdV's Equation 
 
 ### Test 1: Input Code
@@ -280,6 +230,83 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 |[K3](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK3.py)|<img width="225" alt="Test3-ValLoss (1)" src="https://user-images.githubusercontent.com/90737587/139624281-08b27a62-20ab-4aef-9fa5-5aa32823205c.png">|<img width="375" alt="Test3-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139624300-bfdd214b-6ea2-4cfb-99be-a7fdf9406c33.png">|
 |[K4](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK4.py)|<img width="225" alt="Test4-ValLoss (3)" src="https://user-images.githubusercontent.com/90737587/139624342-113f98ce-975d-4514-85fb-1ea3aae07ffe.png">|<img width="375" alt="Test4-Errors (1)" src="https://user-images.githubusercontent.com/90737587/139624355-3b8d94b9-5fe4-438a-9811-a32b04ca4c44.png">|
 |[K5](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK5.py)|<img width="225" alt="Test5-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139624404-4eaa9878-f9a2-43d3-b5d7-185af74525e3.png">|<img width="375" alt="Test5-Errors (2)" src="https://user-images.githubusercontent.com/90737587/139624426-ebf490e7-6a90-413c-b1c2-950596c9af82.png">|
+
+# Test 2
+## Advection-Diffusion Equation
+
+### Test 2: Input Code
+```
+# Build model
+deep_stepper2 = keras.models.Sequential()
+deep_stepper2.add(layers.Dense(2, input_dim=3, activation='elu'))
+deep_stepper2.add(layers.Dense(10, activation='elu'))
+deep_stepper2.add(layers.Dense(1, activation='linear'))
+
+# Compile model
+deep_stepper2.compile(loss='mse', optimizer='adam')
+
+# Fit!
+history = deep_stepper2.fit(Xs_train, ys_train, epochs=3, batch_size=32,
+            validation_data=(Xs_dev, ys_dev),
+            callbacks=keras.callbacks.EarlyStopping(patience=5))
+            
+```
+### Test 2: Input Table 
+
+| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
+|:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
+|[A6](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA6.py)|2|10|1|3|1|
+|[A7](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA7.py)|50|70|1|2|10|
+|[A8](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA8.py)|100|100|1|2|30|
+
+### Test 2: Output Graphs 
+
+| Test| Graph 1| Graph 2| Graph 3| Graph 4|
+|:---:|:------:|:------:|:------:|:------:|
+|[A6](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA6.py)|<img width="300" alt="A6E1" src="https://user-images.githubusercontent.com/90737587/140024192-7196a68a-18f5-4190-9b68-5a4f742f58d0.png">|<img width="300" alt="A6fu" src="https://user-images.githubusercontent.com/90737587/140024224-3dd44f8e-77ab-4745-8100-109e2c48157b.png">|<img width="300" alt="A6ET" src="https://user-images.githubusercontent.com/90737587/140024242-9e504113-4612-4c2a-92e8-35fa357e4290.png">|<img width="300" alt="A6u" src="https://user-images.githubusercontent.com/90737587/140024573-3617c695-7b03-41ee-a34a-cb05edd99e60.png">|
+|[A7](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA7.py)|<img width="300" alt="A7E1" src="https://user-images.githubusercontent.com/90737587/140024348-5af83f54-df94-40a9-b313-04af79951a02.png">|<img width="300" alt="A7Fu" src="https://user-images.githubusercontent.com/90737587/140024379-da1b7e05-6854-4f09-a475-e9a25703837e.png">|<img width="300" alt="A7ET" src="https://user-images.githubusercontent.com/90737587/140024410-145239dc-7dc9-4816-a068-164c83f18ced.png">|<img width="300" alt="A7u" src="https://user-images.githubusercontent.com/90737587/140024544-2773c4eb-6882-4dd6-8091-e7ad6646e34c.png">|
+|[A8](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA8.py)|<img width="300" alt="A8E1" src="https://user-images.githubusercontent.com/90737587/140026659-c9db5b16-e527-466b-a938-f90d548943cd.png">|<img width="300" alt="A8Fu" src="https://user-images.githubusercontent.com/90737587/140026681-f11d3f2a-ef2d-4d99-96ad-3ae1151a5232.png">|<img width="300" alt="A8ET" src="https://user-images.githubusercontent.com/90737587/140026702-b5ad76d3-9339-4c4f-bdbf-1c3b0e1da1d3.png">|<img width="300" alt="A8u" src="https://user-images.githubusercontent.com/90737587/140026708-d87c17d9-5519-4f81-af8d-5aeaa120034b.png">|
+
+
+
+## Burger's Equation
+
+### Test 2: Input Code
+```
+# Build model
+deep_stepper2 = keras.models.Sequential()
+deep_stepper2.add(layers.Dense(2, input_dim=6, activation='elu'))
+deep_stepper2.add(layers.Dense(10, activation='elu'))
+deep_stepper2.add(layers.Dense(1, activation='linear'))
+
+# Compile model
+deep_stepper2.compile(loss='mse', optimizer='adam')
+
+# Fit!
+history = deep_stepper2.fit(Xs_train, ys_train, epochs=30, batch_size=32,
+            validation_data=(Xs_dev, ys_dev),
+            callbacks=keras.callbacks.EarlyStopping(patience=5))
+            
+```
+### Test 2: Input Table
+
+| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Epochs|
+|:---:|:-------------:|:-------------:|:------------:|:----:|
+|[B6](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB6.py) |2|10|1|3|
+|[B7](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB7.py) |10|15|1|10|
+|[B8](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB8.py) |50|80|5|30|
+
+### Test 2: Output Graphs
+
+| Test| Graph 1| Graph 2| Graph 3| Graph 4|
+|:---:|:------:|:------:|:------:|:------:|
+|[B6](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB6.py)  |<img width="300" alt="TestF-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139620520-bdf3bf2b-2b90-44e1-85af-4339d254cbc3.png">|<img width="300" alt="TestFu(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139620537-30f6e297-8219-4b58-9c7d-b23beaf2cda2.png">|<img width="300" alt="TestG-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139620547-cf8adece-16e8-4b6e-9e96-d57b75eac463.png">|<img width="300" alt="TestF-u(x,Tend) (1)" src="https://user-images.githubusercontent.com/90737587/139620559-0d169b96-4952-405b-a66d-722c805af42f.png">|
+|[B7](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB7.py) | <img width="300" alt="TestG-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139623766-2467b415-e4b9-480c-b7e1-6c2e74b59bdd.png">|<img width="300" alt="TestG-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139623777-a8f78f57-f409-4f78-8985-1aabbfcee912.png">|<img width="300" alt="TestG-ErrorT (2)" src="https://user-images.githubusercontent.com/90737587/139623789-8ff717d4-b8b2-4f82-94ca-1bac52131eeb.png">|<img width="300" alt="TestG-u(x, tend) (1)" src="https://user-images.githubusercontent.com/90737587/139623814-0c04324b-de64-46f2-943c-ea8e3bc3baf2.png">|
+|[B8](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB8.py)|<img width="300" alt="TestH-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139623861-c9e5f383-e65b-48a0-995f-74caab44ad66.png">|<img width="300" alt="TestH-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139623876-0ec93ccc-7324-47ac-9148-5501b3094427.png">|<img width="300" alt="TestH-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139623889-1c849db1-cffa-48c3-a7a0-6b4573c17290.png">|<img width="300" alt="TestH-u(x, tend) (2)" src="https://user-images.githubusercontent.com/90737587/139623897-d809bf26-5898-49ca-8d12-d14740c4fd91.png">|
+
+
+
+## KdV's Equation 
 
 ### Test 2: Input Code
 ```
