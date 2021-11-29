@@ -18,10 +18,7 @@ This project contains the use of machine learning utilizing an open-sourced soft
 Machine learning is the use of algorithms that can improve by evaluating past experiences and analyzing historical data. A traditional algorithm is a procedure for solving a well-defined task with some input and some given data to produce an output. 
 
 
-
-<p align="center">
-<b> Traditional Algorithm </b>
-</p>
+<h3 align="center"> Traditional Algorithm </h3>
 <p align="center">                    
 <img src= "https://user-images.githubusercontent.com/90737587/141258601-a22f423f-b4fe-47ff-8604-84bca03b672b.png" width="80%" height="80%">
 </p>
@@ -29,19 +26,15 @@ Machine learning is the use of algorithms that can improve by evaluating past ex
 
 Let’s do a traditional algorithm example with the organization of a book collection. The task would be to organize the old books by genre such as action, mystery, historical fiction, horror… etc. Then, you would classify what defines each book genre and create a procedure for organizing the books. The output is the book collection organized by genre. 
 
-<p align="center">
-<b> Traditional Algorithm </b>
-</p>
+<h3 align="center"> Traditional Algorithm </h3>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/90737587/141258654-e01bdbb0-a2cd-4e7a-87c4-568642e7bc49.png" width="80%" height="80%">
 </p>
 
 
 In contrast, a machine learning algorithm is given a problem, some input with some shared data, and the output would be to produce a procedure. A machine learning algorithm learns patterns in data and can improve its procedure.
-            
-<p align="center">
-<b> Machine Learning Algorithm </b>
-</p>
+
+<h3 align="center"> Machine Learning Algorithm </h3>          
 <p align="center">  
 <img src="https://user-images.githubusercontent.com/90737587/141258702-750acb4a-9cf3-4499-9cf4-5f96142b6566.png" width="80%" height="80%">
 </p>
@@ -49,9 +42,7 @@ In contrast, a machine learning algorithm is given a problem, some input with so
 Now, let’s try the same example we used for the traditional algorithm but this time with the machine learning algorithm. The task remains the same: to organize the books by genre such as action, mystery, historical fiction, horror… etc. Then, we should still input some rules of what defines each book genre. However, we do not create a procedure for organizing these books. Instead, we show the computer hundreds of thousands of examples of books and their genres. The computer will learn patterns on how to different books by genre on its own. In addition, over time, the computer will improve its procedure and identify and organize future books added to the book collection. 
 
 
-<p align="center">
-<b> Machine Learning Algorithm </b>
-</p>
+<h3 align="center"> Machine Learning Algorithm </h3> 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/90737587/141258799-dd6886a6-1be0-4c28-b92b-cd11a9bb343d.png" width="80%" height="80%">
 </p>
