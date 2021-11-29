@@ -1,4 +1,7 @@
-This project contains the use of machine learning utilizing an open-sourced software library, TensorFlow, to solve partial differential equations (PDEs) used in physics and engineering such as the Advection-Diffusion equation, Burger’s equation, and KdV equation.
+# Solving Partial Differential Equations using Machine Learning 
+
+### Introduction
+This project contains the use of machine learning utilizing an open-sourced software library, TensorFlow, to solve partial differential equations (PDEs) used in physics and engineering such as the Advection-Diffusion equation, Burger’s equation, and KdV equation. First, we will go over what machine learning is, how TensorFlow can be utilized in machine learning, and how machine learning can be used to solve PDEs. Also, we will learn the history and real-world applications of these PDEs. Lastly, we will go over how to evaluate models and see how I trained the models to improve and produce more accurate, useful models.
 
 
 | Name| Equation| Equation Graph|
@@ -7,10 +10,11 @@ This project contains the use of machine learning utilizing an open-sourced soft
 |Burger|<img width="150"  src="https://user-images.githubusercontent.com/90737587/142930461-fa204c37-d107-49b1-b97e-bdbeb4f06a66.png">|<img width="225" alt="Screen Shot 2021-11-03 at 1 11 57 AM" src="https://user-images.githubusercontent.com/90737587/140027116-32d19225-38f4-46f2-acf9-b82c0cb9e4db.png">|
 |KdV|<img width="200"  src="https://user-images.githubusercontent.com/90737587/141266138-d94e8f4f-ede9-4257-8485-44ffa25c7275.png">|<img width="225" alt="Screen Shot 2021-10-31 at 8 30 29 PM" src="https://user-images.githubusercontent.com/90737587/139617944-881010bb-8643-42a4-947d-4a9a221482c7.png">|
 
-First, we will go over what machine learning is, how TensorFlow can be utilized in machine learning and the machine learning process. Then, we'll learn why machine learning is used to solve PDEs. Also, we will learn the history and real-world applications of these equations. Lastly, we will go over how to evaluate the models and see how I trained the models to improve and produce more accurate, useful models.
+
 <br />
-<br />
-### What is Machine Learning? 
+<br /> 
+
+### What is Machine Learning? <br />
 Machine learning is the use of algorithms that can improve by evaluating past experiences and analyzing historical data. A traditional algorithm is a procedure for solving a well-defined task with some input and some given data to produce an output. 
 
 <p align="center">
