@@ -89,10 +89,12 @@ u(x,t) = speed of fluid *(speed dependent on x and t)*
 D = diffusion coefficient *(amount of a particle substance that diffuses across an unit of area)*  
 v = advection coefficient *(velocity or speed of the flow)* <br />
 <br />
+
 ### The History of the Advection-Diffusion equation:
 The Advection-Diffusion equation is of fluid dynamics which is the study of fluid motion under the action of physics forces. The term "advection" means the transport of a large quantity of fluid. The term "diffusion" means the intermingling of substances by the natural movement of their particles. The Advection-Diffusion equation is derived from the continuity equation. The continuity equation describes the transport of a quantity and is of one of physics fundamentals laws, the conservation law. The conservation law states that energy can neither be created nor destroyed, but it can transform one form into another. 
 <br />
 <br />
+
 ## What is the Burger's equation?
 Burger’s equation resembles a shock wave and is known for modeling turbulence. Turbulence is fluid motion caused by dramatic, hectic changes in pressure and flow velocity. If you have been an airplane, you may be familiar with turbulence as the cause of an uneasy and not so smooth ride for a short period of time. Figure 2 shows a drawing displaying how wind turbulence may interact with an airplane. Burger's equation illustrates the theory of turbulence.
 
@@ -113,6 +115,7 @@ v = advection coefficient *(velocity or speed of the flow)*    <br />
 The Burger’s equation or Bateman-Burger’s equation was created by Harry Bateman in 1915 and then later studied by Johanne Martinus Burgers in 1948. Burger’s equation is obtained by combining a nonlinear wave motion with a linear diffusion and is the simplest nonlinear model equation for diffusive waves in fluid dynamics. Burger’s equation is derived from the Naiver Strokes equation. Naive Strokes equations are the fundamental equations of viscous fluid dynamics. Similar to the Advection-Diffusion equation, Burger’s equation is a continuity equation and from the conservation law.
 <br />
 <br />
+
 ## What is the KdV's equation
 
 | Equation| Equation Graph| Real-world Example |
