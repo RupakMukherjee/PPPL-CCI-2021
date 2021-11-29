@@ -87,6 +87,7 @@ t = temporal coordinate *(a specific time)*     <br />
 u(x,t) = speed of fluid *(speed dependent on x and t)*  
 D = diffusion coefficient *(amount of a particle substance that diffuses across an unit of area)*  
 v = advection coefficient *(velocity or speed of the flow)*
+<br />
 
 ### The History of the Advection-Diffusion equation:
 The Advection-Diffusion equation is of fluid dynamics which is the study of fluid motion under the action of physics forces. The term "advection" means the transport of a large quantity of fluid. The term "diffusion" means the intermingling of substances by the natural movement of their particles. The Advection-Diffusion equation is derived from the continuity equation. The continuity equation describes the transport of a quantity and is of one of physics fundamentals laws, the conservation law. The conservation law states that energy can neither be created nor destroyed, but it can transform one form into another. 
@@ -104,6 +105,7 @@ x = spatial coordinate *(a specific location)*   <br />
 t = temporal coordinate *(a specific time)*    <br />
 u(x,t) = speed of fluid *(speed dependent on x and t)*     
 v = advection coefficient *(velocity or speed of the flow)*    <br />
+<br />
 
 ### The History of the Burger's equation: 
 The Burger’s equation or Bateman-Burger’s equation was created by Harry Bateman in 1915 and then later studied by Johanne Martinus Burgers in 1948. Burger’s equation is obtained by combining a nonlinear wave motion with a linear diffusion and is the simplest nonlinear model equation for diffusive waves in fluid dynamics. Burger’s equation is derived from the Naiver Strokes equation. Naive Strokes equations are the fundamental equations of viscous fluid dynamics. Similar to the Advection-Diffusion equation, Burger’s equation is a continuity equation and from the conservation law.
@@ -121,6 +123,7 @@ t = temporal coordinate (a specific time)   <br />
 u(x,t) = speed of fluid (speed dependent on x and t)  <br />
 D = diffusion coefficient (amount of a particle substance that diffuses across an unit of area)  <br />
 v = advection coefficient (velocity or speed of the flow)  <br />
+<br />
 
 ### The History of the KdV's equation:
 The history of the KdV equation started with John Scott Russell observing a solitary wave, also known as a soliton, in a canal in 1834. Following this, Russell came up with the basic properties of a soliton. In 1870, Lord Rayleigh and Joseph Boussinesq did further theoretical investigations. Then in 1895, Korteweg and De Vries created the KdV equation, a mathematical model of soliton waves in shallow waters. In 1965, Norman Zabusky and Martin David Kruskal at Princeton Physics Plasma laboratory created computer simulations to study the KdV equation. They discovered the solitons could keep their shape after passing through each other. In 1967, Gardner, Greene, Kruskal, and Miura developed an analytic solution to the KdV equation utilizing the inverse scattering transform. In other words, the KdV equation is of the few non-linear partial differential equations that can be solved with exact solutions. Like Burger’s equation and the Advection-Diffusion equation, the KdV equation is derived from the conservation law. 
