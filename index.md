@@ -72,7 +72,7 @@ The flowchart below will explain the five steps of the general machine learning 
 For this project, I utilized this [Advection-Diffusion code](https://github.com/dynamicslab/deep-learning-fluids/blob/main/notebooks/advection_diffusion_DL.ipynb) that also uses the same general machine learning process shown above. I used the same code for the Burger’s and KdV’s code except with some slight modifications. In the flowchart down below, I will explain how we utilized the machine learning process in regard to solving PDEs. Keep in mind that I will be solely focusing on the machine learning process itself. Later, I will go into further detail about what Tests 1 & 2 are and how to evaluate and improve the models. With that said, for steps 1-3, I will explain what the creator of the Advection-Diffusion code did for data collection, preparing the data, and building the model. Then, for steps 3-5, I will explain what I have done to train the model, test the model, and improve the model to get better results. 
 <br />
 <br />
-## How the Machine learning process was used in this project: 
+## How was the Machine learning process used in this project?
 
 <img src= "https://user-images.githubusercontent.com/90737587/142388491-a1046e69-e6cd-4774-ac44-a5fce6405dd2.png" >
 
