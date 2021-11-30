@@ -112,11 +112,13 @@ The Burger’s equation or Bateman-Burger’s equation was created by Harry Bate
 <br />
 <br />
 
-## What is the KdV's equation
+## What is the KdV's equation?
+
+The Korteweg–De Vries equation (KdV) equation explains the shape and movement of solitons. A soliton, also known as a solitary wave, is a wave packet that maintains its shape at constant velocity. Figure 3 illustrates the movement of the earth’s crust underwater, an earthquake, causing a long, large wave packet to travel a long distance while maintaining its speed and shape, also known as a tsunami.
 
 | Equation| Equation Graph| Real-world Example |
 |:--------:|:------------:|:------------------:|
-|<img width="150" src="https://user-images.githubusercontent.com/90737587/141266138-d94e8f4f-ede9-4257-8485-44ffa25c7275.png">|<img width="225" src="https://user-images.githubusercontent.com/90737587/139617944-881010bb-8643-42a4-947d-4a9a221482c7.png"> |<img width="250" src="">  <br /> (Figure 3: )|
+|<img width="150" src="https://user-images.githubusercontent.com/90737587/141266138-d94e8f4f-ede9-4257-8485-44ffa25c7275.png">|<img width="225" src="https://user-images.githubusercontent.com/90737587/139617944-881010bb-8643-42a4-947d-4a9a221482c7.png"> |<img width="260" src="https://user-images.githubusercontent.com/90737587/144011938-10346ad2-1e75-458c-a758-f1642e5e23b9.png">  <br /> (Figure 3: A digram of a tsunami)|
 
 ### Defining the variables: 
 x = spatial coordinate (a specific location)  <br />
