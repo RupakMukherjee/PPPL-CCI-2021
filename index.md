@@ -39,7 +39,7 @@ In contrast, a machine learning algorithm is given a problem, some input with so
 <img src="https://user-images.githubusercontent.com/90737587/141258702-750acb4a-9cf3-4499-9cf4-5f96142b6566.png" width="80%" height="80%">
 </p>
 
-Now, let’s try the same example we used for the traditional algorithm but this time with the machine learning algorithm. The task remains the same: to organize the books by genre such as action, mystery, historical fiction, horror… etc. Then, we should still input some rules of what defines each book genre. However, we do not create a procedure for organizing these books. Instead, we show the computer hundreds of thousands of examples of books and their genres. The computer will learn patterns on how to different books by genre on its own. In addition, over time, the computer will improve its procedure and identify and organize future books added to the book collection. 
+Now, let’s try the same example we used for the traditional algorithm but this time with the machine learning algorithm. The task remains the same: to organize the books by genre such as action, mystery, historical fiction, horror… etc. Then, we should still input some rules of what defines each book genre. However, we do not create a procedure for organizing these books. Instead, we show the computer hundreds or thousands of examples of books and their genres. The computer will learn patterns on how to different books by genre on its own. In addition, over time, the computer will improve its procedure and identify and organize future books added to the book collection. 
 
 
 <h3 align="center"> Machine Learning Algorithm </h3> 
