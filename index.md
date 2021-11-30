@@ -118,7 +118,7 @@ The Korteweg–De Vries (KdV) equation explains the shape and movement of solito
 
 | Equation| Equation Graph| Real-world Example |
 |:--------:|:------------:|:------------------:|
-|<img width="150" src="https://user-images.githubusercontent.com/90737587/141266138-d94e8f4f-ede9-4257-8485-44ffa25c7275.png">|<img width="225" src="https://user-images.githubusercontent.com/90737587/139617944-881010bb-8643-42a4-947d-4a9a221482c7.png"> |<img width="260" src="https://user-images.githubusercontent.com/90737587/144011938-10346ad2-1e75-458c-a758-f1642e5e23b9.png">  <br /> (Figure 3: A digram of a tsunami)|
+|<img width="150" src="https://user-images.githubusercontent.com/90737587/141266138-d94e8f4f-ede9-4257-8485-44ffa25c7275.png">|<img width="225" src="https://user-images.githubusercontent.com/90737587/139617944-881010bb-8643-42a4-947d-4a9a221482c7.png"> |<img width="270" src="https://user-images.githubusercontent.com/90737587/144011938-10346ad2-1e75-458c-a758-f1642e5e23b9.png">  <br /> (Figure 3: A digram of a tsunami)|
 
 ### Defining the variables: 
 x = spatial coordinate (a specific location)  <br />
