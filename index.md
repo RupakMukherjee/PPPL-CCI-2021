@@ -114,7 +114,7 @@ The Burger’s equation or Bateman-Burger’s equation was created by Harry Bate
 
 ## What is the KdV's equation?
 
-The Korteweg–De Vries (KdV) equation explains the shape and movement of solitons. A soliton, also known as a solitary wave, is a wave packet that maintains its shape at constant velocity. Figure 3 illustrates the movement of the earth’s crust underwater, an earthquake, causing a long, large wave packet to travel a long distance while maintaining its speed and shape, also known as a tsunami.
+The Korteweg–De Vries (KdV) equation explains the shape and movement of solitons. A soliton, also known as a solitary wave, is a wave packet that maintains its shape at constant velocity. Tsunamis behave similarly to solitons. For instance, Figure 3 illustrates the movement of the earth’s crust underwater, an earthquake, causing a long, large wave packet to travel a long distance while maintaining its wave packet speed and shape, also known as a tsunami. Meaning, the KdV equation can describe the shape and movement of Tsunamis. 
 
 | Equation| Equation Graph| Real-world Example |
 |:--------:|:------------:|:------------------:|
