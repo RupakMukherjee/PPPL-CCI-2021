@@ -3,7 +3,7 @@
 <br />
 
 ## Introduction
-This project contains the use of machine learning utilizing an open-sourced software library, TensorFlow, to solve partial differential equations (PDEs). PDEs are equations used in physics and engineering applications, and the PDEs we will solve is the Advection-Diffusion equation, Burger’s equation, and KdV equation. First, we will go over what machine learning is, how TensorFlow can be utilized in machine learning, and how machine learning can be used to solve PDEs. Then, we will learn the history and real-world applications of these PDEs. Lastly, we will go over how to evaluate models and see how I trained the models to improve and produce more accurate, useful models.
+This project contains the use of machine learning utilizing an open-sourced software library, TensorFlow, to solve partial differential equations (PDEs). PDEs are equations used in physics and engineering applications, and the PDEs we will solve is the Advection-Diffusion equation, Burger’s equation, and Korteweg–De Vries (KdV) equation. First, we will go over what machine learning is, how TensorFlow can be utilized in machine learning, and how machine learning can be used to solve PDEs. Then, we will learn the history and real-world applications of these PDEs. Lastly, we will go over how to evaluate models and see how I trained the models to improve and produce more accurate, useful models.
 
 
 | Name| Equation| Equation Graph|
@@ -114,7 +114,7 @@ The Burger’s equation or Bateman-Burger’s equation was created by Harry Bate
 
 ## What is the KdV's equation?
 
-The Korteweg–De Vries equation (KdV) equation explains the shape and movement of solitons. A soliton, also known as a solitary wave, is a wave packet that maintains its shape at constant velocity. Figure 3 illustrates the movement of the earth’s crust underwater, an earthquake, causing a long, large wave packet to travel a long distance while maintaining its speed and shape, also known as a tsunami.
+The Korteweg–De Vries (KdV) equation explains the shape and movement of solitons. A soliton, also known as a solitary wave, is a wave packet that maintains its shape at constant velocity. Figure 3 illustrates the movement of the earth’s crust underwater, an earthquake, causing a long, large wave packet to travel a long distance while maintaining its speed and shape, also known as a tsunami.
 
 | Equation| Equation Graph| Real-world Example |
 |:--------:|:------------:|:------------------:|
