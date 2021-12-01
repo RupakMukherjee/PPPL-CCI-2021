@@ -196,13 +196,13 @@ history = deep_approx.fit(X_train, y_train,
 
 ### Test 1: Input Table 
 
-| Test| Dense Layer 1| Dense Layer 2| Dense Layer 3| Epochs|
-|:---:|:------------: | :-----------: |:------------:|:---:|
-|[B1](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB1.py)|10 |10 |1 |10|
-|[B2](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB2.py)|2 |10 |1 |30|
-|[B3](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB3.py)|4 |4 |5 |30|
-|[B4](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB4.py)|15 |15 |2 |30|
-|[B5](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB5.py)|50 |50 |1 |30|
+| Test| Dense Layer 1| Dense Layer 2| Dense Layer 3|Input Dimension |Epochs|
+|:---:|:------------: | :-----------: |:------------:|:------------:|:---:|
+|[B1](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB1.py)|10 |10 |1 |2|10|
+|[B2](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB2.py)|2 |10 |1 |2|30|
+|[B3](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB3.py)|4 |4 |5 |2|30|
+|[B4](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB4.py)|15 |15 |2 |2|30|
+|[B5](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB5.py)|50 |50 |1 |2|30|
 
 ### Test 1: Output Graphs 
 
@@ -237,13 +237,13 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 
 ### Test 1: Input Table 
 
-| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Epochs|
-|:---:|:-------------:| :-----------: |:------------:|:----:|
-|[K1](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK1.py)|10|10|1|10|
-|[K2](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK2.py)|5|5|1|30|
-|[K3](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK3.py)|50|50|1|30|
-|[K4](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK4.py)|150|150|1|30|
-|[K5](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK5.py)|500|500|1|100|
+| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension|Epochs|
+|:---:|:-------------:| :-----------: |:------------:|:-------------:|:----:|
+|[K1](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK1.py)|10|10|1|2|10|
+|[K2](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK2.py)|5|5|1|2|30|
+|[K3](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK3.py)|50|50|1|2|30|
+|[K4](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK4.py)|150|150|1|2|30|
+|[K5](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK5.py)|500|500|1|2|100|
 
 ### Test 1: Output Graphs 
 
@@ -314,11 +314,11 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=30, batch_size=32,
 ```
 ### Test 2: Input Table
 
-| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Epochs|
-|:---:|:-------------:|:-------------:|:------------:|:----:|
-|[B6](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB6.py) |2|10|1|3|
-|[B7](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB7.py) |10|15|1|10|
-|[B8](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB8.py) |50|80|5|30|
+| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension|Epochs|
+|:---:|:-------------:|:-------------:|:------------:|:--------------:|:----:|
+|[B6](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB6.py) |2|10|1|6|3|
+|[B7](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB7.py) |10|15|1|6|10|
+|[B8](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB8.py) |50|80|5|6|30|
 
 ### Test 2: Output Graphs
 
@@ -351,11 +351,11 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 
 ### Test 2: Input Table
 
-| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Epochs|Input Dimension|
-|:---:|:------------: | :-----------: |:------------:|:---:|:--------------:|
-|[K6](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK6.py)|2|10|1|10|6|
-|[K7](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK7.py)|50|50|1|30|6|
-|[K8](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK8.py)|100|80|1|50|2|
+| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension|Epochs|
+|:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
+|[K6](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK6.py)|2|10|1|6|10|
+|[K7](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK7.py)|50|50|1|6|30|
+|[K8](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK8.py)|100|80|1|2|50|
 
 
 ### Test 2: Output Graphs
