@@ -286,7 +286,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=3, batch_size=32,
 
 ### Test 2: Output Graphs 
 
-| Test| Graph 1| Graph 2| Graph 3| Graph 4|
+| Test| Graph 4| Graph 5| Graph 6| Graph 7|
 |:---:|:------:|:------:|:------:|:------:|
 |[A6](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA6.py)|<img width="300" alt="A6E1" src="https://user-images.githubusercontent.com/90737587/140024192-7196a68a-18f5-4190-9b68-5a4f742f58d0.png">|<img width="300" alt="A6fu" src="https://user-images.githubusercontent.com/90737587/140024224-3dd44f8e-77ab-4745-8100-109e2c48157b.png">|<img width="300" alt="A6ET" src="https://user-images.githubusercontent.com/90737587/140024242-9e504113-4612-4c2a-92e8-35fa357e4290.png">|<img width="300" alt="A6u" src="https://user-images.githubusercontent.com/90737587/140024573-3617c695-7b03-41ee-a34a-cb05edd99e60.png">|
 |[A7](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA7.py)|<img width="300" alt="A7E1" src="https://user-images.githubusercontent.com/90737587/140024348-5af83f54-df94-40a9-b313-04af79951a02.png">|<img width="300" alt="A7Fu" src="https://user-images.githubusercontent.com/90737587/140024379-da1b7e05-6854-4f09-a475-e9a25703837e.png">|<img width="300" alt="A7ET" src="https://user-images.githubusercontent.com/90737587/140024410-145239dc-7dc9-4816-a068-164c83f18ced.png">|<img width="300" alt="A7u" src="https://user-images.githubusercontent.com/90737587/140024544-2773c4eb-6882-4dd6-8091-e7ad6646e34c.png">|
@@ -323,7 +323,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=30, batch_size=32,
 
 ### Test 2: Output Graphs
 
-| Test| Graph 1| Graph 2| Graph 3| Graph 4|
+| Test| Graph 4| Graph 5| Graph 6| Graph 7|
 |:---:|:------:|:------:|:------:|:------:|
 |[B6](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB6.py)  |<img width="300" alt="TestF-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139620520-bdf3bf2b-2b90-44e1-85af-4339d254cbc3.png">|<img width="300" alt="TestFu(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139620537-30f6e297-8219-4b58-9c7d-b23beaf2cda2.png">|<img width="300" alt="TestG-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139620547-cf8adece-16e8-4b6e-9e96-d57b75eac463.png">|<img width="300" alt="TestF-u(x,Tend) (1)" src="https://user-images.githubusercontent.com/90737587/139620559-0d169b96-4952-405b-a66d-722c805af42f.png">|
 |[B7](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB7.py) | <img width="300" alt="TestG-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139623766-2467b415-e4b9-480c-b7e1-6c2e74b59bdd.png">|<img width="300" alt="TestG-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139623777-a8f78f57-f409-4f78-8985-1aabbfcee912.png">|<img width="300" alt="TestG-ErrorT (2)" src="https://user-images.githubusercontent.com/90737587/139623789-8ff717d4-b8b2-4f82-94ca-1bac52131eeb.png">|<img width="300" alt="TestG-u(x, tend) (1)" src="https://user-images.githubusercontent.com/90737587/139623814-0c04324b-de64-46f2-943c-ea8e3bc3baf2.png">|
@@ -361,7 +361,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 
 ### Test 2: Output Graphs
 
-| Test| Graph 1| Graph 2| Graph 3| Graph 4|
+| Test| Graph 4| Graph 5| Graph 6| Graph 7|
 |:---:|:------:|:------:|:------:|:------:|
 |[K6](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK6.py)|<img width="300" alt="Test6-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624811-a40e83e2-ea3a-4065-bfd8-a00fe5281273.png">|<img width="300" alt="Test6-u(x,t) (2)" src="https://user-images.githubusercontent.com/90737587/139624825-f03e014f-c797-4586-878f-99ca86f624e8.png">|<img width="300" alt="Test6-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624843-bba92f16-9950-4997-9bd9-c92b8be7de14.png">|<img width="300" alt="Test6-u(x,tend)" src="https://user-images.githubusercontent.com/90737587/139624854-dad74923-4298-450d-b69b-dd7873bc5160.png">|
 |[K7](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK7.py)|<img width="300" alt="Test7-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624870-890cff00-7891-4b3d-8602-a40e0f813877.png">|<img width="300" alt="Test7-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139624894-265ee0bd-b6fc-4708-ae84-dc393f5f16b8.png">|<img width="300" alt="Test7-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624905-29921347-a660-4bfc-9ef2-5e359cba12ec.png">|<img width="300" alt="Test7-u(x,tend) (2)" src="https://user-images.githubusercontent.com/90737587/139624918-037d671b-4553-49eb-bc03-49b9089b1ad0.png">|
