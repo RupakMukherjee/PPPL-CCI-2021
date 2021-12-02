@@ -164,7 +164,6 @@ history = deep_approx.fit(X_train, y_train,
             validation_data=(X_dev, y_dev),
             callbacks=keras.callbacks.EarlyStopping(patience=5))
 ```
-<br />
 
 Here are the output graphs produced by the numbers I assigned as parameters listed in the input table and input code. For step 4, we need to evaluate these output graphs to check if the model is relevant and if the test results are accurate. 
 
