@@ -169,14 +169,13 @@ Here are the output graphs produced by the numbers I assigned as parameters list
 
 For graph 1, I noticed that the training loss line does not touch the validation line with a 0.0010 difference in value. Though this is a very small difference, it is not ideal. There is similar results for graph 2 where dotted lines are not aligned with the solid colored lines. Meaning, graph 2 also shows that these parameters are not good enough to produce ideal results yet. The ideal model would produce an output graph that has both lines aligned with each other. For graph 3, the blue line meets the orange line in between 0.02 and 0.03. But the goal is to have the blue line equal zero. Again, though the results are close, they are not close enough.   
 
-Step 5 of the machine learning process is to improve. After evaluating Test1-A1, we see that the line graphs are relevant to our mathematical problem and easy to read. However, the lines are not aligned, and the answers are not accurate enough. A way to improve is to adjust the parameters to try to make the lines align. I do this in Test1 A1 to A5 to try to improve the models. Scroll down below the Test 1: Output Graphs to see the comparison of these test cases. 
-
 **Test 1-A1: Output Graphs**
 
 | Test| Graph 1 | Graph 2 | Graph 3|
 |:---:|:------: | :-------:|:-----:|
 |[A1](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA1.py)|<img width="225" alt="Screen Shot 2021-11-01 at 2 55 05 PM" src="https://user-images.githubusercontent.com/90737587/139747239-9f22f746-082e-4a5a-ac22-bc0f59479bc0.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144179802-60c72fcb-7c0c-45a5-8fc1-67229cab297d.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144179817-e5d77adc-cd11-4165-bcfa-714c7e9b9fc3.png">|
 
+Step 5 of the machine learning process is to improve. After evaluating Test1-A1, we see that the line graphs are relevant to our mathematical problem and easy to read. However, the lines are not aligned, and the answers are not accurate enough. A way to improve is to adjust the parameters to try to make the lines align. I do this in Test1 A1 to A5 to try to improve the models. Scroll down below the Test 1: Output Graphs to see the comparison of these test cases. 
 
 
 # Test 1
