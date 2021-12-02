@@ -131,6 +131,57 @@ v = advection coefficient (velocity or speed of the flow)  <br />
 ### The History of the KdV's equation:
 The history of the KdV equation started with John Scott Russell observing a solitary wave, also known as a soliton, in a canal in 1834. Following this, Russell came up with the basic properties of a soliton. In 1870, Lord Rayleigh and Joseph Boussinesq did further theoretical investigations. Then in 1895, Korteweg and De Vries created the KdV equation, a mathematical model of soliton waves in shallow waters. In 1965, Norman Zabusky and Martin David Kruskal at Princeton Physics Plasma laboratory created computer simulations to study the KdV equation. They discovered the solitons could keep their shape after passing through each other. In 1967, Gardner, Greene, Kruskal, and Miura developed an analytic solution to the KdV equation utilizing the inverse scattering transform. In other words, the KdV equation is of the few non-linear partial differential equations that can be solved with exact solutions. Like Burger’s equation and the Advection-Diffusion equation, the KdV equation is derived from the conservation law. 
 
+### Test 1 & Test 2
+Now, let’s go over Test 1 and Test 2. I ran both tests for the Advection-Diffusion equation, Burger’s equation, and KdV equation. For both tests, we will be demonstrating steps 3 to 5 of the machine learning process. All actions I did for the Advection-Diffusion equation for Test 1 are similar to what I did for both Test 1 - Burger’s equation and Test 1 - KdV equation. In other words, if you understand what I did for Test 1 - Advection-Diffusion, then you will understand what I did for Test1 - Burger’s and Test 1 - KdV equation. This also applies to Test 2. First, we will go over an example test case A1 that will allow me to explain input code, input table, and output graphs. Then, we will compare test cases of all equations to try to see patterns or possible ways of improving the models. Lastly, we will discuss what I noticed with Test 1 and why it is necessary to use test 2. 
+
+### Example: Test 1-A1
+
+For Test 1- A1, step 3 of the machine learning process, I trained the Keras Sequential model by assigning numbers for the parameters. I created a table listing which numbers I assigned to Dense Layer 1, Dense Layer 2, Dense Layer 3, Input Dimension, and Epochs. 
+<br />
+
+**Test 1-A1: Input Table**
+
+| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
+|:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
+|[A1](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA1.py)|2|10|1|2|10|
+<br />
+
+Here is the input code for the Keras Sequential model with the corresponding inputs from the Input Table.
+<br />
+
+**Test 1-A1: Input code**
+```
+# Build model
+deep_approx = keras.models.Sequential()
+deep_approx.add(layers.Dense(2, input_dim=2, activation='elu'))
+deep_approx.add(layers.Dense(10, activation='elu'))
+deep_approx.add(layers.Dense(1, activation='linear'))
+
+# Compile model
+deep_approx.compile(loss='mse', optimizer='adam')
+
+# Fit!
+history = deep_approx.fit(X_train, y_train,
+            epochs=10, batch_size=32,
+            validation_data=(X_dev, y_dev),
+            callbacks=keras.callbacks.EarlyStopping(patience=5))
+```
+<br />
+
+Here are the output graphs produced by the numbers I assigned as parameters listed in the input table and input code. For step 4, we need to evaluate these output graphs to check if the model is relevant and if the test results are accurate. 
+
+Graph 1-
+Graph 2-
+Fraph 3-
+
+**Test 1-A1: Output Graphs**
+
+| Test| Graph 1 | Graph 2 | Graph 3|
+|:---:|:------: | :-------:|:-----:|
+|[A1](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA1.py)|<img width="225" alt="Screen Shot 2021-11-01 at 2 55 05 PM" src="https://user-images.githubusercontent.com/90737587/139747239-9f22f746-082e-4a5a-ac22-bc0f59479bc0.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144179802-60c72fcb-7c0c-45a5-8fc1-67229cab297d.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144179817-e5d77adc-cd11-4165-bcfa-714c7e9b9fc3.png">|
+
+
+
 # Test 1
 ## Advection-Diffusion Equation
 
