@@ -220,6 +220,12 @@ history = deep_approx.fit(X_train, y_train,
 |[A4](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA4.py)|<img width="225" alt="A4VL" src="https://user-images.githubusercontent.com/90737587/139741116-4b148900-b5b9-4d6f-a5e3-3a3c5bb5bfb8.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144180520-efcdba06-a0a0-41e0-9ac9-7ae710b3d1db.png">|<img width="235" src="https://user-images.githubusercontent.com/90737587/144180525-753aed7e-ce0d-40e0-be2d-b46fbc089d6d.png">|
 |[A5](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA5.py)|<img width="225" alt="A5VL" src="https://user-images.githubusercontent.com/90737587/139741162-91d00fe1-9b77-418f-94b9-e4cd9a8b75d8.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144182070-1e94b9ca-f856-4dce-a256-ebf11f7d4184.png">|<img width="235" src="https://user-images.githubusercontent.com/90737587/144180608-0ec7ffe4-c0aa-4f64-8848-35c532a736fd.png">|
 
+### Evaluation 
+
+In example Test1-A1, we discussed how graph 1 and graph 2 are showing that the model is not producing results that are not ideal since the lines are not aligned. Also, graph 3 results are not exactly at zero. From Test1-A1 to Test1-A5, I have increased the values of the dense layers and epochs in an attempt to improve the results. The output graphs of Test1-A2 to Test1-A4 show improvement with the increased values of the parameters and epochs. Test1-A1 is less accurate, and as I adjusted the parameters, Test1-A4 is the most accurate. When I got to Test1-A5, it seemed that increasing the values parameters may not be the answer to getting a perfect model. Though Test1-A5 has the highest values of dense layers of the test cases, the results are not as accurate as I predicted. Compared to Test1-A4, Test1-A5’s graph 1 has increased values and is less aligned. Also, graph 2 is showing graphs are less aligned. Lastly, graph 3 shows that the error values have increased and are further away from zero.
+
+Now that we are done evaluating Test 1-Advection-Diffusion Equation, let’s evaluate Test1-Burger’s Equation.
+
 
 ## Burger's Equation
 
