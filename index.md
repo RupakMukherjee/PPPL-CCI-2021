@@ -314,6 +314,12 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 |[K4](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK4.py)|<img width="225" alt="Test4-ValLoss (3)" src="https://user-images.githubusercontent.com/90737587/139624342-113f98ce-975d-4514-85fb-1ea3aae07ffe.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144183040-a054988a-5b65-4a01-bad9-26af4e501cbd.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144183051-596698d0-5589-46d6-8a01-980c9e120419.png">|
 |[K5](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK5.py)|<img width="225" alt="Test5-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139624404-4eaa9878-f9a2-43d3-b5d7-185af74525e3.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144183067-8e35d0cc-5049-4297-9f11-31cec1b40ba0.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144183074-15df56e8-dad3-4c93-a6f5-9da50896a2e8.png">|
 
+### Evaluation 
+For Test1-K1 to Test1-K5, I did the same process as the previous equations. I have increased the values of the dense layers and epochs in an attempt to improve the results. Similar to Test1-Advection-Diffusion equation test cases, there are improvements from Test1-K1 to Test1-K4 in graphs 1 to 3. In Test1-K5, graphs 1-3 shows that increasing the parameters worsened the results. These results are similar to what we saw in comparing Test1-A4 and Test1-A5.
+
+## Test 1 Conclusion
+
+
 # Test 2
 ## Advection-Diffusion Equation
 
