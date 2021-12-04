@@ -317,7 +317,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 ### Evaluation 
 For Test1-K1 to Test1-K5, I did the same process as the previous equations. I have increased the values of the dense layers and epochs in an attempt to improve the results. Similar to Test1-Advection-Diffusion equation test cases, there are improvements from Test1-K1 to Test1-K4 in graphs 1 to 3. In Test1-K5, graphs 1-3 shows that increasing the parameters worsened the results. These results are similar to what we saw in comparing Test1-A4 and Test1-A5.
 
-## Test 1 Conclusion
+### Test 1 Conclusion
 
 
 # Test 2
