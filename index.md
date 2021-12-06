@@ -208,7 +208,7 @@ history = deep_approx.fit(X_train, y_train,
 |:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
 |[A1](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA1.py)|2|10|1|2|10|
 |[A2](code/testA2.md)|5|25|3|2|30|
-|[A3](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA3.py)|50|2|1|2|30|
+|[A3](code/testA3.md)|50|2|1|2|30|
 |[A4](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA4.py)|100|100|1|2|30|
 |[A5](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA5.py)|1000|1000|10|2|30|
 
