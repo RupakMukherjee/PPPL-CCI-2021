@@ -145,7 +145,7 @@ For Test 1-A1, step 3 of the machine learning process, I trained the Keras Seque
 
 | Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
 |:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
-|[A1](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA1.py)|2|10|1|2|10|
+|[A1](code/testA1.md)|2|10|1|2|10|
 
 Here is the input code for the Keras Sequential model with the corresponding inputs from the Input Table.
 
