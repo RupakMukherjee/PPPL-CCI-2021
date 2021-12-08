@@ -1,7 +1,7 @@
 # Solving Partial Differential Equations using Machine Learning 
 
 <br />
-<h3 align="center"> <img width="150" src="https://user-images.githubusercontent.com/90737587/145158410-4ff43f7a-8650-4f20-b568-cb5c8a509f82.jpeg">             <img width="150" src="https://user-images.githubusercontent.com/90737587/145158631-47c93c00-b8bb-4951-ab33-8b86a8aeb97f.png">
+<h3 align="center"> <img width="100" src="https://user-images.githubusercontent.com/90737587/145158410-4ff43f7a-8650-4f20-b568-cb5c8a509f82.jpeg">             <img width="100" src="https://user-images.githubusercontent.com/90737587/145158631-47c93c00-b8bb-4951-ab33-8b86a8aeb97f.png">
  </h3>
 
 ## Introduction
