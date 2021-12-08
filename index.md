@@ -1,8 +1,12 @@
 # Solving Partial Differential Equations using Machine Learning 
 
 <br />
-<h3 align="center"> <img width="100" src="https://user-images.githubusercontent.com/90737587/145159191-117d5ad7-25fd-4765-aec1-c81e39e0a67d.png">             <img width="100" src="https://user-images.githubusercontent.com/90737587/145158631-47c93c00-b8bb-4951-ab33-8b86a8aeb97f.png">
+<h3 align="center"> <img width="100" align="left" src="https://user-images.githubusercontent.com/90737587/145159191-117d5ad7-25fd-4765-aec1-c81e39e0a67d.png">  <img width="100" align="right" src="https://user-images.githubusercontent.com/90737587/145158631-47c93c00-b8bb-4951-ab33-8b86a8aeb97f.png">
  </h3>
+
+<br />
+<br />
+<br />
 
 ## Introduction
 This project contains the use of machine learning utilizing an open-sourced software library, TensorFlow, to solve partial differential equations (PDEs). PDEs are equations used in physics and engineering applications, and the PDEs we will solve is the Advection-Diffusion equation, Burger’s equation, and Korteweg–De Vries (KdV) equation. First, we will go over what machine learning is, how TensorFlow can be utilized in machine learning, and how machine learning can be used to solve PDEs. Then, we will learn the history and real-world applications of these PDEs. Lastly, we will go over how to evaluate models and see how I trained the models to improve and produce more accurate, useful models.
