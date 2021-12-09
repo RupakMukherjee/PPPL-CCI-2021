@@ -1,3 +1,7 @@
+## testA6.py:
+
+```python
+
 import tensorflow as tf
 import sklearn
 import numpy as np
@@ -265,3 +269,5 @@ plt.xlabel('$x$')
 plt.ylabel('$Error$')
 plt.legend(leg)
 plt.show()
+
+```
