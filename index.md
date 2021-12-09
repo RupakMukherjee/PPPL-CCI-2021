@@ -6,6 +6,8 @@
 
 # Solving Partial Differential Equations using Machine Learning 
 
+<br /><br />
+
 ## Introduction
 This project contains the use of machine learning utilizing an open-sourced software library, TensorFlow, to solve partial differential equations (PDEs). PDEs are equations used in physics and engineering applications, and the PDEs we will solve is the Advection-Diffusion equation, Burger’s equation, and Korteweg–De Vries (KdV) equation. First, we will go over what machine learning is, how TensorFlow can be utilized in machine learning, and how machine learning can be used to solve PDEs. Then, we will learn the history and real-world applications of these PDEs. Lastly, we will go over how to evaluate models and see how I trained the models to improve and produce more accurate, useful models.
 
@@ -348,17 +350,17 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=3, batch_size=32,
 
 | Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
 |:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
-|[A6](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA6.py)|2|10|1|3|1|
-|[A7](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA7.py)|50|70|1|2|10|
-|[A8](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA8.py)|100|100|1|2|30|
+|[A6](code/testA6.md)|2|10|1|3|1|
+|[A7](code/testA7.md)|50|70|1|2|10|
+|[A8](code/testA8.md)|100|100|1|2|30|
 
 ### Test 2: Output Graphs 
 
 | Test| Graph 4| Graph 5| Graph 6| Graph 7|
 |:---:|:------:|:------:|:------:|:------:|
-|[A6](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA6.py)|<img width="300" alt="A6E1" src="https://user-images.githubusercontent.com/90737587/140024192-7196a68a-18f5-4190-9b68-5a4f742f58d0.png">|<img width="300" alt="A6fu" src="https://user-images.githubusercontent.com/90737587/140024224-3dd44f8e-77ab-4745-8100-109e2c48157b.png">|<img width="300" alt="A6ET" src="https://user-images.githubusercontent.com/90737587/140024242-9e504113-4612-4c2a-92e8-35fa357e4290.png">|<img width="300" alt="A6u" src="https://user-images.githubusercontent.com/90737587/140024573-3617c695-7b03-41ee-a34a-cb05edd99e60.png">|
-|[A7](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA7.py)|<img width="300" alt="A7E1" src="https://user-images.githubusercontent.com/90737587/140024348-5af83f54-df94-40a9-b313-04af79951a02.png">|<img width="300" alt="A7Fu" src="https://user-images.githubusercontent.com/90737587/140024379-da1b7e05-6854-4f09-a475-e9a25703837e.png">|<img width="300" alt="A7ET" src="https://user-images.githubusercontent.com/90737587/140024410-145239dc-7dc9-4816-a068-164c83f18ced.png">|<img width="300" alt="A7u" src="https://user-images.githubusercontent.com/90737587/140024544-2773c4eb-6882-4dd6-8091-e7ad6646e34c.png">|
-|[A8](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA8.py)|<img width="300" alt="A8E1" src="https://user-images.githubusercontent.com/90737587/140026659-c9db5b16-e527-466b-a938-f90d548943cd.png">|<img width="300" alt="A8Fu" src="https://user-images.githubusercontent.com/90737587/140026681-f11d3f2a-ef2d-4d99-96ad-3ae1151a5232.png">|<img width="300" alt="A8ET" src="https://user-images.githubusercontent.com/90737587/140026702-b5ad76d3-9339-4c4f-bdbf-1c3b0e1da1d3.png">|<img width="300" alt="A8u" src="https://user-images.githubusercontent.com/90737587/140026708-d87c17d9-5519-4f81-af8d-5aeaa120034b.png">|
+|[A6](code/testA6.md)|<img width="300" alt="A6E1" src="https://user-images.githubusercontent.com/90737587/140024192-7196a68a-18f5-4190-9b68-5a4f742f58d0.png">|<img width="300" alt="A6fu" src="https://user-images.githubusercontent.com/90737587/140024224-3dd44f8e-77ab-4745-8100-109e2c48157b.png">|<img width="300" alt="A6ET" src="https://user-images.githubusercontent.com/90737587/140024242-9e504113-4612-4c2a-92e8-35fa357e4290.png">|<img width="300" alt="A6u" src="https://user-images.githubusercontent.com/90737587/140024573-3617c695-7b03-41ee-a34a-cb05edd99e60.png">|
+|[A7](code/testA7.md)|<img width="300" alt="A7E1" src="https://user-images.githubusercontent.com/90737587/140024348-5af83f54-df94-40a9-b313-04af79951a02.png">|<img width="300" alt="A7Fu" src="https://user-images.githubusercontent.com/90737587/140024379-da1b7e05-6854-4f09-a475-e9a25703837e.png">|<img width="300" alt="A7ET" src="https://user-images.githubusercontent.com/90737587/140024410-145239dc-7dc9-4816-a068-164c83f18ced.png">|<img width="300" alt="A7u" src="https://user-images.githubusercontent.com/90737587/140024544-2773c4eb-6882-4dd6-8091-e7ad6646e34c.png">|
+|[A8](code/testA8.md)|<img width="300" alt="A8E1" src="https://user-images.githubusercontent.com/90737587/140026659-c9db5b16-e527-466b-a938-f90d548943cd.png">|<img width="300" alt="A8Fu" src="https://user-images.githubusercontent.com/90737587/140026681-f11d3f2a-ef2d-4d99-96ad-3ae1151a5232.png">|<img width="300" alt="A8ET" src="https://user-images.githubusercontent.com/90737587/140026702-b5ad76d3-9339-4c4f-bdbf-1c3b0e1da1d3.png">|<img width="300" alt="A8u" src="https://user-images.githubusercontent.com/90737587/140026708-d87c17d9-5519-4f81-af8d-5aeaa120034b.png">|
 
 
 
