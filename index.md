@@ -259,21 +259,21 @@ history = deep_approx.fit(X_train, y_train,
 
 | Test| Dense Layer 1| Dense Layer 2| Dense Layer 3|Input Dimension |Epochs|
 |:---:|:------------: | :-----------: |:------------:|:------------:|:---:|
-|[B1](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB1.py)|10 |10 |1 |2|10|
-|[B2](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB2.py)|2 |10 |1 |2|30|
-|[B3](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB3.py)|4 |4 |5 |2|30|
-|[B4](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB4.py)|15 |15 |2 |2|30|
-|[B5](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB5.py)|50 |50 |1 |2|30|
+|[B1](code/testB1.md)|10 |10 |1 |2|10|
+|[B2](code/testB2.md)|2 |10 |1 |2|30|
+|[B3](code/testB3.md)|4 |4 |5 |2|30|
+|[B4](code/testB4.md)|15 |15 |2 |2|30|
+|[B5](code/testB5.md)|50 |50 |1 |2|30|
 
 ### Test 1: Output Graphs 
 
 | Test| Graph 1 | Graph 2 | Graph 3|
 |:---:|:------: | :-------:|:-----:|
-|[B1](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB1.py)|<img width="225" alt="TestA-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619306-480ea9e0-f654-4864-bda3-ae5a0f53c418.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144181490-e12878e7-5bd8-4d36-8dea-8bce8af13343.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144181545-1290372e-5432-46ae-899f-45a145e0e5e8.png">|
-|[B2](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB2.py)|<img width="225" alt="TestB-ValLoss (4)" src="https://user-images.githubusercontent.com/90737587/139619412-95f597ab-cbfc-4063-8eaa-30f4491a43e8.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144181607-77ab5d27-8276-4d5f-b76b-27a56be298a5.png">|<img width="235" src="https://user-images.githubusercontent.com/90737587/144181663-a08c3573-a3b5-4eb0-9495-69200984ea28.png">|
-|[B3](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB3.py)|<img width="225" alt="TestC-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619474-6810223d-fcfc-436e-a9f0-3b4386f0b234.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144181707-09582acf-602f-4ab1-baab-6f811ad0cf98.png">|<img width="235" src="https://user-images.githubusercontent.com/90737587/144181714-daf783a4-5ab1-41ae-b20d-02ebeb88ef44.png">|
-|[B4](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB4.py)|<img width="225" alt="TestD-ValLoss (6)" src="https://user-images.githubusercontent.com/90737587/139619635-e958cf35-bacd-4a92-a7cf-759393356139.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144181741-32e975b2-dd23-4aca-b97e-a296ef09da23.png">|<img width="235" src="https://user-images.githubusercontent.com/90737587/144181757-f95c11a6-d148-440f-af8a-1c2ac3285169.png">|
-|[B5](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testB5.py)|<img width="225" alt="TestE-VaLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619684-dc647f49-c17e-4137-820a-4be6be4dfa66.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144181762-81ff4806-3c5d-4001-8c72-8f7ad300236d.png">|<img width="235" src="https://user-images.githubusercontent.com/90737587/144181769-58d2aa04-392e-41b0-ab38-f9bfaa486aaa.png">|
+|[B1](code/testB1.md)|<img width="225" alt="TestA-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619306-480ea9e0-f654-4864-bda3-ae5a0f53c418.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144181490-e12878e7-5bd8-4d36-8dea-8bce8af13343.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144181545-1290372e-5432-46ae-899f-45a145e0e5e8.png">|
+|[B2](code/testB2.md)|<img width="225" alt="TestB-ValLoss (4)" src="https://user-images.githubusercontent.com/90737587/139619412-95f597ab-cbfc-4063-8eaa-30f4491a43e8.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144181607-77ab5d27-8276-4d5f-b76b-27a56be298a5.png">|<img width="235" src="https://user-images.githubusercontent.com/90737587/144181663-a08c3573-a3b5-4eb0-9495-69200984ea28.png">|
+|[B3](code/testB3.md)|<img width="225" alt="TestC-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619474-6810223d-fcfc-436e-a9f0-3b4386f0b234.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144181707-09582acf-602f-4ab1-baab-6f811ad0cf98.png">|<img width="235" src="https://user-images.githubusercontent.com/90737587/144181714-daf783a4-5ab1-41ae-b20d-02ebeb88ef44.png">|
+|[B4](code/testB4.md)|<img width="225" alt="TestD-ValLoss (6)" src="https://user-images.githubusercontent.com/90737587/139619635-e958cf35-bacd-4a92-a7cf-759393356139.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144181741-32e975b2-dd23-4aca-b97e-a296ef09da23.png">|<img width="235" src="https://user-images.githubusercontent.com/90737587/144181757-f95c11a6-d148-440f-af8a-1c2ac3285169.png">|
+|[B5](code/testB5.md)|<img width="225" alt="TestE-VaLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619684-dc647f49-c17e-4137-820a-4be6be4dfa66.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144181762-81ff4806-3c5d-4001-8c72-8f7ad300236d.png">|<img width="235" src="https://user-images.githubusercontent.com/90737587/144181769-58d2aa04-392e-41b0-ab38-f9bfaa486aaa.png">|
 
 ### Evaluation 
 
