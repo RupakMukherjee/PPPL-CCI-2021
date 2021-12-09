@@ -214,7 +214,7 @@ history = deep_approx.fit(X_train, y_train,
 |[A2](code/testA2.md)|5|25|3|2|30|
 |[A3](code/testA3.md)|50|2|1|2|30|
 |[A4](code/testA4.md)|100|100|1|2|30|
-|[A5](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA5.py)|1000|1000|10|2|30|
+|[A5](code/testA5.md)|1000|1000|10|2|30|
 
 ### Test 1: Output Graphs 
 
@@ -224,7 +224,7 @@ history = deep_approx.fit(X_train, y_train,
 |[A2](code/testA2.md)|<img width="225" alt="Screen Shot 2021-11-01 at 2 26 46 PM" src="https://user-images.githubusercontent.com/90737587/139744302-87f30127-f43a-4081-973a-07999db88091.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144180092-8f672cc8-eeb7-4893-a6ef-fdf406d455e9.png">|<img width="235" src="https://user-images.githubusercontent.com/90737587/144180345-63b19c5a-a392-4c4c-af6d-56a10d7c5b69.png">|
 |[A3](code/testA3.md)|<img width="225" alt="A3VL" src="https://user-images.githubusercontent.com/90737587/139741080-58744d79-e820-4d3b-9f76-c4130a74463c.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144180426-10071936-8d5f-42b5-8817-e3547f02e474.png">|<img width="235" src="https://user-images.githubusercontent.com/90737587/144180469-6c533a3d-401d-47fd-85c8-54f86f5c0add.png">|
 |[A4](code/testA4.md)|<img width="225" alt="A4VL" src="https://user-images.githubusercontent.com/90737587/139741116-4b148900-b5b9-4d6f-a5e3-3a3c5bb5bfb8.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144180520-efcdba06-a0a0-41e0-9ac9-7ae710b3d1db.png">|<img width="235" src="https://user-images.githubusercontent.com/90737587/144180525-753aed7e-ce0d-40e0-be2d-b46fbc089d6d.png">|
-|[A5](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testA5.py)|<img width="225" alt="A5VL" src="https://user-images.githubusercontent.com/90737587/139741162-91d00fe1-9b77-418f-94b9-e4cd9a8b75d8.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144182070-1e94b9ca-f856-4dce-a256-ebf11f7d4184.png">|<img width="235" src="https://user-images.githubusercontent.com/90737587/144180608-0ec7ffe4-c0aa-4f64-8848-35c532a736fd.png">|
+|[A5](code/testA5.md)|<img width="225" alt="A5VL" src="https://user-images.githubusercontent.com/90737587/139741162-91d00fe1-9b77-418f-94b9-e4cd9a8b75d8.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144182070-1e94b9ca-f856-4dce-a256-ebf11f7d4184.png">|<img width="235" src="https://user-images.githubusercontent.com/90737587/144180608-0ec7ffe4-c0aa-4f64-8848-35c532a736fd.png">|
 
 ### Evaluation 
 
