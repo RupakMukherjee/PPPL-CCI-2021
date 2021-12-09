@@ -304,21 +304,21 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 
 | Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension|Epochs|
 |:---:|:-------------:| :-----------: |:------------:|:-------------:|:----:|
-|[K1](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK1.py)|10|10|1|2|10|
-|[K2](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK2.py)|5|5|1|2|30|
-|[K3](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK3.py)|50|50|1|2|30|
-|[K4](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK4.py)|150|150|1|2|30|
-|[K5](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK5.py)|500|500|1|2|100|
+|[K1](code/testK1.md)|10|10|1|2|10|
+|[K2](code/testK2.md)|5|5|1|2|30|
+|[K3](code/testK3.md)|50|50|1|2|30|
+|[K4](code/testK4.md)|150|150|1|2|30|
+|[K5](code/testK5.md)|500|500|1|2|100|
 
 ### Test 1: Output Graphs 
 
 | Test| Graph 1 | Graph 2 | Graph 3|
 |:---:|:------: | :-------:|:-----:|
-|[K1](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK1.py)|<img width="225" alt="Test1-ValLoss (1)" src="https://user-images.githubusercontent.com/90737587/139624198-16c6e49e-6926-4417-8c17-301a1536c738.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144182892-2698f9d0-e568-424c-8def-9667c2de2a5f.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144182979-673135b8-9260-4706-88ab-1a886443fcf2.png">|
-|[K2](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK2.py)|<img width="225" alt="Test2-ValLoss (1)" src="https://user-images.githubusercontent.com/90737587/139624233-8fdecb8c-bb72-4220-ac18-5611e7fb219c.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144182997-5b8949ee-baa8-442f-a3fb-56e34f49bea7.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144183011-d11cbacc-5f63-42d3-8fa4-d9a4b71dca29.png">|        
-|[K3](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK3.py)|<img width="225" alt="Test3-ValLoss (1)" src="https://user-images.githubusercontent.com/90737587/139624281-08b27a62-20ab-4aef-9fa5-5aa32823205c.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144183022-6f519d12-995e-4b42-9426-121f91920a60.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144183033-d6a0dc42-9069-4036-8a24-e50f619c86dc.png">|
-|[K4](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK4.py)|<img width="225" alt="Test4-ValLoss (3)" src="https://user-images.githubusercontent.com/90737587/139624342-113f98ce-975d-4514-85fb-1ea3aae07ffe.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144183040-a054988a-5b65-4a01-bad9-26af4e501cbd.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144183051-596698d0-5589-46d6-8a01-980c9e120419.png">|
-|[K5](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK5.py)|<img width="225" alt="Test5-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139624404-4eaa9878-f9a2-43d3-b5d7-185af74525e3.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144183067-8e35d0cc-5049-4297-9f11-31cec1b40ba0.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144183074-15df56e8-dad3-4c93-a6f5-9da50896a2e8.png">|
+|[K1](code/testK1.md)|<img width="225" alt="Test1-ValLoss (1)" src="https://user-images.githubusercontent.com/90737587/139624198-16c6e49e-6926-4417-8c17-301a1536c738.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144182892-2698f9d0-e568-424c-8def-9667c2de2a5f.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144182979-673135b8-9260-4706-88ab-1a886443fcf2.png">|
+|[K2](code/testK2.md)|<img width="225" alt="Test2-ValLoss (1)" src="https://user-images.githubusercontent.com/90737587/139624233-8fdecb8c-bb72-4220-ac18-5611e7fb219c.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144182997-5b8949ee-baa8-442f-a3fb-56e34f49bea7.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144183011-d11cbacc-5f63-42d3-8fa4-d9a4b71dca29.png">|        
+|[K3](code/testK3.md)|<img width="225" alt="Test3-ValLoss (1)" src="https://user-images.githubusercontent.com/90737587/139624281-08b27a62-20ab-4aef-9fa5-5aa32823205c.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144183022-6f519d12-995e-4b42-9426-121f91920a60.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144183033-d6a0dc42-9069-4036-8a24-e50f619c86dc.png">|
+|[K4](code/testK4.md)|<img width="225" alt="Test4-ValLoss (3)" src="https://user-images.githubusercontent.com/90737587/139624342-113f98ce-975d-4514-85fb-1ea3aae07ffe.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144183040-a054988a-5b65-4a01-bad9-26af4e501cbd.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144183051-596698d0-5589-46d6-8a01-980c9e120419.png">|
+|[K5](code/testK5.md)|<img width="225" alt="Test5-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139624404-4eaa9878-f9a2-43d3-b5d7-185af74525e3.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144183067-8e35d0cc-5049-4297-9f11-31cec1b40ba0.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144183074-15df56e8-dad3-4c93-a6f5-9da50896a2e8.png">|
 
 ### Evaluation 
 For Test1-K1 to Test1-K5, I did the same process as the previous equations. I have increased the values of the dense layers and epochs in an attempt to improve the results. Similar to Test1-Advection-Diffusion equation test cases, there are improvements from Test1-K1 to Test1-K4 in graphs 1 to 3. In Test1-K5, graphs 1-3 shows that increasing the parameters worsened the results. These results are similar to what we saw in comparing Test1-A4 and Test1-A5.
@@ -424,16 +424,16 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 
 | Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension|Epochs|
 |:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
-|[K6](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK6.py)|2|10|1|6|10|
-|[K7](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK7.py)|50|50|1|6|30|
-|[K8](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK8.py)|100|80|1|2|50|
+|[K6](code/testK6.md)|2|10|1|6|10|
+|[K7](code/testK7.md)|50|50|1|6|30|
+|[K8](code/testK8.md)|100|80|1|2|50|
 
 
 ### Test 2: Output Graphs
 
 | Test| Graph 4| Graph 5| Graph 6| Graph 7|
 |:---:|:------:|:------:|:------:|:------:|
-|[K6](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK6.py)|<img width="300" alt="Test6-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624811-a40e83e2-ea3a-4065-bfd8-a00fe5281273.png">|<img width="300" alt="Test6-u(x,t) (2)" src="https://user-images.githubusercontent.com/90737587/139624825-f03e014f-c797-4586-878f-99ca86f624e8.png">|<img width="300" alt="Test6-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624843-bba92f16-9950-4997-9bd9-c92b8be7de14.png">|<img width="300" alt="Test6-u(x,tend)" src="https://user-images.githubusercontent.com/90737587/139624854-dad74923-4298-450d-b69b-dd7873bc5160.png">|
-|[K7](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK7.py)|<img width="300" alt="Test7-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624870-890cff00-7891-4b3d-8602-a40e0f813877.png">|<img width="300" alt="Test7-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139624894-265ee0bd-b6fc-4708-ae84-dc393f5f16b8.png">|<img width="300" alt="Test7-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624905-29921347-a660-4bfc-9ef2-5e359cba12ec.png">|<img width="300" alt="Test7-u(x,tend) (2)" src="https://user-images.githubusercontent.com/90737587/139624918-037d671b-4553-49eb-bc03-49b9089b1ad0.png">|
-|[K8](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/main/testK8.py)|<img width="300" alt="Test8-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624929-810d0381-f81a-4a9f-941b-76fda8410024.png">|<img width="300" alt="Test8-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139624940-1b745f77-adf9-4504-bfa2-7f49bc326a27.png">|<img width="300" alt="Test8-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624946-e8389c11-8979-472d-80a3-a9c77c26cbcd.png">|<img width="300" alt="Test8-u(x,tend)" src="https://user-images.githubusercontent.com/90737587/139624976-e6d3e499-8263-4c71-823d-a9c1a29a93fb.png">|
+|[K6](code/testK6.md)|<img width="300" alt="Test6-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624811-a40e83e2-ea3a-4065-bfd8-a00fe5281273.png">|<img width="300" alt="Test6-u(x,t) (2)" src="https://user-images.githubusercontent.com/90737587/139624825-f03e014f-c797-4586-878f-99ca86f624e8.png">|<img width="300" alt="Test6-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624843-bba92f16-9950-4997-9bd9-c92b8be7de14.png">|<img width="300" alt="Test6-u(x,tend)" src="https://user-images.githubusercontent.com/90737587/139624854-dad74923-4298-450d-b69b-dd7873bc5160.png">|
+|[K7](code/testK7.md)|<img width="300" alt="Test7-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624870-890cff00-7891-4b3d-8602-a40e0f813877.png">|<img width="300" alt="Test7-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139624894-265ee0bd-b6fc-4708-ae84-dc393f5f16b8.png">|<img width="300" alt="Test7-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624905-29921347-a660-4bfc-9ef2-5e359cba12ec.png">|<img width="300" alt="Test7-u(x,tend) (2)" src="https://user-images.githubusercontent.com/90737587/139624918-037d671b-4553-49eb-bc03-49b9089b1ad0.png">|
+|[K8](code/testK8.md)|<img width="300" alt="Test8-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624929-810d0381-f81a-4a9f-941b-76fda8410024.png">|<img width="300" alt="Test8-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139624940-1b745f77-adf9-4504-bfa2-7f49bc326a27.png">|<img width="300" alt="Test8-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624946-e8389c11-8979-472d-80a3-a9c77c26cbcd.png">|<img width="300" alt="Test8-u(x,tend)" src="https://user-images.githubusercontent.com/90737587/139624976-e6d3e499-8263-4c71-823d-a9c1a29a93fb.png">|
 
