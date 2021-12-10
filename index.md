@@ -140,7 +140,7 @@ The history of the KdV equation started with John Scott Russell observing a soli
 <br />
 
 ## Test 1 & Test 2
-Now, let’s go over Test 1 and Test 2. I ran both tests for the Advection-Diffusion equation, Burger’s equation, and KdV equation. For both tests, we will be demonstrating steps 3 to 5 of the machine learning process. All actions I did for the Advection-Diffusion equation for Test 1 are similar to what I did for both Test 1: Burger’s equation and Test 1: KdV equation. In other words, if you understand what I did for Test 1: Advection-Diffusion, then you will understand what I did for Test 1: Burger’s and Test 1: KdV equation. This also applies to Test 2. First, we will go over an example Test 1: A1 that will allow me to explain input code, input table, and output graphs. Then, we will compare test cases of all equations to try to see patterns or possible ways of improving the models. Lastly, we will discuss what I noticed with Test 1 and why it is necessary to use test 2. 
+Now, let’s go over Test 1 and Test 2. I ran both tests for the Advection-Diffusion equation, Burger’s equation, and KdV equation. For both tests, we will be demonstrating steps 3 to 5 of the machine learning process. All actions I did for the Advection-Diffusion equation for Test 1 are similar to what I did for both Test 1: Burger’s equation and Test 1: KdV equation. This also applies to Test 2. First, we will go over example Test 1: A1 and discuss the input code, input table, and output graphs. Then, we will compare test cases of all equations to try to see patterns or possible ways of improving the models. We will repeat this process with Test 2 and use Test 2: A6 as an example. Lastly, we will discuss which test is better.
 
 ### Example: Test1-A1
 
@@ -325,6 +325,7 @@ For Test1-K1 to Test1-K5, I did the same process as the previous equations. I ha
 
 ### Test 1 Conclusion
 
+While using Test 1 for these three equations, I could not determine a precise pattern to improve these models to be accurate enough to be useful to solve various PDEs. While adjusting parameters for Test 1, I learned that increasing the value of parameters does not improve the model for all three equations. For all equations, the lowest values of parameters are the first test cases, while the fifth test case would be the highest value. For instance, Test 1: Burger’s equation, the highest value of parameters, the fifth test case is the most accurate of Burger’s Test 1 test cases. While the Advection-Diffusion equation and KdV equation, output graphs show that their third test cases are more accurate. Hence, Test 1 is not useful when solving various PDEs. Now, let’s evaluate Test 2 to see if it is useful to solve multiple PDEs.
 
 # Test 2
 ## Advection-Diffusion Equation
