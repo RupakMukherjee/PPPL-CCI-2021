@@ -449,7 +449,9 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=30, batch_size=32,
 |[B7](code/testB7.md)| <img width="300" alt="TestG-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139623766-2467b415-e4b9-480c-b7e1-6c2e74b59bdd.png">|<img width="300" alt="TestG-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139623777-a8f78f57-f409-4f78-8985-1aabbfcee912.png">|<img width="300" alt="TestG-ErrorT (2)" src="https://user-images.githubusercontent.com/90737587/139623789-8ff717d4-b8b2-4f82-94ca-1bac52131eeb.png">|<img width="300" alt="TestG-u(x, tend) (1)" src="https://user-images.githubusercontent.com/90737587/139623814-0c04324b-de64-46f2-943c-ea8e3bc3baf2.png">|
 |[B8](code/testB8.md)|<img width="300" alt="TestH-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139623861-c9e5f383-e65b-48a0-995f-74caab44ad66.png">|<img width="300" alt="TestH-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139623876-0ec93ccc-7324-47ac-9148-5501b3094427.png">|<img width="300" alt="TestH-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139623889-1c849db1-cffa-48c3-a7a0-6b4573c17290.png">|<img width="300" alt="TestH-u(x, tend) (2)" src="https://user-images.githubusercontent.com/90737587/139623897-d809bf26-5898-49ca-8d12-d14740c4fd91.png">|
 
+**Evaluation**
 
+In test cases B5-B8, I did the same process as Test2-A6 to Test2-A8. I have increased the values of the dense layers and epochs in an attempt to improve the results. For test cases B6-B8, graph 4 and graph 6, error value (blue line) still remains at zero. Though it is hard to see the blue line on graph 4 and graph 6, if you look at the top right, the legend displays the error value (blue) equal is zero. For test cases B6-B8, graph 5 and graph 7, show the solid lines aligned with dashed lines. Now that we are done evaluating Test 2-Burger’s Equation, let’s evaluate Test2-KdV Equation.
 
 ## KdV's Equation 
 
