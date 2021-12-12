@@ -410,7 +410,9 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=3, batch_size=32,
 |[A7](code/testA7.md)|<img width="300" alt="A7E1" src="https://user-images.githubusercontent.com/90737587/140024348-5af83f54-df94-40a9-b313-04af79951a02.png">|<img width="300" alt="A7Fu" src="https://user-images.githubusercontent.com/90737587/140024379-da1b7e05-6854-4f09-a475-e9a25703837e.png">|<img width="300" alt="A7ET" src="https://user-images.githubusercontent.com/90737587/140024410-145239dc-7dc9-4816-a068-164c83f18ced.png">|<img width="300" alt="A7u" src="https://user-images.githubusercontent.com/90737587/140024544-2773c4eb-6882-4dd6-8091-e7ad6646e34c.png">|
 |[A8](code/testA8.md)|<img width="300" alt="A8E1" src="https://user-images.githubusercontent.com/90737587/140026659-c9db5b16-e527-466b-a938-f90d548943cd.png">|<img width="300" alt="A8Fu" src="https://user-images.githubusercontent.com/90737587/140026681-f11d3f2a-ef2d-4d99-96ad-3ae1151a5232.png">|<img width="300" alt="A8ET" src="https://user-images.githubusercontent.com/90737587/140026702-b5ad76d3-9339-4c4f-bdbf-1c3b0e1da1d3.png">|<img width="300" alt="A8u" src="https://user-images.githubusercontent.com/90737587/140026708-d87c17d9-5519-4f81-af8d-5aeaa120034b.png">|
 
+**Evaluation**
 
+In example Test2-A6, we discussed how graph 4 and graph 6 show that the Test 2 model is producing ideal results since the error value (blue line) is at zero. In addition,  in graph 5 and graph 6, the solid and dashed lines are aligned. I have adjusted the parameters for test cases A7 and test case A8. Despite adjusting the parameters, the Test 2 model shows that the model is accurate. In all test cases A6-A8, graph 4 and graph 6 show error value as zero and graph 5 and graph 6 shows the solid and dashed lines are aligned. Now that we are done evaluating Test 2-Advection-Diffusion Equation let’s evaluate Test2-Burger’s Equation. 
 
 ## Burger's Equation
 
