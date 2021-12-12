@@ -186,7 +186,7 @@ Here are the output graphs produced by the numbers I assigned as parameters list
 
 For graph 1, I noticed that the training loss line does not touch the validation line with a 0.0010 difference in value. Though this is a very small difference, it is not ideal. There is similar results for graph 2 where dotted lines are not aligned with the solid colored lines. Meaning, graph 2 also shows that these parameters are not good enough to produce ideal results yet. The ideal model would produce an output graph that has both lines aligned with each other. For graph 3, the blue line meets the orange line in between 0.02 and 0.03. But the goal is to have the blue line equal zero. Again, though the results are close, they are not close enough.   
 
-Step 5 of the machine learning process is to improve. After evaluating Test1-A1, we see that the line graphs are relevant to our mathematical problem and easy to read. However, the lines are not aligned, and the answers are not accurate enough. A way to improve is to adjust the parameters to try to make the lines align. I do this in Test1 A1 to A5 to try to improve the models. Scroll down below the Test 1: Output Graphs to see the comparison of these test cases. 
+Step 5 of the machine learning process is to improve. After evaluating Test1-A1, we see that the line graphs are relevant to our mathematical problem and easy to read. However, the lines are not aligned, and the answers are not accurate enough. A way to improve is to adjust the parameters to try to make the lines align. I do this in Test1 A1 to A5 to try to improve the models. Please scroll down below to Advection-Diffusion’s Test 1: Output Graphs to see the comparison of these test cases. 
 
 
 
@@ -370,6 +370,9 @@ Here are the output graphs produced by the numbers I assigned as parameters list
 |:---:|:------:|:------:|:------:|:------:|
 |[A6](code/testA6.md)|<img width="300" alt="A6E1" src="https://user-images.githubusercontent.com/90737587/140024192-7196a68a-18f5-4190-9b68-5a4f742f58d0.png">|<img width="300" alt="A6fu" src="https://user-images.githubusercontent.com/90737587/140024224-3dd44f8e-77ab-4745-8100-109e2c48157b.png">|<img width="300" alt="A6ET" src="https://user-images.githubusercontent.com/90737587/140024242-9e504113-4612-4c2a-92e8-35fa357e4290.png">|<img width="300" alt="A6u" src="https://user-images.githubusercontent.com/90737587/140024573-3617c695-7b03-41ee-a34a-cb05edd99e60.png">|
 
+Graph 4 and Graph 6 show us that the error value is zero (blue line). Graph 4 and Graph 6 tell us that Test 2 produces ideal results. While, in Test 1 outputs graphs, the error value did not consistently stay at zero. Furthermore, Graph 5 and Graph 6 show us aligned solid and dashed lines. Graph 5 and Graph 6 also tell us that Test 2 produces ideal results. Whereas, in Test 1 outputs graphs, the solid and dashed lines fail to be aligned.
+
+Step 5 of the machine learning process is to improve. However, after evaluating Test 2-A6, not are line graphs relevant to our mathematical problem, but the results are also ideal. There is no need to improve these graphs. But I still ran in a total of 3 test cases of Test 2 of each equation to prove that Test 2 is ideal for solving PDEs with various parameters.  Please scroll down below the Advection-Diffusion’s Test 2: Output Graphs to compare these test cases.
 
 
 ## Advection-Diffusion Equation
