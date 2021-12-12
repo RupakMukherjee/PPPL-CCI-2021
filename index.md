@@ -1,11 +1,12 @@
+
+# Solving Partial Differential Equations using Machine Learning 
+
+<br /><br />
+
 <h3 align="center"> <img width="105" align="left" src="https://user-images.githubusercontent.com/90737587/145159955-979f1a3d-5957-43a1-8850-594ac4386047.jpeg">  <img width="105" align="right" src="https://user-images.githubusercontent.com/90737587/145158631-47c93c00-b8bb-4951-ab33-8b86a8aeb97f.png"> </h3> 
 <br /><br />
 <br />
 <br /><br />
-<br /><br />
-
-# Solving Partial Differential Equations using Machine Learning 
-
 <br /><br />
 
 ## Introduction
