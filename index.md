@@ -332,13 +332,15 @@ While using Test 1 for these three equations, I could not determine a precise pa
 # Test 2
 ### Example: Test2-A6<br />
 
-**Test2-A6 Input Table**<br />
+For Test2-A6, step 3 of the machine learning process, I trained the Keras Sequential model by assigning numbers for the parameters. I created a table listing which numbers I assigned to Dense Layer 1, Dense Layer 2, Dense Layer 3, Input Dimension, and Epochs.
 
-Here is the input code for the Keras Sequential model with the corresponding inputs from the Input Table.
+**Test2-A6 Input Table**<br />
 
 | Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
 |:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
 |[A6](code/testA6.md)|2|10|1|3|1|
+
+Here is the input code for the Keras Sequential model with the corresponding inputs from the Input Table.
 
 **Test2-A6 Input code**<br />
 
@@ -363,9 +365,12 @@ Here are the output graphs produced by the numbers I assigned as parameters list
 
 
 **Test2-A6 Output Graphs** <br />
+
 | Test| Graph 4| Graph 5| Graph 6| Graph 7|
 |:---:|:------:|:------:|:------:|:------:|
 |[A6](code/testA6.md)|<img width="300" alt="A6E1" src="https://user-images.githubusercontent.com/90737587/140024192-7196a68a-18f5-4190-9b68-5a4f742f58d0.png">|<img width="300" alt="A6fu" src="https://user-images.githubusercontent.com/90737587/140024224-3dd44f8e-77ab-4745-8100-109e2c48157b.png">|<img width="300" alt="A6ET" src="https://user-images.githubusercontent.com/90737587/140024242-9e504113-4612-4c2a-92e8-35fa357e4290.png">|<img width="300" alt="A6u" src="https://user-images.githubusercontent.com/90737587/140024573-3617c695-7b03-41ee-a34a-cb05edd99e60.png">|
+
+
 
 ## Advection-Diffusion Equation
 
