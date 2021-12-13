@@ -491,3 +491,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 |[K8](code/testK8.md)|<img width="300" alt="Test8-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624929-810d0381-f81a-4a9f-941b-76fda8410024.png">|<img width="300" alt="Test8-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139624940-1b745f77-adf9-4504-bfa2-7f49bc326a27.png">|<img width="300" alt="Test8-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624946-e8389c11-8979-472d-80a3-a9c77c26cbcd.png">|<img width="300" alt="Test8-u(x,tend)" src="https://user-images.githubusercontent.com/90737587/139624976-e6d3e499-8263-4c71-823d-a9c1a29a93fb.png">|
 
 ### Evaluation
+
+For Test2-K6 to Test-K8, I did the same process as the previous equations. I have increased the values of the dense layers and epochs in an attempt to improve the results. Similarly, test cases A6-A8 and B6-B8, test cases K6-K8, display in graph 4 and graph 6 that the error value is at zero. Though hard to see on graph 4 and graph 6, the legend on the top right read that the error value is the blue line equals zero. Also, in test cases K6-K8, in graph 5 and graph 7, the solid and dotted lines are aligned, which means the model has produced accurate results. 
+
+### Conclusion
