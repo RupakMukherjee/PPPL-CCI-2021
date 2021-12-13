@@ -494,4 +494,6 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 
 For Test2-K6 to Test-K8, I did the same process as the previous equations. I have increased the values of the dense layers and epochs in an attempt to improve the results. Similarly, test cases A6-A8 and B6-B8, test cases K6-K8, display in graph 4 and graph 6 that the error value is at zero. Though hard to see on graph 4 and graph 6, the legend on the top right read that the error value is the blue line equals zero. Also, in test cases K6-K8, in graph 5 and graph 7, the solid and dotted lines are aligned, which means the model has produced accurate results. 
 
-### Conclusion
+### Test 2 Conclusion
+
+While using Test 2 for these equations, I noticed that the output graphs still come out identical despite various parameters. This is a good sign. Unlike Test 1, where adjusting the parameters would improve the output graphs, Test 2 did not. After evaluating test cases for Test 2, we can see that the model is accurate and useful for solving various PDEs and parameters. 
