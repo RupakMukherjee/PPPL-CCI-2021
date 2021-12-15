@@ -429,7 +429,7 @@ deep_stepper2.add(layers.Dense(1, activation='linear'))
 deep_stepper2.compile(loss='mse', optimizer='adam')
 
 # Fit!
-history = deep_stepper2.fit(Xs_train, ys_train, epochs=30, batch_size=32,
+history = deep_stepper2.fit(Xs_train, ys_train, epochs=3, batch_size=32,
             validation_data=(Xs_dev, ys_dev),
             callbacks=keras.callbacks.EarlyStopping(patience=5))
             
