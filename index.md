@@ -152,7 +152,7 @@ For Test 1-A1, step 3 of the machine learning process, I trained the Keras Seque
 
 **Test 1-A1: Input Table**
 
-| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
+| Test Case| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
 |:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
 |[A1](code/testA1.md)|2|10|1|2|10|
 
@@ -181,7 +181,7 @@ Here are the output graphs produced by the numbers I assigned as parameters list
 
 **Test 1-A1: Output Graphs**
 
-| Test| Graph 1 | Graph 2 | Graph 3|
+| Test Case| Graph 1 | Graph 2 | Graph 3|
 |:---:|:------: | :-------:|:-----:|
 |[A1](code/testA1.md)|<img width="225" alt="Screen Shot 2021-11-01 at 2 55 05 PM" src="https://user-images.githubusercontent.com/90737587/139747239-9f22f746-082e-4a5a-ac22-bc0f59479bc0.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144179802-60c72fcb-7c0c-45a5-8fc1-67229cab297d.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144179817-e5d77adc-cd11-4165-bcfa-714c7e9b9fc3.png">|
 
@@ -213,7 +213,7 @@ history = deep_approx.fit(X_train, y_train,
 
 ### Test 1: Input Table 
 
-| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
+| Test Case| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
 |:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
 |[A1](code/testA1.md)|2|10|1|2|10|
 |[A2](code/testA2.md)|5|25|3|2|30|
@@ -223,7 +223,7 @@ history = deep_approx.fit(X_train, y_train,
 
 ### Test 1: Output Graphs 
 
-| Test| Graph 1 | Graph 2 | Graph 3|
+| Test Case| Graph 1 | Graph 2 | Graph 3|
 |:---:|:------: | :-------:|:-----:|
 |[A1](code/testA1.md)|<img width="225" alt="Screen Shot 2021-11-01 at 2 55 05 PM" src="https://user-images.githubusercontent.com/90737587/139747239-9f22f746-082e-4a5a-ac22-bc0f59479bc0.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144179802-60c72fcb-7c0c-45a5-8fc1-67229cab297d.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144179817-e5d77adc-cd11-4165-bcfa-714c7e9b9fc3.png">|
 |[A2](code/testA2.md)|<img width="225" alt="Screen Shot 2021-11-01 at 2 26 46 PM" src="https://user-images.githubusercontent.com/90737587/139744302-87f30127-f43a-4081-973a-07999db88091.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144180092-8f672cc8-eeb7-4893-a6ef-fdf406d455e9.png">|<img width="235" src="https://user-images.githubusercontent.com/90737587/144180345-63b19c5a-a392-4c4c-af6d-56a10d7c5b69.png">|
@@ -260,7 +260,7 @@ history = deep_approx.fit(X_train, y_train,
 
 ### Test 1: Input Table 
 
-| Test| Dense Layer 1| Dense Layer 2| Dense Layer 3|Input Dimension |Epochs|
+| Test Case| Dense Layer 1| Dense Layer 2| Dense Layer 3|Input Dimension |Epochs|
 |:---:|:------------: | :-----------: |:------------:|:------------:|:---:|
 |[B1](code/testB1.md)|10 |10 |1 |2|10|
 |[B2](code/testB2.md)|2 |10 |1 |2|30|
@@ -270,7 +270,7 @@ history = deep_approx.fit(X_train, y_train,
 
 ### Test 1: Output Graphs 
 
-| Test| Graph 1 | Graph 2 | Graph 3|
+| Test Case| Graph 1 | Graph 2 | Graph 3|
 |:---:|:------: | :-------:|:-----:|
 |[B1](code/testB1.md)|<img width="225" alt="TestA-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139619306-480ea9e0-f654-4864-bda3-ae5a0f53c418.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144181490-e12878e7-5bd8-4d36-8dea-8bce8af13343.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144181545-1290372e-5432-46ae-899f-45a145e0e5e8.png">|
 |[B2](code/testB2.md)|<img width="225" alt="TestB-ValLoss (4)" src="https://user-images.githubusercontent.com/90737587/139619412-95f597ab-cbfc-4063-8eaa-30f4491a43e8.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144181607-77ab5d27-8276-4d5f-b76b-27a56be298a5.png">|<img width="235" src="https://user-images.githubusercontent.com/90737587/144181663-a08c3573-a3b5-4eb0-9495-69200984ea28.png">|
@@ -305,7 +305,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 
 ### Test 1: Input Table 
 
-| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension|Epochs|
+| Test Case| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension|Epochs|
 |:---:|:-------------:| :-----------: |:------------:|:-------------:|:----:|
 |[K1](code/testK1.md)|10|10|1|2|10|
 |[K2](code/testK2.md)|5|5|1|2|30|
@@ -315,7 +315,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 
 ### Test 1: Output Graphs 
 
-| Test| Graph 1 | Graph 2 | Graph 3|
+| Test Case| Graph 1 | Graph 2 | Graph 3|
 |:---:|:------: | :-------:|:-----:|
 |[K1](code/testK1.md)|<img width="225" alt="Test1-ValLoss (1)" src="https://user-images.githubusercontent.com/90737587/139624198-16c6e49e-6926-4417-8c17-301a1536c738.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144182892-2698f9d0-e568-424c-8def-9667c2de2a5f.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144182979-673135b8-9260-4706-88ab-1a886443fcf2.png">|
 |[K2](code/testK2.md)|<img width="225" alt="Test2-ValLoss (1)" src="https://user-images.githubusercontent.com/90737587/139624233-8fdecb8c-bb72-4220-ac18-5611e7fb219c.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144182997-5b8949ee-baa8-442f-a3fb-56e34f49bea7.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144183011-d11cbacc-5f63-42d3-8fa4-d9a4b71dca29.png">|        
@@ -337,7 +337,7 @@ For Test2-A6, step 3 of the machine learning process, I trained the Keras Sequen
 
 **Test2-A6 Input Table**<br />
 
-| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
+| Test Case| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
 |:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
 |[A6](code/testA6.md)|2|10|1|3|1|
 
@@ -367,7 +367,7 @@ Here are the output graphs produced by the numbers I assigned as parameters list
 
 **Test2-A6 Output Graphs** <br />
 
-| Test| Graph 4| Graph 5| Graph 6| Graph 7|
+| Test Case| Graph 4| Graph 5| Graph 6| Graph 7|
 |:---:|:------:|:------:|:------:|:------:|
 |[A6](code/testA6.md)|<img width="300" alt="A6E1" src="https://user-images.githubusercontent.com/90737587/140024192-7196a68a-18f5-4190-9b68-5a4f742f58d0.png">|<img width="300" alt="A6fu" src="https://user-images.githubusercontent.com/90737587/140024224-3dd44f8e-77ab-4745-8100-109e2c48157b.png">|<img width="300" alt="A6ET" src="https://user-images.githubusercontent.com/90737587/140024242-9e504113-4612-4c2a-92e8-35fa357e4290.png">|<img width="300" alt="A6u" src="https://user-images.githubusercontent.com/90737587/140024573-3617c695-7b03-41ee-a34a-cb05edd99e60.png">|
 
@@ -397,7 +397,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=3, batch_size=32,
 ```
 ### Test 2: Input Table 
 
-| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
+| Test Case| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
 |:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
 |[A6](code/testA6.md)|2|10|1|3|1|
 |[A7](code/testA7.md)|50|70|1|2|10|
@@ -405,7 +405,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=3, batch_size=32,
 
 ### Test 2: Output Graphs 
 
-| Test| Graph 4| Graph 5| Graph 6| Graph 7|
+| Test Case| Graph 4| Graph 5| Graph 6| Graph 7|
 |:---:|:------:|:------:|:------:|:------:|
 |[A6](code/testA6.md)|<img width="300" alt="A6E1" src="https://user-images.githubusercontent.com/90737587/140024192-7196a68a-18f5-4190-9b68-5a4f742f58d0.png">|<img width="300" alt="A6fu" src="https://user-images.githubusercontent.com/90737587/140024224-3dd44f8e-77ab-4745-8100-109e2c48157b.png">|<img width="300" alt="A6ET" src="https://user-images.githubusercontent.com/90737587/140024242-9e504113-4612-4c2a-92e8-35fa357e4290.png">|<img width="300" alt="A6u" src="https://user-images.githubusercontent.com/90737587/140024573-3617c695-7b03-41ee-a34a-cb05edd99e60.png">|
 |[A7](code/testA7.md)|<img width="300" alt="A7E1" src="https://user-images.githubusercontent.com/90737587/140024348-5af83f54-df94-40a9-b313-04af79951a02.png">|<img width="300" alt="A7Fu" src="https://user-images.githubusercontent.com/90737587/140024379-da1b7e05-6854-4f09-a475-e9a25703837e.png">|<img width="300" alt="A7ET" src="https://user-images.githubusercontent.com/90737587/140024410-145239dc-7dc9-4816-a068-164c83f18ced.png">|<img width="300" alt="A7u" src="https://user-images.githubusercontent.com/90737587/140024544-2773c4eb-6882-4dd6-8091-e7ad6646e34c.png">|
@@ -436,7 +436,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=3, batch_size=32,
 ```
 ### Test 2: Input Table
 
-| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension|Epochs|
+| Test Case| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension|Epochs|
 |:---:|:-------------:|:-------------:|:------------:|:--------------:|:----:|
 |[B6](code/testB6.md)|2|10|1|6|3|
 |[B7](code/testB7.md)|10|15|1|6|10|
@@ -444,7 +444,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=3, batch_size=32,
 
 ### Test 2: Output Graphs
 
-| Test| Graph 4| Graph 5| Graph 6| Graph 7|
+| Test Case| Graph 4| Graph 5| Graph 6| Graph 7|
 |:---:|:------:|:------:|:------:|:------:|
 |[B6](code/testB6.md)|<img width="300" alt="TestF-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139620520-bdf3bf2b-2b90-44e1-85af-4339d254cbc3.png">|<img width="300" alt="TestFu(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139620537-30f6e297-8219-4b58-9c7d-b23beaf2cda2.png">|<img width="300" alt="TestG-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139620547-cf8adece-16e8-4b6e-9e96-d57b75eac463.png">|<img width="300" alt="TestF-u(x,Tend) (1)" src="https://user-images.githubusercontent.com/90737587/139620559-0d169b96-4952-405b-a66d-722c805af42f.png">|
 |[B7](code/testB7.md)| <img width="300" alt="TestG-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139623766-2467b415-e4b9-480c-b7e1-6c2e74b59bdd.png">|<img width="300" alt="TestG-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139623777-a8f78f57-f409-4f78-8985-1aabbfcee912.png">|<img width="300" alt="TestG-ErrorT (2)" src="https://user-images.githubusercontent.com/90737587/139623789-8ff717d4-b8b2-4f82-94ca-1bac52131eeb.png">|<img width="300" alt="TestG-u(x, tend) (1)" src="https://user-images.githubusercontent.com/90737587/139623814-0c04324b-de64-46f2-943c-ea8e3bc3baf2.png">|
@@ -475,7 +475,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 
 ### Test 2: Input Table
 
-| Test| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension|Epochs|
+| Test Case| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension|Epochs|
 |:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
 |[K6](code/testK6.md)|2|10|1|6|10|
 |[K7](code/testK7.md)|50|50|1|6|30|
@@ -484,7 +484,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 
 ### Test 2: Output Graphs
 
-| Test| Graph 4| Graph 5| Graph 6| Graph 7|
+| Test Case| Graph 4| Graph 5| Graph 6| Graph 7|
 |:---:|:------:|:------:|:------:|:------:|
 |[K6](code/testK6.md)|<img width="300" alt="Test6-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624811-a40e83e2-ea3a-4065-bfd8-a00fe5281273.png">|<img width="300" alt="Test6-u(x,t) (2)" src="https://user-images.githubusercontent.com/90737587/139624825-f03e014f-c797-4586-878f-99ca86f624e8.png">|<img width="300" alt="Test6-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624843-bba92f16-9950-4997-9bd9-c92b8be7de14.png">|<img width="300" alt="Test6-u(x,tend)" src="https://user-images.githubusercontent.com/90737587/139624854-dad74923-4298-450d-b69b-dd7873bc5160.png">|
 |[K7](code/testK7.md)|<img width="300" alt="Test7-Error1 (1)" src="https://user-images.githubusercontent.com/90737587/139624870-890cff00-7891-4b3d-8602-a40e0f813877.png">|<img width="300" alt="Test7-u(x,t) (1)" src="https://user-images.githubusercontent.com/90737587/139624894-265ee0bd-b6fc-4708-ae84-dc393f5f16b8.png">|<img width="300" alt="Test7-ErrorT (1)" src="https://user-images.githubusercontent.com/90737587/139624905-29921347-a660-4bfc-9ef2-5e359cba12ec.png">|<img width="300" alt="Test7-u(x,tend) (2)" src="https://user-images.githubusercontent.com/90737587/139624918-037d671b-4553-49eb-bc03-49b9089b1ad0.png">|
