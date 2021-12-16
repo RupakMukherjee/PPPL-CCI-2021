@@ -9,32 +9,6 @@
 <br /><br />
 <br /><br />
 
-| Test Case| Dense Layer 1| Dense Layer 2| Dense Layer 3|Input Dimension |Epochs|
-|:---:|:------------: | :-----------: |:------------:|:------------:|:---:|
-|[B1](code/testB1.md)|10 |10 |1 |2|10|
-|[B5](code/testB5.md)|50 |50 |1 |2|30|
-
-
-
-| Test Case| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
-|:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
-|[A3](code/testA3.md)|50|2|1|2|30|
-|[B5](code/testB5.md)|50 |50 |1 |2|30|
-|[K3](code/testK3.md)|50|50|1|2|30|
-
-
-| Test Case| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension|Epochs|
-|:---:|:-------------:|:-------------:|:------------:|:--------------:|:----:|
-|[B6](code/testB6.md)|2|10|1|6|3|
-|[B8](code/testB8.md)|50|80|5|6|30|
-
-| Test Case| Dense Layer 1 | Dense Layer 2 |Dense Layer 3 |Input Dimension |Epochs|
-|:---:|:------------: | :-----------: |:------------:|:--------------:|:---:|
-|[A8](code/testA8.md)|100|100|1|2|30|
-|[B8](code/testB8.md)|50|80|5|6|30|
-|[K8](code/testK8.md)|100|80|1|2|50|
-
-
 
 ## Introduction
 This project contains the use of machine learning utilizing an open-sourced software library, TensorFlow, to solve partial differential equations (PDEs). PDEs are equations used in physics and engineering applications, and the PDEs we will solve is the Advection-Diffusion equation, Burger’s equation, and Korteweg–De Vries (KdV) equation. First, we will go over what machine learning is, how TensorFlow can be utilized in machine learning, and how machine learning can be used to solve PDEs. Then, we will learn the history and real-world applications of these PDEs. Lastly, we will go over how to evaluate models and see how I trained the models to improve and produce more accurate, useful models.
