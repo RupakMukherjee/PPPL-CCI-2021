@@ -147,10 +147,12 @@ Now, let’s go over Test 1 and Test 2. I ran both tests for the Advection-Diffu
 # Test 1
 
 ## Test 1- Artifical Neural Network (ANN)
+<h3 align="center">
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/90737587/146845144-b5ed46df-fa34-4d67-a1bb-51915ba90a23.png">  
+</h3> 
 
-<img width="250" alt="image" src="https://user-images.githubusercontent.com/90737587/146845144-b5ed46df-fa34-4d67-a1bb-51915ba90a23.png">
 
-For test 1, I ulitized an Artifical Neural Network (ANN). ANNs are computing systems that are inspired by the brain’s neural networks. Each circular node represents an artificial neuron and an arrow represents a connection from the output of one artificial neuron to the input of another. An artificial neuron receives a signal that processes it downstream to other neurons that are connected to it.
+For Test 1, I ulitized an Artifical Neural Network (ANN). ANNs are computing systems that are inspired by the brain’s neural networks. Each circular node represents an artificial neuron and an arrow represents a connection from the output of one artificial neuron to the input of another. Test 1 uses a basic ANN that is known for having feedfoward loops which means an artificial neuron receives a signal that processes it downstream to other neurons that are connected to it.
 
 
 ### Example: Test1-A1
@@ -342,10 +344,12 @@ While using Test 1 for these three equations, I could not determine a precise pa
 
 ## Test 2- Recurrent Neural Network (RNN)
 
+<h3 align="center">
 <img width="250" alt="image" src="https://user-images.githubusercontent.com/90737587/146845487-26b6d35b-ec04-4236-9d58-65954d968d4a.png">
+            </h3>
 
 
-Test 2 utilizes a RNN which is a specific class of ANN. RNN can use their internal state (memory) to process variable length sequences of inputs. The output layer is added to the next input and fed back into the same layer, which typically the only layer in the entire network. 
+Test 2 utilizes 2 RNNs which is a specific class of ANN. RNNs can use their internal state (memory) to process variable length sequences of inputs. RNNs are known for their feedblack loops. Meaning, the output layer is added to the next input and fed back into the same layer, which typically the only layer in the entire network. Let's see if Test 2 produces more accurate graphs than Test 1 since Test 2 uses RNNs instead of basic ANNs. 
 
 ### Example: Test2-A6<br />
 
