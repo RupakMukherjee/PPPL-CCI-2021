@@ -146,6 +146,13 @@ Now, let’s go over Test 1 and Test 2. I ran both tests for the Advection-Diffu
 
 # Test 1
 
+## Test 1- Artifical Neural Network (ANN)
+
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/90737587/146845144-b5ed46df-fa34-4d67-a1bb-51915ba90a23.png">
+
+For test 1, I ulitized an Artifical Neural Network (ANN). ANNs are computing systems that are inspired by the brain’s neural networks. Each circular node represents an artificial neuron and an arrow represents a connection from the output of one artificial neuron to the input of another. An artificial neuron receives a signal that processes it downstream to other neurons that are connected to it.
+
+
 ### Example: Test1-A1
 
 For Test 1-A1, step 3 of the machine learning process, I trained the Keras Sequential model by assigning numbers for the parameters. I created a table listing which numbers I assigned to Dense Layer 1, Dense Layer 2, Dense Layer 3, Input Dimension, and Epochs. 
@@ -329,9 +336,17 @@ For Test1-K1 to Test1-K5, I did the same process as the previous equations. I ha
 
 ### Test 1 Conclusion
 
-While using Test 1 for these three equations, I could not determine a precise pattern to improve these models to be accurate enough to be useful to solve various PDEs. While adjusting parameters for Test 1, I learned that increasing the value of parameters does not improve the model for all three equations. For all equations, the lowest values of parameters are the first test cases, while the fifth test case would be the highest value. For instance, Test 1: Burger’s equation, the highest value of parameters, the fifth test case is the most accurate of Burger’s Test 1 test cases. While the Advection-Diffusion equation and KdV equation, output graphs show that their third test cases are more accurate. Hence, Test 1 is not useful when solving various PDEs. Now, let’s evaluate Test 2 to see if it is useful to solve multiple PDEs.
+While using Test 1 for these three equations, I could not determine a precise pattern to improve these models to be accurate enough to be useful to solve various PDEs. While adjusting parameters for Test 1, I learned that increasing the value of parameters does not improve the model for all three equations. For all equations, the lowest values of parameters are the first test cases, while the fifth test case would be the highest value. For instance, Test 1: Burger’s equation, the highest value of parameters, the fifth test case is the most accurate of Burger’s Test 1 test cases. While the Advection-Diffusion equation and KdV equation, output graphs show that their third test cases are more accurate. Hence, Test 1 that uses a basic ANN, is not useful when solving various PDEs. Now, let’s evaluate Test 2 to see if it is useful to solve multiple PDEs.
 
 # Test 2
+
+## Test 2- Recurrent Neural Network (RNN)
+
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/90737587/146845487-26b6d35b-ec04-4236-9d58-65954d968d4a.png">
+
+
+Test 2 utilizes a RNN which is a specific class of ANN. RNN can use their internal state (memory) to process variable length sequences of inputs. The output layer is added to the next input and fed back into the same layer, which typically the only layer in the entire network. 
+
 ### Example: Test2-A6<br />
 
 For Test2-A6, step 3 of the machine learning process, I trained the Keras Sequential model by assigning numbers for the parameters. I created a table listing which numbers I assigned to Dense Layer 1, Dense Layer 2, Dense Layer 3, Input Dimension, and Epochs.
@@ -498,4 +513,4 @@ For Test2-K6 to Test-K8, I did the same process as the previous equations. I hav
 
 ### Test 2 Conclusion
 
-While using Test 2 for these equations, I noticed that the output graphs still come out identical despite various parameters. This is a good sign. Unlike Test 1, where adjusting the parameters would improve the output graphs, Test 2 did not. After evaluating test cases for Test 2, we can see that the model is accurate and useful for solving various PDEs and parameters. 
+While using Test 2 for these equations, I noticed that the output graphs still come out identical despite various parameters. This is a good sign. Unlike Test 1, where adjusting the parameters would improve the output graphs, Test 2 did not. After evaluating test cases for Test 2 that uses RNNs, we can see that the model is accurate and useful for solving various PDEs and parameters. 
