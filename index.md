@@ -348,7 +348,7 @@ While using Test 1 for these three equations, I could not determine a precise pa
             </h3>
 
 
-Test 2 utilizes 2 RNNs which is a specific class of ANN. RNNs can use their internal state (memory) to process variable length sequences of inputs. RNNs are known for their feedblack loops. Meaning, the output layer is added to the next input and fed back into the same layer, which typically the only layer in the entire network. Let's see if Test 2 produces more accurate graphs than Test 1 since Test 2 uses RNNs instead of basic ANNs. 
+Test 2 utilizes 2 RNNs which is a specific class of ANN. RNNs can use their internal state (memory) to process variable length sequences of inputs. RNNs are known for their feedblack loops. Meaning, the output layer is added to the next input and fed back into the same layer, which typically the only layer in the entire network. Let's see if Test 2 produces more accurate graphs than Test 1 since Test 2 uses RNNs instead of basic ANNs. Test 2 uses a linear regression of stepper and a nonlinear regression of stepper.
 
 ### Example: Test2-A6<br />
 
@@ -390,7 +390,7 @@ Here are the output graphs produced by the numbers I assigned as parameters list
 |:---:|:------:|:------:|:------:|:------:|
 |[A6](code/testA6.md)|<img width="300" alt="A6E1" src="https://user-images.githubusercontent.com/90737587/140024192-7196a68a-18f5-4190-9b68-5a4f742f58d0.png">|<img width="300" alt="A6fu" src="https://user-images.githubusercontent.com/90737587/140024224-3dd44f8e-77ab-4745-8100-109e2c48157b.png">|<img width="300" alt="A6ET" src="https://user-images.githubusercontent.com/90737587/140024242-9e504113-4612-4c2a-92e8-35fa357e4290.png">|<img width="300" alt="A6u" src="https://user-images.githubusercontent.com/90737587/140024573-3617c695-7b03-41ee-a34a-cb05edd99e60.png">|
 
-Graph 4 and graph 6 show us that the error value is zero (blue line). Graph 4 and graph 6 tell us that Test 2 produces ideal results. While, in Test 1 outputs graphs, the error value did not consistently stay at zero. Furthermore, graph 5 and Graph 6 show us aligned solid and dashed lines. Graph 5 and graph 6 also tell us that Test 2 produces ideal results. Whereas, in Test 1 outputs graphs, the solid and dashed lines fail to be aligned.
+Graph 4 and Graph 5 uses a RNN model called a linear regression of stepper. Graph 6 and Graph 7 uses a RNN model called a nonlinear regression of stepper. In this case, using the nonlinear regression of stepper is unnecessary since Graph 4 and Graph 5 show perfect results. For instance, Graph 5 and Graph 6 show us aligned solid and dashed lines. Graph 5 and Graph 6 also tell us that Test 2 produces ideal results. Whereas, in Test 1 outputs graphs, the solid and dashed lines fail to be aligned.
 
 Step 5 of the machine learning process is to improve. However, after evaluating Test 2-A6, not are line graphs relevant to our mathematical problem, but the results are also ideal. There is no need to improve these graphs. But I still ran in a total of 3 test cases of Test 2 of each equation to prove that Test 2 is ideal for solving PDEs with various parameters.  Please scroll down below the Advection-Diffusion’s Test 2: Output Graphs to compare these test cases.
 
@@ -432,7 +432,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=3, batch_size=32,
 
 ### Evaluation
 
-In example Test2-A6, we discussed how graph 4 and graph 6 show that the Test 2 model is producing ideal results since the error value (blue line) is at zero. In addition,  in graph 5 and graph 6, the solid and dashed lines are aligned. I have adjusted the parameters for test cases A7 and test case A8. Despite adjusting the parameters, the Test 2 model shows that the model is accurate. In all test cases A6-A8, graph 4 and graph 6 show error value as zero and graph 5 and graph 6 shows the solid and dashed lines are aligned. Now that we are done evaluating Test 2-Advection-Diffusion Equation let’s evaluate Test2-Burger’s Equation. 
+In example Test2-A6, in Graph 5 and Graph 6, the solid and dashed lines are aligned. I have adjusted the parameters for test cases A7 and test case A8. Despite adjusting the parameters, the Test 2 model shows that the model is accurate. Now that we are done evaluating Test 2-Advection-Diffusion Equation let’s evaluate Test2-Burger’s Equation. 
 
 ## Burger's Equation
 
@@ -472,7 +472,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=3, batch_size=32,
 
 ### Evaluation
 
-In test cases B5-B8, I did the same process as Test2-A6 to Test2-A8. I have increased the values of the dense layers and epochs in an attempt to improve the results. For test cases B6-B8, graph 4 and graph 6, error value (blue line) still remains at zero. Though it is hard to see the blue line on graph 4 and graph 6, if you look at the top right, the legend displays the error value (blue) equal is zero. For test cases B6-B8, graph 5 and graph 7, show the solid lines aligned with dashed lines. Now that we are done evaluating Test 2-Burger’s Equation, let’s evaluate Test2-KdV Equation.
+In test cases B5-B8, I did the same process as Test2-A6 to Test2-A8. I have increased the values of the dense layers and epochs in an attempt to improve the results. For test cases B6-B8, graph 5 and graph 7, show the solid lines aligned with dashed lines. Now that we are done evaluating Test 2-Burger’s Equation, let’s evaluate Test2-KdV Equation.
 
 ## KdV's Equation 
 
@@ -512,7 +512,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 
 ### Evaluation
 
-For Test2-K6 to Test-K8, I did the same process as the previous equations. I have increased the values of the dense layers and epochs in an attempt to improve the results. Similarly, test cases A6-A8 and B6-B8, test cases K6-K8, display in graph 4 and graph 6 that the error value is at zero. Though hard to see on graph 4 and graph 6, the legend on the top right read that the error value is the blue line equals zero. Also, in test cases K6-K8, in graph 5 and graph 7, the solid and dotted lines are aligned, which means the model has produced accurate results. 
+For Test2-K6 to Test-K8, I did the same process as the previous equations. I have increased the values of the dense layers and epochs in an attempt to improve the results. Similarly, test cases A6-A8 and B6-B8, test cases K6-K8, display in graph 4 and graph 6 that the error value is at zero. In test cases K6-K8, in Graph 5 and Graph 7, the solid and dotted lines are aligned, which means the model has produced accurate results. 
 
 ### Test 2 Conclusion
 
