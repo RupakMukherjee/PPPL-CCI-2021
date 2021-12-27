@@ -13,11 +13,10 @@
 ## Introduction
 This project contains the use of machine learning utilizing an open-sourced software library, TensorFlow, to solve partial differential equations (PDEs). PDEs are equations used in physics and engineering applications, and the PDEs we will solve is the Advection-Diffusion equation, Burger’s equation, and Korteweg–De Vries (KdV) equation. First, we will go over what machine learning is, how TensorFlow can be utilized in machine learning, and how machine learning can be used to solve PDEs. Then, we will learn the history and real-world applications of these PDEs. Lastly, we will go over how to evaluate models and see how I trained the models to improve and produce more accurate, useful models.
 
-
 | Name| Equation| Equation Graph|
 |:---:|:--------:|:------:|
-|Advection-Diffusion|<img width="150" src="https://user-images.githubusercontent.com/90737587/141264714-1cf3c558-669d-40dc-9635-1f680e8ade5e.png">|<img width="225" alt="Screen Shot 2021-10-31 at 9 01 22 PM" src="https://user-images.githubusercontent.com/90737587/139620001-ab139012-a904-4bce-8c1a-660ef648a118.png">|
-|Burger|<img width="150"  src="https://user-images.githubusercontent.com/90737587/144005581-6fc42716-2252-47ba-b4f2-1e4fad1bd5de.png">|<img width="225" alt="Screen Shot 2021-11-03 at 1 11 57 AM" src="https://user-images.githubusercontent.com/90737587/140027116-32d19225-38f4-46f2-acf9-b82c0cb9e4db.png">|
+|Advection-Diffusion|<img width="150" src="https://user-images.githubusercontent.com/90737587/147501189-4f4f2e1f-e44c-43a0-82b1-1e7942823f7a.png">|<img width="225" alt="Screen Shot 2021-10-31 at 9 01 22 PM" src="https://user-images.githubusercontent.com/90737587/139620001-ab139012-a904-4bce-8c1a-660ef648a118.png">|
+|Burger|<img width="150"  src="https://user-images.githubusercontent.com/90737587/147501646-e2351174-5919-4f50-a028-bc4fe4d31298.png">|<img width="225" alt="Screen Shot 2021-11-03 at 1 11 57 AM" src="https://user-images.githubusercontent.com/90737587/140027116-32d19225-38f4-46f2-acf9-b82c0cb9e4db.png">|
 |KdV|<img width="200"  src="https://user-images.githubusercontent.com/90737587/141266138-d94e8f4f-ede9-4257-8485-44ffa25c7275.png">|<img width="225" alt="Screen Shot 2021-10-31 at 8 30 29 PM" src="https://user-images.githubusercontent.com/90737587/139617944-881010bb-8643-42a4-947d-4a9a221482c7.png">|
 
 
@@ -87,7 +86,7 @@ The Advection-Diffusion equation describes a large amount of substance, usually 
 
 | Equation| Equation Graph| Real-world Example |
 |:--------:|:------------:|:------------------:|
-|<img width="150" src="https://user-images.githubusercontent.com/90737587/141264714-1cf3c558-669d-40dc-9635-1f680e8ade5e.png">|<img width="225" alt="Screen Shot 2021-10-31 at 9 01 22 PM" src="https://user-images.githubusercontent.com/90737587/139620001-ab139012-a904-4bce-8c1a-660ef648a118.png">|<img width="250" src="https://user-images.githubusercontent.com/90737587/142381663-0634b474-ad8e-4c73-844d-78c9d220adde.jpg">  <br /> (Figure 1: Oil spill in river)|
+|<img width="150" src="https://user-images.githubusercontent.com/90737587/147501189-4f4f2e1f-e44c-43a0-82b1-1e7942823f7a.png">|<img width="225" alt="Screen Shot 2021-10-31 at 9 01 22 PM" src="https://user-images.githubusercontent.com/90737587/139620001-ab139012-a904-4bce-8c1a-660ef648a118.png">|<img width="250" src="https://user-images.githubusercontent.com/90737587/142381663-0634b474-ad8e-4c73-844d-78c9d220adde.jpg">  <br /> (Figure 1: Oil spill in river)|
 
 ### Defining the variables:
 t = temporal coordinate *(a specific time)*     <br />
@@ -106,13 +105,13 @@ Burger’s equation resembles a shock wave and is known for modeling turbulence.
 
 | Equation| Equation Graph| Real-world Example |
 |:--------:|:------------:|:------------------:|
-|<img width="150" src="https://user-images.githubusercontent.com/90737587/144005581-6fc42716-2252-47ba-b4f2-1e4fad1bd5de.png">|<img width="240" src="https://user-images.githubusercontent.com/90737587/140027116-32d19225-38f4-46f2-acf9-b82c0cb9e4db.png">|<img width="240" src="https://user-images.githubusercontent.com/90737587/142951722-8d60f67e-9187-4981-b8b4-79af1aff019e.png"> <br /> (Figure 2: Wind turbulence interacting with an airplane )|
+|<img width="150" src="https://user-images.githubusercontent.com/90737587/147501646-e2351174-5919-4f50-a028-bc4fe4d31298.png">|<img width="240" src="https://user-images.githubusercontent.com/90737587/140027116-32d19225-38f4-46f2-acf9-b82c0cb9e4db.png">|<img width="240" src="https://user-images.githubusercontent.com/90737587/142951722-8d60f67e-9187-4981-b8b4-79af1aff019e.png"> <br /> (Figure 2: Wind turbulence interacting with an airplane )|
 
 ### Defining the variables:  
 x = spatial coordinate *(a specific location)*   <br />
 t = temporal coordinate *(a specific time)*    <br />
 u(x,t) = speed of fluid *(speed dependent on x and t)*     
-v = advection coefficient *(velocity or speed of the flow)*    <br />
+D = diffusion coefficient *(velocity or speed of the flow)*    <br />
 <br />
 
 ### The History of the Burger's equation: 
