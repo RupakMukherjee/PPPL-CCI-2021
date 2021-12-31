@@ -194,9 +194,9 @@ Here are the output graphs produced by the numbers I assigned as parameters list
 |:---:|:------: | :-------:|:-----:|
 |[A1](code/testA1.md)|<img width="225" alt="Screen Shot 2021-11-01 at 2 55 05 PM" src="https://user-images.githubusercontent.com/90737587/139747239-9f22f746-082e-4a5a-ac22-bc0f59479bc0.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144179802-60c72fcb-7c0c-45a5-8fc1-67229cab297d.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144179817-e5d77adc-cd11-4165-bcfa-714c7e9b9fc3.png">|
 
-For graph 1, I noticed that the training loss line does not touch the validation line with a 0.0010 difference in value. Though this is a very small difference, it is not ideal. There is similar results for graph 2 where dotted lines are not aligned with the solid colored lines. Meaning, graph 2 also shows that these parameters are not good enough to produce ideal results yet. The ideal model would produce an output graph that has both lines aligned with each other. For graph 3, the blue line meets the orange line in between 0.02 and 0.03. But the goal is to have the blue line equal zero. Again, though the results are close, they are not close enough.   
+For Graph 1, I noticed that the training loss line does not touch the validation line with a 0.0010 difference in value. Though this is a very small difference, it is not ideal. There is similar results for Graph 2 where dotted lines are not aligned with the solid colored lines. Meaning, Graph 2 also shows that these parameters are not good enough to produce ideal results yet. The ideal model would produce an output graph that has both lines aligned with each other. For Graph 3, the blue line meets the orange line in between 0.02 and 0.03. But the goal is to have the blue line equal zero. Again, though the results are close, they are not close enough.   
 
-Step 5 of the machine learning process is to improve. After evaluating Test1-A1, we see that the line graphs are relevant to our mathematical problem and easy to read. However, the lines are not aligned, and the answers are not accurate enough. A way to improve is to adjust the parameters to try to make the lines align. I do this in Test1 A1 to A5 to try to improve the models. Please scroll down below to Advection-Diffusion’s Test 1: Output Graphs to see the comparison of these test cases. 
+Step 5 of the machine learning process is to improve. After evaluating Test1-A1, we see that the line graphs are relevant to our mathematical problem and easy to read. However, the lines are not aligned, and the answers are not accurate enough. A way to improve is to adjust the parameters to try to make the lines align. I do this in Test1-A1 to Test1-A5 to try to improve the models. Please scroll down below to Advection-Diffusion’s Test 1: Output Graphs to see the comparison of these test cases. 
 
 
 
@@ -242,7 +242,7 @@ history = deep_approx.fit(X_train, y_train,
 
 ### Evaluation 
 
-In example Test1-A1, we discussed how graph 1 and graph 2 are showing that the model is not producing results that are not ideal since the lines are not aligned. Also, graph 3 results are not exactly at zero. From Test1-A1 to Test1-A5, I have increased the values of the dense layers and epochs in an attempt to improve the results. The output graphs of Test1-A2 to Test1-A4 show improvement with the increased values of the parameters and epochs. Test1-A1 is less accurate, and as I adjusted the parameters, Test1-A4 is the most accurate. When I got to Test1-A5, it seemed that increasing the values parameters may not be the answer to getting a perfect model. Though Test1-A5 has the highest values of dense layers of the test cases, the results are not as accurate as I predicted. Compared to Test1-A4, Test1-A5’s graph 1 has increased values and is less aligned. Also, graph 2 is showing graphs are less aligned. Lastly, graph 3 shows that the error values have increased and are further away from zero. Now that we are done evaluating Test 1-Advection-Diffusion Equation, let’s evaluate Test1-Burger’s Equation.
+In example Test1-A1, we discussed how Graph 1 and Graph 2 are showing that the model is not producing results that are not ideal since the lines are not aligned. Also, Graph 3 results are not exactly at zero. From Test1-A1 to Test1-A5, I have increased the values of the dense layers and epochs in an attempt to improve the results. The output graphs of Test1-A2 to Test1-A4 show improvement with the increased values of the parameters and epochs. Test1-A1 is less accurate, and as I adjusted the parameters, Test1-A4 is the most accurate. When I got to Test1-A5, it seemed that increasing the values parameters may not be the answer to getting a perfect model. Though Test1-A5 has the highest values of dense layers of the test cases, the results are not as accurate as I predicted. Compared to Test1-A4, Test1-A5’s Graph 1 has increased values and is less aligned. Also, graph 2 is showing graphs are less aligned. Lastly, Graph 3 shows that the error values have increased and are further away from zero. Now that we are done evaluating Test 1-Advection-Diffusion Equation, let’s evaluate Test1-Burger’s Equation.
 
 
 ## Burger's Equation
@@ -289,7 +289,7 @@ history = deep_approx.fit(X_train, y_train,
 
 ### Evaluation 
 
-For Test1-B1 to Test1-B5, I did the same process as Test1-A1 to Test1-A5. I have increased the values of the dense layers and epochs in an attempt to improve the results. For Test1-B1, graph 1 and graph 2 still fail to have lines that are aligned. In addition, graph 3 still does not show the error value as zero. From Test1-B1 to Test1-B5, there is a significant improvement in graph 1 and graph 2 since the lines are closer and values are lower. Also, graph 3 shows the error values are the smallest of the test cases. Test results for Test1-Burger’s Equations are better than Test1-Advection-Diffusion Equation. However, the test results are still not perfect. Let’s now evaluate and compare test results for Test 1: KdV equation.
+For Test1-B1 to Test1-B5, I did the same process as Test1-A1 to Test1-A5. I have increased the values of the dense layers and epochs in an attempt to improve the results. For Test1-B1, Graph 1 and Graph 2 still fail to have lines that are aligned. In addition, Graph 3 still does not show the error value as zero. From Test1-B1 to Test1-B5, there is a significant improvement in Graph 1 and Graph 2 since the lines are closer and values are lower. Also,Graph 3 shows the error values are the smallest of the test cases. Test results for Test1-Burger’s Equations are better than Test1-Advection-Diffusion Equation. However, the test results are still not perfect. Let’s now evaluate and compare test results for Test 1: KdV equation.
 
 ## KdV's Equation 
 
@@ -333,7 +333,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 |[K5](code/testK5.md)|<img width="225" alt="Test5-ValLoss (2)" src="https://user-images.githubusercontent.com/90737587/139624404-4eaa9878-f9a2-43d3-b5d7-185af74525e3.png">|<img width="230" src="https://user-images.githubusercontent.com/90737587/144183067-8e35d0cc-5049-4297-9f11-31cec1b40ba0.png">| <img width="235" src="https://user-images.githubusercontent.com/90737587/144183074-15df56e8-dad3-4c93-a6f5-9da50896a2e8.png">|
 
 ### Evaluation 
-For Test1-K1 to Test1-K5, I did the same process as the previous equations. I have increased the values of the dense layers and epochs in an attempt to improve the results. Similar to Test1-Advection-Diffusion equation test cases, there are improvements from Test1-K1 to Test1-K4 in graphs 1 to 3. In Test1-K5, graphs 1-3 shows that increasing the parameters worsened the results. These results are similar to what we saw in comparing Test1-A4 and Test1-A5.
+For Test1-K1 to Test1-K5, I did the same process as the previous equations. I have increased the values of the dense layers and epochs in an attempt to improve the results. Similar to Test1-Advection-Diffusion equation test cases, there are improvements from Test1-K1 to Test1-K4. In Test1-K5, Graphs 1-3 shows that increasing the parameters worsened the results. These results are similar to what we saw in comparing Test1-A4 and Test1-A5.
 
 ### Test 1 Conclusion
 
@@ -432,7 +432,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=3, batch_size=32,
 
 ### Evaluation
 
-In example Test2-A6, in Graph 5 and Graph 6, the solid and dashed lines are aligned. I have adjusted the parameters for test cases A7 and test case A8. Despite adjusting the parameters, the Test 2 model shows that the model is accurate. Now that we are done evaluating Test 2-Advection-Diffusion Equation let’s evaluate Test2-Burger’s Equation. 
+In example Test2-A6, in Graph 5 and Graph 6, the solid and dashed lines are aligned. I have adjusted the parameters for Test2-A7 and Test2-A8. Despite adjusting the parameters, the Test 2 model shows that the model is accurate. Now that we are done evaluating Test 2-Advection-Diffusion Equation let’s evaluate Test2-Burger’s Equation. 
 
 ## Burger's Equation
 
@@ -472,7 +472,7 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=3, batch_size=32,
 
 ### Evaluation
 
-In test cases B5-B8, I did the same process as Test2-A6 to Test2-A8. I have increased the values of the dense layers and epochs in an attempt to improve the results. For test cases B6-B8, graph 5 and graph 7, show the solid lines aligned with dashed lines. Now that we are done evaluating Test 2-Burger’s Equation, let’s evaluate Test2-KdV Equation.
+In test cases Test2-B5 to Test2-B8, I did the same process as Test2-A6 to Test2-A8. I have increased the values of the dense layers and epochs in an attempt to improve the results. For test cases B6-B8, graph 5 and graph 7, show the solid lines aligned with dashed lines. Now that we are done evaluating Test 2-Burger’s Equation, let’s evaluate Test2-KdV Equation.
 
 ## KdV's Equation 
 
@@ -512,8 +512,8 @@ history = deep_stepper2.fit(Xs_train, ys_train, epochs=10, batch_size=32,
 
 ### Evaluation
 
-For Test2-K6 to Test-K8, I did the same process as the previous equations. I have increased the values of the dense layers and epochs in an attempt to improve the results. Similarly, test cases A6-A8 and B6-B8, test cases K6-K8, display in graph 4 and graph 6 that the error value is at zero. In test cases K6-K8, in Graph 5 and Graph 7, the solid and dotted lines are aligned, which means the model has produced accurate results. 
+For Test2-K6 to Test-K8, I did the same process as the previous equations. I have increased the values of the dense layers and epochs in an attempt to improve the results. In Test2-K6 and Test2-K8, in Graph 5 and Graph 7, the solid and dotted lines are aligned, which means the model has produced accurate results. 
 
 ### Test 2 Conclusion
 
-While using Test 2 for these equations, I noticed that the output graphs still come out identical despite various parameters. This is a good sign. Unlike Test 1, where adjusting the parameters would improve the output graphs, Test 2 did not. After evaluating test cases for Test 2 that uses RNNs, we can see that the model is accurate and useful for solving various PDEs and parameters. 
+While using Test 2 for these equations, I noticed that the output graphs still come out identical despite various parameters. This is a good sign. Unlike Test 1, where adjusting the parameters would improve the output graphs, Test 2 did not. After evaluating test cases for Test 2 that uses RNNs, we can see that the model is accurate and useful for solving various PDEs and parameters. In this case, only the linear regression of stepper (produces Graph 4 and Graph 5) is necessary since the nonlinear regression of stepper (model that produces Graph 6 and Graph 7) has identical results. 
