@@ -12,7 +12,6 @@
 **Click on link to view my project slides:**
 [CCI presentation](https://github.com/RupakMukherjee/PPPL-CCI-2021/blob/3e5511eb0842c41bb4d91a682c46d80773eeb3ae/CCI_presentation_Janelle%20Macaya.pdf)
 
-
 ## Introduction
 This project contains the use of machine learning utilizing an open-sourced software library, TensorFlow, to solve partial differential equations (PDEs). PDEs are equations used in physics and engineering applications, and the PDEs we will solve is the Advection-Diffusion equation, Burger’s equation, and Korteweg–De Vries (KdV) equation. First, we will go over what machine learning is, how TensorFlow can be utilized in machine learning, and how machine learning can be used to solve PDEs. Then, we will learn the history and real-world applications of these PDEs. Lastly, we will go over how to evaluate models and see how I trained the models to improve and produce more accurate, useful models.
 
